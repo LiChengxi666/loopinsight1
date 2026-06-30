@@ -11,16 +11,12 @@ import glucoseGetLast from 'oref0/lib/glucose-get-last.js'
 import iob from 'oref0/lib/iob/index.js'
 import getMealData from 'oref0/lib/meal/total.js'
 import Oref0ConsoleLogger from '../../common/Oref0ConsoleLogger.js'
-import Controller, {
-    AnnouncementList,
-    ControllerInternals,
-    ControllerOutput,
-    Measurement,
-    TracedMeasurement
-} from '../../types/Controller.js'
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import { ParameterDescriptions, TypedParameterValues } from '../../types/ParametricModule.js'
-import { PatientProfile } from '../../types/Patient.js'
+import { AnnouncementList, ControllerOutput, Measurement, TracedMeasurement } from '../../types/Controller.js'
+import type Controller from '../../types/Controller.js'
+import type { ControllerInternals } from '../../types/Controller.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import type { ParameterDescriptions, TypedParameterValues } from '../../types/ParametricModule.js'
+import type { PatientProfile } from '../../types/Patient.js'
 import AbstractController from '../AbstractController.js'
 import EventManager from '../EventManager.js'
 

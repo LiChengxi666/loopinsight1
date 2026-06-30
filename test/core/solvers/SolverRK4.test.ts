@@ -7,8 +7,8 @@
 
 import { expect } from 'chai'
 import SolverRK4 from '../../../src/core/solvers/SolverRK4.js'
-import { NamedVector } from '../../../src/types/CommonTypes.js'
-import { Derivatives } from '../../../src/types/Solver.js'
+import type { NamedVector } from '../../../src/types/CommonTypes.js'
+import type { Derivatives } from '../../../src/types/Solver.js'
 
 const solverRK4 = new SolverRK4()
 

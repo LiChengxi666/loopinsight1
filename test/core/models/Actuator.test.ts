@@ -9,15 +9,14 @@ import { expect } from 'chai'
 import {
     CommonActuatorParametersDescription
 } from '../../../src/core/AbstractActuator.js'
-import Actuator from '../../../src/types/Actuator.js'
-import {
-    ControllerOutputDescription, Medication, MedicationDescription
-} from '../../../src/types/Signals.js'
+import type Actuator from '../../../src/types/Actuator.js'
+import { ControllerOutputDescription, MedicationDescription } from '../../../src/types/Signals.js'
+import type { Medication } from '../../../src/types/Signals.js'
 import FindLocalModules from '../../../util/FindLocalModules.js'
 import IOModuleTest from './IOModuleTest.js'
 import ModuleContentsTest from './ModuleContentsTest.js'
 import ParametricModuleTest from './ParametricModuleTest.js'
-import { ModuleContents } from '../../../src/types/ModuleProfile.js'
+import type { ModuleContents } from '../../../src/types/ModuleProfile.js'
 import SolverRK4 from '../../../src/core/solvers/SolverRK4.js'
 
 const modelList = await FindLocalModules('src/core/actuators')

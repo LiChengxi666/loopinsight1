@@ -6,9 +6,10 @@
  */
 
 import { isMultipleOfSamplingTime } from '../../common/DateUtility.js'
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import { ParameterDescriptions } from '../../types/ParametricModule.js'
-import Sensor, { Measurement, PatientOutput } from '../../types/Sensor.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import type { ParameterDescriptions } from '../../types/ParametricModule.js'
+import { Measurement, PatientOutput } from '../../types/Sensor.js'
+import type Sensor from '../../types/Sensor.js'
 import AbstractSensor from '../AbstractSensor.js'
 
 export const profile: ModuleProfile = {

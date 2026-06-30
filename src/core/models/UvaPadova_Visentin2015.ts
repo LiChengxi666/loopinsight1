@@ -7,17 +7,13 @@
 
 
 import DailyProfile, { InterpolationMethod } from '../../common/DailyProfile.js'
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import ODEPatientModel from '../../types/ODEPatientModel.js'
-import { ParameterDescriptions } from '../../types/ParametricModule.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import type ODEPatientModel from '../../types/ODEPatientModel.js'
+import type { ParameterDescriptions } from '../../types/ParametricModule.js'
 import { PatientInput, PatientOutput } from '../../types/Patient.js'
 import { createPatientFromODE } from '../AbstractODEPatient.js'
-import {
-    State,
-    UvaPadova_T1DMS,
-    parameterDescription as parameterDescriptionT1DMS,
-    stateDescription
-} from './UvaPadova_T1DMS.js'
+import { UvaPadova_T1DMS, parameterDescription as parameterDescriptionT1DMS, stateDescription } from './UvaPadova_T1DMS.js'
+import type { State } from './UvaPadova_T1DMS.js'
 
 export const profile: ModuleProfile = {
     type: "patient",

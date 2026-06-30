@@ -17,7 +17,7 @@ Parts of this file have been taken from:
     47, 1 (1999), 159--164.
 */
 
-import {UniformRandomNumberGenerator} from '../../types/RandomNumberGenerator.js'
+import type { UniformRandomNumberGenerator } from '../../types/RandomNumberGenerator.js'
 
 export default class MRG32K3A implements UniformRandomNumberGenerator {
     s10!: number

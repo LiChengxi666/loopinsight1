@@ -6,15 +6,16 @@
  */
 
 import { expect } from 'chai'
-import Simulator, { SimulatorOptions } from '../../src/core/Simulator.js'
+import Simulator from '../../src/core/Simulator.js'
+import type { SimulatorOptions } from '../../src/core/Simulator.js'
 import StaticInsulinPump from '../../src/core/actuators/StaticInsulinPump.js'
 import ControllerBasalBolus from '../../src/core/controllers/BasalBolus.js'
 import VirtualPatientUvaPadova from '../../src/core/models/UvaPadova_T1DMS.js'
 import CGM_Breton2008 from '../../src/core/sensors/Breton2008.js'
-import Controller from '../../src/types/Controller.js'
-import Meal from '../../src/types/Meal.js'
-import Patient from '../../src/types/Patient.js'
-import { SimulationResult } from '../../src/types/SimulationResult.js'
+import type Controller from '../../src/types/Controller.js'
+import type Meal from '../../src/types/Meal.js'
+import type Patient from '../../src/types/Patient.js'
+import type { SimulationResult } from '../../src/types/SimulationResult.js'
 
 describe("Simulator", () => {
 

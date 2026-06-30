@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import { Vector } from '../types/CommonTypes.js'
+import type { Vector } from '../types/CommonTypes.js'
 import Jacobian from './Jacobian.js'
 import {
     addScalarToDiagonal,

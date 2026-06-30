@@ -6,7 +6,7 @@
  */
 
 import DailyProfile from '../common/DailyProfile.js'
-import { ModuleTranslationList } from './ModuleProfile.js'
+import type { ModuleTranslationList } from './ModuleProfile.js'
 
 /**
  * Interface describing a module that uses parameters.

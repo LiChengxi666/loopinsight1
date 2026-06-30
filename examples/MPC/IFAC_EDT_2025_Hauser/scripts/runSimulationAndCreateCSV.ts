@@ -11,13 +11,14 @@
  */
 
 import * as fs from 'fs'
-import Simulator, { SimulatorOptions } from '../../../../src/core/Simulator.js'
-import Actuator from '../../../../src/types/Actuator.js'
-import Controller from '../../../../src/types/Controller.js'
-import Meal from '../../../../src/types/Meal.js'
-import Patient from '../../../../src/types/Patient.js'
-import Sensor from '../../../../src/types/Sensor.js'
-import { SimulationResult } from '../../../../src/types/SimulationResult.js'
+import Simulator from '../../../../src/core/Simulator.js'
+import type { SimulatorOptions } from '../../../../src/core/Simulator.js'
+import type Actuator from '../../../../src/types/Actuator.js'
+import type Controller from '../../../../src/types/Controller.js'
+import type Meal from '../../../../src/types/Meal.js'
+import type Patient from '../../../../src/types/Patient.js'
+import type Sensor from '../../../../src/types/Sensor.js'
+import type { SimulationResult } from '../../../../src/types/SimulationResult.js'
 
 export declare type CSVEntry = {
     symbol: string,

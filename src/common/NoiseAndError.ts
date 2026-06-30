@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import RandomNumberGenerator from '../types/RandomNumberGenerator.js'
+import type RandomNumberGenerator from '../types/RandomNumberGenerator.js'
 
 /**
  * Helper class to distort a measurement with noise and error.

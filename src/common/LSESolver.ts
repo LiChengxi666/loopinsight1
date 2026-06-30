@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import { Matrix, Vector } from '../types/CommonTypes.js'
+import type { Matrix, Vector } from '../types/CommonTypes.js'
 import { transpose } from '../common/LinearAlgebra.js'
 
 /**

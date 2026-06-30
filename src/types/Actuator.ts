@@ -5,8 +5,8 @@
  * See https://lt1.org for further information.
  */
 
-import IOModule from './IOModule.js'
-import { ControllerOutput, Medication } from './Signals.js'
+import type IOModule from './IOModule.js'
+import type { ControllerOutput, Medication } from './Signals.js'
 
 /** An actuator serves to administer a medication */
 export default interface Actuator extends IOModule {

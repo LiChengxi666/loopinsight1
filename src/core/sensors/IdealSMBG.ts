@@ -5,9 +5,10 @@
  * See https://lt1.org for further information.
  */
 
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import Sensor, { Measurement, PatientOutput } from '../../types/Sensor.js'
-import { TracedMeasurement } from '../../types/Signals.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import { Measurement, PatientOutput } from '../../types/Sensor.js'
+import type Sensor from '../../types/Sensor.js'
+import type { TracedMeasurement } from '../../types/Signals.js'
 import AbstractSensor from '../AbstractSensor.js'
 
 export const profile: ModuleProfile = {

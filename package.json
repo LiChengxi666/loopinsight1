@@ -7,7 +7,8 @@
     "serve": "npx cross-env NODE_OPTIONS=--import=./register.js --moduleResolution=nodenext --target=es2017 webpack serve --config webpack.dev.ts --stats-modules-space 999",
     "build": "npx cross-env NODE_OPTIONS=--import=./register.js --moduleResolution=nodenext --target=es2017 webpack build --config webpack.prod.ts --stats-modules-space 999",
     "postinstall": "patch-package",
-    "test": "npx c8 mocha && npx c8 mocha --reporter mocha-badge-generator"
+    "test": "npx c8 mocha && npx c8 mocha --reporter mocha-badge-generator",
+    "demo:agent": "node --loader ts-node/esm examples/AgentWorkflow/DailyDemos.ts"
   },
   "author": "Heiko Peuscher",
   "license": "MIT",

@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import RandomNumberGenerator from '../../types/RandomNumberGenerator.js'
+import type RandomNumberGenerator from '../../types/RandomNumberGenerator.js'
 import RNG_SHR3 from './RNG_SHR3.js'
 
 // https://github.com/jamesbloomer/node-ziggurat

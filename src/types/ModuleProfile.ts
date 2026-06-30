@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import StructureDiagram from './StructureDiagram.js'
+import type StructureDiagram from './StructureDiagram.js'
 
 /** supported module types */
 export type ModuleType = "controller" | "patient" | "actuator" | "sensor"

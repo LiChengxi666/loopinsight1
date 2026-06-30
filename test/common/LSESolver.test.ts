@@ -8,7 +8,7 @@
 import { expect } from 'chai'
 
 import LSESolver from '../../src/common/LSESolver.js'
-import { Matrix, Vector } from '../../src/types/CommonTypes.js'
+import type { Matrix, Vector } from '../../src/types/CommonTypes.js'
 import { vectorDifferenceNorm } from '../helper/linalg_helper.js'
 
 

@@ -6,7 +6,7 @@
  */
 
 
-import { Vector } from '../types/CommonTypes.js'
+import type { Vector } from '../types/CommonTypes.js'
 
 /**
  * A collection of statistical utility functions.

@@ -25,8 +25,8 @@ The CGM sensor model implemented in this file uses information from:
 */
 
 
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import Sensor from '../../types/Sensor.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import type Sensor from '../../types/Sensor.js'
 import CGMSensor_Facchinetti2014 from './Facchinetti2014.js'
 
 export const profile: ModuleProfile = {

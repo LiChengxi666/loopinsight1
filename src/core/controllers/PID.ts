@@ -6,14 +6,11 @@
  */
 
 import { isMultipleOfSamplingTime } from '../../common/DateUtility.js'
-import Controller, {
-    ControllerOutput,
-    Measurement,
-    TracedMeasurement
-} from '../../types/Controller.js'
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import { ParameterDescriptions } from '../../types/ParametricModule.js'
-import { PatientProfile } from '../../types/Patient.js'
+import { ControllerOutput, Measurement, TracedMeasurement } from '../../types/Controller.js'
+import type Controller from '../../types/Controller.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import type { ParameterDescriptions } from '../../types/ParametricModule.js'
+import type { PatientProfile } from '../../types/Patient.js'
 import AbstractController from '../AbstractController.js'
 
 export const profile: ModuleProfile = {

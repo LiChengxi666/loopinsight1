@@ -9,7 +9,7 @@ import { expect } from 'chai'
 
 import MRG32K3A from '../../../src/common/random/RNG_MRG32K3A.js'
 import Statistics from '../../../src/common/Statistics.js'
-import { Vector } from '../../../src/types/CommonTypes.js'
+import type { Vector } from '../../../src/types/CommonTypes.js'
 
 describe("RNG_MRG32K3A", () => {
     let rng = new MRG32K3A()

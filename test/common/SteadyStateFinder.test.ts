@@ -7,7 +7,7 @@
 
 import { expect } from 'chai'
 import SteadyStateHelper from '../../src/common/SteadyStateFinder.js'
-import { NamedVector } from '../../src/types/CommonTypes.js'
+import type { NamedVector } from '../../src/types/CommonTypes.js'
 
 describe("SteadyStateHelper", () => {
 

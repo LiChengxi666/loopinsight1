@@ -5,8 +5,8 @@
  * See https://lt1.org for further information.
  */
 
-import IOModule from './IOModule.js'
-import { Measurement, PatientOutput, TracedMeasurement } from './Signals.js'
+import type IOModule from './IOModule.js'
+import type { Measurement, PatientOutput, TracedMeasurement } from './Signals.js'
 
 /** A sensor delivers measurements based on physiological patient outputs. */
 export default interface Sensor extends IOModule {

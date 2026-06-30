@@ -6,15 +6,11 @@
  */
 
 import { quantize } from '../../common/UtilityFunctions.js'
-import Controller, {
-    AnnouncementList,
-    ControllerOutput,
-    Measurement,
-    TracedMeasurement
-} from '../../types/Controller.js'
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import { ParameterDescriptions } from '../../types/ParametricModule.js'
-import { PatientProfile } from '../../types/Patient.js'
+import { AnnouncementList, ControllerOutput, Measurement, TracedMeasurement } from '../../types/Controller.js'
+import type Controller from '../../types/Controller.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import type { ParameterDescriptions } from '../../types/ParametricModule.js'
+import type { PatientProfile } from '../../types/Patient.js'
 import AbstractController from '../AbstractController.js'
 
 export const profile: ModuleProfile = {

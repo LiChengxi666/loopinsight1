@@ -9,7 +9,7 @@
  * Reference scenario
  */
 
-import  { SimulatorOptions } from '../../../../src/core/Simulator.js'
+import type { SimulatorOptions } from '../../../../src/core/Simulator.js'
 import StaticInsulinPump from '../../../../src/core/actuators/StaticInsulinPump.js'
 import ControllerMPC from '../../../../src/core/controllers/MPC_Hovorka2004.js'
 import IdealCGM from '../../../../src/core/sensors/IdealCGM.js'

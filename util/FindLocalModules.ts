@@ -8,7 +8,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import { ModuleProfileList, ModuleProfile } from '../src/types/ModuleProfile.js'
+import type { ModuleProfileList, ModuleProfile } from '../src/types/ModuleProfile.js'
 
 /**
  * Find local modules (e.g. models, controllers) and extract meta information from them

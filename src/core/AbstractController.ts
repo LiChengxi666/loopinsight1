@@ -6,14 +6,12 @@
  */
 
 import { nextUpdateTime } from '../common/DateUtility.js'
-import Controller, {
-    AnnouncementList,
-    ControllerInternals, ControllerOutput,
-    Measurement, TracedMeasurement
-} from '../types/Controller.js'
-import { ModuleProfile } from '../types/ModuleProfile.js'
-import { ParameterDescriptions } from '../types/ParametricModule.js'
-import Solver from '../types/Solver.js'
+import { AnnouncementList, ControllerOutput, Measurement, TracedMeasurement } from '../types/Controller.js'
+import type Controller from '../types/Controller.js'
+import type { ControllerInternals } from '../types/Controller.js'
+import type { ModuleProfile } from '../types/ModuleProfile.js'
+import type { ParameterDescriptions } from '../types/ParametricModule.js'
+import type Solver from '../types/Solver.js'
 import AbstractParametricModule from './AbstractParametricModule.js'
 
 /**

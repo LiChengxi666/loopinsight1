@@ -7,8 +7,8 @@
 
 import { expect } from 'chai'
 import Simulator from '../../src/core/Simulator.js'
-import Exercise from '../../src/types/Exercise.js'
-import Meal from '../../src/types/Meal.js'
+import type Exercise from '../../src/types/Exercise.js'
+import type Meal from '../../src/types/Meal.js'
 
 /**
  * Runs unit tests of the simulator core functions

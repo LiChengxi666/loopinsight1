@@ -5,9 +5,9 @@
  * See https://lt1.org for further information.
  */
 
-import Controller from '../../types/Controller.js'
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import { TypedParameterValues } from '../../types/ParametricModule.js'
+import type Controller from '../../types/Controller.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import type { TypedParameterValues } from '../../types/ParametricModule.js'
 import { CommonControllerParametersDescription } from '../AbstractController.js'
 import ControllerUnion from '../ControllerUnion.js'
 import CSII, {

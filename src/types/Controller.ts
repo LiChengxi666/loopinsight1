@@ -5,14 +5,9 @@
  * See https://lt1.org for further information.
  */
 
-import IOModule from './IOModule.js'
-import { PatientProfile } from './Patient.js'
-import {
-    AnnouncementList,
-    ControllerOutput,
-    Measurement,
-    TracedMeasurement,
-} from './Signals.js'
+import type IOModule from './IOModule.js'
+import type { PatientProfile } from './Patient.js'
+import type { AnnouncementList, ControllerOutput, Measurement, TracedMeasurement } from './Signals.js'
 
 
 /**

@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import { UniformRandomNumberGenerator } from '../../types/RandomNumberGenerator.js'
+import type { UniformRandomNumberGenerator } from '../../types/RandomNumberGenerator.js'
 
 export default class RNG_SHR3 implements UniformRandomNumberGenerator {
     private jsr!: number

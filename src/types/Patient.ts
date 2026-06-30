@@ -5,14 +5,9 @@
  * See https://lt1.org for further information.
  */
 
-import IOModule from './IOModule.js'
-import {
-    PatientInput,
-    PatientInputOverTime,
-    PatientOutput,
-    VectorSignalDescription
-} from './Signals.js'
-import Solver from './Solver.js'
+import type IOModule from './IOModule.js'
+import type { PatientInput, PatientInputOverTime, PatientOutput, VectorSignalDescription } from './Signals.js'
+import type Solver from './Solver.js'
 
 /**
  * Interface to describe a virtual patient.

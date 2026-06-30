@@ -7,23 +7,16 @@
 
 
 import InvalidResultError from '../common/errors/InvalidResultError.js'
-import Actuator from '../types/Actuator.js'
-import Controller from '../types/Controller.js'
-import Exercise from '../types/Exercise.js'
-import Meal from '../types/Meal.js'
-import Patient, { PatientState } from '../types/Patient.js'
-import Sensor from '../types/Sensor.js'
-import {
-    AnnouncementList,
-    ControllerOutput,
-    Measurement,
-    Medication,
-    PatientInput,
-    PatientOutput,
-    TracedMeasurement
-} from '../types/Signals.js'
-import { SimulationResult } from '../types/SimulationResult.js'
-import Solver from '../types/Solver.js'
+import type Actuator from '../types/Actuator.js'
+import type Controller from '../types/Controller.js'
+import type Exercise from '../types/Exercise.js'
+import type Meal from '../types/Meal.js'
+import type Patient from '../types/Patient.js'
+import type { PatientState } from '../types/Patient.js'
+import type Sensor from '../types/Sensor.js'
+import type { AnnouncementList, ControllerOutput, Measurement, Medication, PatientInput, PatientOutput, TracedMeasurement } from '../types/Signals.js'
+import type { SimulationResult } from '../types/SimulationResult.js'
+import type Solver from '../types/Solver.js'
 import ControllerUnion from './ControllerUnion.js'
 import SolverRK1_2 from './solvers/SolverRK1_2.js'
 

@@ -6,8 +6,9 @@
  */
 
 import NamedVectorUtil from '../../common/NamedVectorUtil.js'
-import { NamedVector } from '../../types/CommonTypes.js'
-import Solver, { Derivatives } from '../../types/Solver.js'
+import type { NamedVector } from '../../types/CommonTypes.js'
+import type Solver from '../../types/Solver.js'
+import type { Derivatives } from '../../types/Solver.js'
 
 const timesScalar = NamedVectorUtil.timesScalar
 const vectorSum = NamedVectorUtil.vectorSum

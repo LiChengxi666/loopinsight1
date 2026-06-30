@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import { SimulationResult } from '../../types/SimulationResult.js'
+import type { SimulationResult } from '../../types/SimulationResult.js'
 
 export default class InvalidResultError extends Error {
 

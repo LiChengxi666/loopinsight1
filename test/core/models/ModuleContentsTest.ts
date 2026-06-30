@@ -6,8 +6,8 @@
  */
 
 import { expect } from 'chai'
-import { ModuleContents, ModuleType } from '../../../src/types/ModuleProfile.js'
-import ParametricModule from '../../../src/types/ParametricModule.js'
+import type { ModuleContents, ModuleType } from '../../../src/types/ModuleProfile.js'
+import type ParametricModule from '../../../src/types/ParametricModule.js'
 
 export default function (type: ModuleType, module: ModuleContents) {
     // let module: ModuleContents

@@ -6,16 +6,16 @@
  */
 
 import NewtonSolver from '../common/NewtonSolver.js'
-import { NamedVector } from '../types/CommonTypes.js'
-import { ModuleProfile } from '../types/ModuleProfile.js'
-import ODEPatientModel from '../types/ODEPatientModel.js'
-import { ParameterDescriptions, TypedParameterValues } from '../types/ParametricModule.js'
-import Patient, {
-    PatientInput, PatientOutput,
-    PatientProfile, PatientState, StateDescription, TypedPatientState
-} from '../types/Patient.js'
-import { PatientInputOverTime } from '../types/Signals.js'
-import Solver, { Derivatives } from '../types/Solver.js'
+import type { NamedVector } from '../types/CommonTypes.js'
+import type { ModuleProfile } from '../types/ModuleProfile.js'
+import type ODEPatientModel from '../types/ODEPatientModel.js'
+import type { ParameterDescriptions, TypedParameterValues } from '../types/ParametricModule.js'
+import { PatientInput, PatientOutput } from '../types/Patient.js'
+import type Patient from '../types/Patient.js'
+import type { PatientProfile, PatientState, StateDescription, TypedPatientState } from '../types/Patient.js'
+import type { PatientInputOverTime } from '../types/Signals.js'
+import type Solver from '../types/Solver.js'
+import type { Derivatives } from '../types/Solver.js'
 import AbstractParametricModule from './AbstractParametricModule.js'
 
 /** 

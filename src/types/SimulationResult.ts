@@ -5,15 +5,9 @@
  * See https://lt1.org for further information.
  */
 
-import { ControllerInternals } from './Controller.js'
-import { PatientState } from './Patient.js'
-import {
-    AnnouncementList,
-    ControllerOutput,
-    Measurement,
-    PatientInput,
-    PatientOutput
-} from './Signals.js'
+import type { ControllerInternals } from './Controller.js'
+import type { PatientState } from './Patient.js'
+import type { AnnouncementList, ControllerOutput, Measurement, PatientInput, PatientOutput } from './Signals.js'
 
 export type SimulationResult = {
     t: Date,

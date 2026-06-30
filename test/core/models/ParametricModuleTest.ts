@@ -6,7 +6,7 @@
  */
 
 import { expect } from 'chai'
-import ParametricModule from '../../../src/types/ParametricModule.js'
+import type ParametricModule from '../../../src/types/ParametricModule.js'
 
 declare type Constructor = {
     new (...args: any[]): ParametricModule

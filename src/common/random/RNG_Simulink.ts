@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import { NormalRandomNumberGenerator } from '../../types/RandomNumberGenerator.js'
+import type { NormalRandomNumberGenerator } from '../../types/RandomNumberGenerator.js'
 /**
 * Class that provides random numbers from Matlab Simulink 
 * (Random Number Generator Block)

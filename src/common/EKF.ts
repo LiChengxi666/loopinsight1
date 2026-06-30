@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import { Matrix, Vector } from '../types/CommonTypes.js'
+import type { Matrix, Vector } from '../types/CommonTypes.js'
 import Jacobian from './Jacobian.js'
 import {
     matrixMultiplication,
@@ -20,7 +20,7 @@ import {
 } from './LinearAlgebra.js'
 import LSESolver from './LSESolver.js'
 import { PatientInput } from '../types/Patient.js'
-import { PatientInputOverTime } from '../types/Signals.js'
+import type { PatientInputOverTime } from '../types/Signals.js'
 
 const MS_PER_MINUTE = 60e3
 

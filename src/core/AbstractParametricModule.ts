@@ -6,13 +6,8 @@
  */
 
 import DailyProfile from '../common/DailyProfile.js'
-import ParametricModule,
-{
-    EvaluatedParameterValues,
-    ParameterDescriptions,
-    ParameterValues,
-    TypedParameterValues
-} from "../types/ParametricModule.js"
+import type ParametricModule from "../types/ParametricModule.js"
+import type { EvaluatedParameterValues, ParameterDescriptions, ParameterValues, TypedParameterValues } from "../types/ParametricModule.js"
 
 
 export default abstract class AbstractParametricModule

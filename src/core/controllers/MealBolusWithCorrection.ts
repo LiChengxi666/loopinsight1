@@ -5,8 +5,8 @@
  * See https://lt1.org for further information.
  */
 
-import Controller from '../../types/Controller.js'
-import { ModuleProfile } from '../../types/ModuleProfile.js'
+import type Controller from '../../types/Controller.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
 import ControllerUnion from '../ControllerUnion.js'
 import CorrectionBolus, {
     CorrectionBolusParameters,

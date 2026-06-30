@@ -1,0 +1,4927 @@
+{
+  "summary": {
+    "kind": "normal-reference",
+    "samples": 289,
+    "min_glucose_mgdl": 79.4,
+    "max_glucose_mgdl": 125,
+    "mean_glucose_mgdl": 93.09,
+    "time_in_70_180_percent": 100,
+    "time_below_70_percent": 0,
+    "time_above_180_percent": 0
+  },
+  "points": [
+    {
+      "time": "2022-05-01T06:00:00.000Z",
+      "glucose_mgdl": 86.48,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T06:00:00.000Z",
+        "current_glucose_mgdl": 86.48,
+        "trend_mgdl_per_min": null,
+        "trend": "unknown",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T06:05:00.000Z",
+      "glucose_mgdl": 86.57,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T06:05:00.000Z",
+        "current_glucose_mgdl": 86.57,
+        "trend_mgdl_per_min": 0.018,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T06:10:00.000Z",
+      "glucose_mgdl": 86.66,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T06:10:00.000Z",
+        "current_glucose_mgdl": 86.66,
+        "trend_mgdl_per_min": 0.019,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T06:15:00.000Z",
+      "glucose_mgdl": 86.77,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T06:15:00.000Z",
+        "current_glucose_mgdl": 86.77,
+        "trend_mgdl_per_min": 0.021,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T06:20:00.000Z",
+      "glucose_mgdl": 86.88,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T06:20:00.000Z",
+        "current_glucose_mgdl": 86.88,
+        "trend_mgdl_per_min": 0.022,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T06:25:00.000Z",
+      "glucose_mgdl": 87.01,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T06:25:00.000Z",
+        "current_glucose_mgdl": 87.01,
+        "trend_mgdl_per_min": 0.025,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T06:30:00.000Z",
+      "glucose_mgdl": 87.16,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T06:30:00.000Z",
+        "current_glucose_mgdl": 87.16,
+        "trend_mgdl_per_min": 0.029,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T06:35:00.000Z",
+      "glucose_mgdl": 87.34,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T06:35:00.000Z",
+        "current_glucose_mgdl": 87.34,
+        "trend_mgdl_per_min": 0.035,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T06:40:00.000Z",
+      "glucose_mgdl": 87.56,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T06:40:00.000Z",
+        "current_glucose_mgdl": 87.56,
+        "trend_mgdl_per_min": 0.044,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T06:45:00.000Z",
+      "glucose_mgdl": 87.84,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T06:45:00.000Z",
+        "current_glucose_mgdl": 87.84,
+        "trend_mgdl_per_min": 0.055,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T06:50:00.000Z",
+      "glucose_mgdl": 88.18,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T06:50:00.000Z",
+        "current_glucose_mgdl": 88.18,
+        "trend_mgdl_per_min": 0.069,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T06:55:00.000Z",
+      "glucose_mgdl": 88.62,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T06:55:00.000Z",
+        "current_glucose_mgdl": 88.62,
+        "trend_mgdl_per_min": 0.088,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T07:00:00.000Z",
+      "glucose_mgdl": 89.17,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T07:00:00.000Z",
+        "current_glucose_mgdl": 89.17,
+        "trend_mgdl_per_min": 0.111,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T07:05:00.000Z",
+      "glucose_mgdl": 89.86,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T07:05:00.000Z",
+        "current_glucose_mgdl": 89.86,
+        "trend_mgdl_per_min": 0.138,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T07:10:00.000Z",
+      "glucose_mgdl": 90.7,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T07:10:00.000Z",
+        "current_glucose_mgdl": 90.7,
+        "trend_mgdl_per_min": 0.169,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T07:15:00.000Z",
+      "glucose_mgdl": 91.73,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T07:15:00.000Z",
+        "current_glucose_mgdl": 91.73,
+        "trend_mgdl_per_min": 0.206,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T07:20:00.000Z",
+      "glucose_mgdl": 92.96,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T07:20:00.000Z",
+        "current_glucose_mgdl": 92.96,
+        "trend_mgdl_per_min": 0.246,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T07:25:00.000Z",
+      "glucose_mgdl": 94.4,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T07:25:00.000Z",
+        "current_glucose_mgdl": 94.4,
+        "trend_mgdl_per_min": 0.287,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T07:30:00.000Z",
+      "glucose_mgdl": 96.05,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T07:30:00.000Z",
+        "current_glucose_mgdl": 96.05,
+        "trend_mgdl_per_min": 0.33,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T07:35:00.000Z",
+      "glucose_mgdl": 97.91,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T07:35:00.000Z",
+        "current_glucose_mgdl": 97.91,
+        "trend_mgdl_per_min": 0.372,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T07:40:00.000Z",
+      "glucose_mgdl": 99.96,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T07:40:00.000Z",
+        "current_glucose_mgdl": 99.96,
+        "trend_mgdl_per_min": 0.409,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T07:45:00.000Z",
+      "glucose_mgdl": 102.15,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T07:45:00.000Z",
+        "current_glucose_mgdl": 102.15,
+        "trend_mgdl_per_min": 0.438,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T07:50:00.000Z",
+      "glucose_mgdl": 104.44,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T07:50:00.000Z",
+        "current_glucose_mgdl": 104.44,
+        "trend_mgdl_per_min": 0.458,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T07:55:00.000Z",
+      "glucose_mgdl": 106.76,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T07:55:00.000Z",
+        "current_glucose_mgdl": 106.76,
+        "trend_mgdl_per_min": 0.463,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T08:00:00.000Z",
+      "glucose_mgdl": 109.03,
+      "carbs_g_per_min": 1.833,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T08:00:00.000Z",
+        "current_glucose_mgdl": 109.03,
+        "trend_mgdl_per_min": 0.453,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T08:05:00.000Z",
+      "glucose_mgdl": 111.16,
+      "carbs_g_per_min": 1.833,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T08:05:00.000Z",
+        "current_glucose_mgdl": 111.16,
+        "trend_mgdl_per_min": 0.426,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T08:10:00.000Z",
+      "glucose_mgdl": 113.07,
+      "carbs_g_per_min": 1.833,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T08:10:00.000Z",
+        "current_glucose_mgdl": 113.07,
+        "trend_mgdl_per_min": 0.383,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T08:15:00.000Z",
+      "glucose_mgdl": 114.68,
+      "carbs_g_per_min": 1.833,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T08:15:00.000Z",
+        "current_glucose_mgdl": 114.68,
+        "trend_mgdl_per_min": 0.322,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T08:20:00.000Z",
+      "glucose_mgdl": 115.91,
+      "carbs_g_per_min": 1.833,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T08:20:00.000Z",
+        "current_glucose_mgdl": 115.91,
+        "trend_mgdl_per_min": 0.247,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T08:25:00.000Z",
+      "glucose_mgdl": 116.71,
+      "carbs_g_per_min": 1.833,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T08:25:00.000Z",
+        "current_glucose_mgdl": 116.71,
+        "trend_mgdl_per_min": 0.16,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T08:30:00.000Z",
+      "glucose_mgdl": 117.04,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T08:30:00.000Z",
+        "current_glucose_mgdl": 117.04,
+        "trend_mgdl_per_min": 0.065,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T08:35:00.000Z",
+      "glucose_mgdl": 116.88,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T08:35:00.000Z",
+        "current_glucose_mgdl": 116.88,
+        "trend_mgdl_per_min": -0.032,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T08:40:00.000Z",
+      "glucose_mgdl": 116.25,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T08:40:00.000Z",
+        "current_glucose_mgdl": 116.25,
+        "trend_mgdl_per_min": -0.126,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T08:45:00.000Z",
+      "glucose_mgdl": 115.19,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T08:45:00.000Z",
+        "current_glucose_mgdl": 115.19,
+        "trend_mgdl_per_min": -0.213,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T08:50:00.000Z",
+      "glucose_mgdl": 113.75,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T08:50:00.000Z",
+        "current_glucose_mgdl": 113.75,
+        "trend_mgdl_per_min": -0.289,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T08:55:00.000Z",
+      "glucose_mgdl": 112,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T08:55:00.000Z",
+        "current_glucose_mgdl": 112,
+        "trend_mgdl_per_min": -0.35,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T09:00:00.000Z",
+      "glucose_mgdl": 110.03,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T09:00:00.000Z",
+        "current_glucose_mgdl": 110.03,
+        "trend_mgdl_per_min": -0.393,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T09:05:00.000Z",
+      "glucose_mgdl": 107.93,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T09:05:00.000Z",
+        "current_glucose_mgdl": 107.93,
+        "trend_mgdl_per_min": -0.42,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T09:10:00.000Z",
+      "glucose_mgdl": 105.78,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T09:10:00.000Z",
+        "current_glucose_mgdl": 105.78,
+        "trend_mgdl_per_min": -0.43,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T09:15:00.000Z",
+      "glucose_mgdl": 103.66,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T09:15:00.000Z",
+        "current_glucose_mgdl": 103.66,
+        "trend_mgdl_per_min": -0.425,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T09:20:00.000Z",
+      "glucose_mgdl": 101.63,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T09:20:00.000Z",
+        "current_glucose_mgdl": 101.63,
+        "trend_mgdl_per_min": -0.406,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T09:25:00.000Z",
+      "glucose_mgdl": 99.75,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T09:25:00.000Z",
+        "current_glucose_mgdl": 99.75,
+        "trend_mgdl_per_min": -0.377,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T09:30:00.000Z",
+      "glucose_mgdl": 98.05,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T09:30:00.000Z",
+        "current_glucose_mgdl": 98.05,
+        "trend_mgdl_per_min": -0.34,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T09:35:00.000Z",
+      "glucose_mgdl": 96.56,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T09:35:00.000Z",
+        "current_glucose_mgdl": 96.56,
+        "trend_mgdl_per_min": -0.298,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T09:40:00.000Z",
+      "glucose_mgdl": 95.28,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T09:40:00.000Z",
+        "current_glucose_mgdl": 95.28,
+        "trend_mgdl_per_min": -0.256,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T09:45:00.000Z",
+      "glucose_mgdl": 94.22,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T09:45:00.000Z",
+        "current_glucose_mgdl": 94.22,
+        "trend_mgdl_per_min": -0.213,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T09:50:00.000Z",
+      "glucose_mgdl": 93.35,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T09:50:00.000Z",
+        "current_glucose_mgdl": 93.35,
+        "trend_mgdl_per_min": -0.175,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T09:55:00.000Z",
+      "glucose_mgdl": 92.66,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T09:55:00.000Z",
+        "current_glucose_mgdl": 92.66,
+        "trend_mgdl_per_min": -0.138,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T10:00:00.000Z",
+      "glucose_mgdl": 92.13,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T10:00:00.000Z",
+        "current_glucose_mgdl": 92.13,
+        "trend_mgdl_per_min": -0.106,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T10:05:00.000Z",
+      "glucose_mgdl": 91.73,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T10:05:00.000Z",
+        "current_glucose_mgdl": 91.73,
+        "trend_mgdl_per_min": -0.079,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T10:10:00.000Z",
+      "glucose_mgdl": 91.45,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T10:10:00.000Z",
+        "current_glucose_mgdl": 91.45,
+        "trend_mgdl_per_min": -0.056,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T10:15:00.000Z",
+      "glucose_mgdl": 91.25,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T10:15:00.000Z",
+        "current_glucose_mgdl": 91.25,
+        "trend_mgdl_per_min": -0.039,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T10:20:00.000Z",
+      "glucose_mgdl": 91.13,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T10:20:00.000Z",
+        "current_glucose_mgdl": 91.13,
+        "trend_mgdl_per_min": -0.024,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T10:25:00.000Z",
+      "glucose_mgdl": 91.06,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T10:25:00.000Z",
+        "current_glucose_mgdl": 91.06,
+        "trend_mgdl_per_min": -0.014,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T10:30:00.000Z",
+      "glucose_mgdl": 91.03,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T10:30:00.000Z",
+        "current_glucose_mgdl": 91.03,
+        "trend_mgdl_per_min": -0.006,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T10:35:00.000Z",
+      "glucose_mgdl": 91.03,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T10:35:00.000Z",
+        "current_glucose_mgdl": 91.03,
+        "trend_mgdl_per_min": 0,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T10:40:00.000Z",
+      "glucose_mgdl": 91.05,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T10:40:00.000Z",
+        "current_glucose_mgdl": 91.05,
+        "trend_mgdl_per_min": 0.004,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T10:45:00.000Z",
+      "glucose_mgdl": 91.09,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T10:45:00.000Z",
+        "current_glucose_mgdl": 91.09,
+        "trend_mgdl_per_min": 0.008,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T10:50:00.000Z",
+      "glucose_mgdl": 91.15,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T10:50:00.000Z",
+        "current_glucose_mgdl": 91.15,
+        "trend_mgdl_per_min": 0.011,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T10:55:00.000Z",
+      "glucose_mgdl": 91.21,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T10:55:00.000Z",
+        "current_glucose_mgdl": 91.21,
+        "trend_mgdl_per_min": 0.013,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T11:00:00.000Z",
+      "glucose_mgdl": 91.3,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T11:00:00.000Z",
+        "current_glucose_mgdl": 91.3,
+        "trend_mgdl_per_min": 0.017,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T11:05:00.000Z",
+      "glucose_mgdl": 91.4,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T11:05:00.000Z",
+        "current_glucose_mgdl": 91.4,
+        "trend_mgdl_per_min": 0.019,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T11:10:00.000Z",
+      "glucose_mgdl": 91.52,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T11:10:00.000Z",
+        "current_glucose_mgdl": 91.52,
+        "trend_mgdl_per_min": 0.024,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T11:15:00.000Z",
+      "glucose_mgdl": 91.67,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T11:15:00.000Z",
+        "current_glucose_mgdl": 91.67,
+        "trend_mgdl_per_min": 0.03,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T11:20:00.000Z",
+      "glucose_mgdl": 91.86,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T11:20:00.000Z",
+        "current_glucose_mgdl": 91.86,
+        "trend_mgdl_per_min": 0.037,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T11:25:00.000Z",
+      "glucose_mgdl": 92.09,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T11:25:00.000Z",
+        "current_glucose_mgdl": 92.09,
+        "trend_mgdl_per_min": 0.046,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T11:30:00.000Z",
+      "glucose_mgdl": 92.39,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T11:30:00.000Z",
+        "current_glucose_mgdl": 92.39,
+        "trend_mgdl_per_min": 0.06,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T11:35:00.000Z",
+      "glucose_mgdl": 92.76,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T11:35:00.000Z",
+        "current_glucose_mgdl": 92.76,
+        "trend_mgdl_per_min": 0.074,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T11:40:00.000Z",
+      "glucose_mgdl": 93.22,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T11:40:00.000Z",
+        "current_glucose_mgdl": 93.22,
+        "trend_mgdl_per_min": 0.092,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T11:45:00.000Z",
+      "glucose_mgdl": 93.8,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T11:45:00.000Z",
+        "current_glucose_mgdl": 93.8,
+        "trend_mgdl_per_min": 0.115,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T11:50:00.000Z",
+      "glucose_mgdl": 94.5,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T11:50:00.000Z",
+        "current_glucose_mgdl": 94.5,
+        "trend_mgdl_per_min": 0.14,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T11:55:00.000Z",
+      "glucose_mgdl": 95.35,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T11:55:00.000Z",
+        "current_glucose_mgdl": 95.35,
+        "trend_mgdl_per_min": 0.171,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T12:00:00.000Z",
+      "glucose_mgdl": 96.37,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T12:00:00.000Z",
+        "current_glucose_mgdl": 96.37,
+        "trend_mgdl_per_min": 0.205,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T12:05:00.000Z",
+      "glucose_mgdl": 97.57,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T12:05:00.000Z",
+        "current_glucose_mgdl": 97.57,
+        "trend_mgdl_per_min": 0.241,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T12:10:00.000Z",
+      "glucose_mgdl": 98.97,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T12:10:00.000Z",
+        "current_glucose_mgdl": 98.97,
+        "trend_mgdl_per_min": 0.28,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T12:15:00.000Z",
+      "glucose_mgdl": 100.56,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T12:15:00.000Z",
+        "current_glucose_mgdl": 100.56,
+        "trend_mgdl_per_min": 0.318,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T12:20:00.000Z",
+      "glucose_mgdl": 102.34,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T12:20:00.000Z",
+        "current_glucose_mgdl": 102.34,
+        "trend_mgdl_per_min": 0.356,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T12:25:00.000Z",
+      "glucose_mgdl": 104.31,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T12:25:00.000Z",
+        "current_glucose_mgdl": 104.31,
+        "trend_mgdl_per_min": 0.393,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T12:30:00.000Z",
+      "glucose_mgdl": 106.43,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T12:30:00.000Z",
+        "current_glucose_mgdl": 106.43,
+        "trend_mgdl_per_min": 0.423,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T12:35:00.000Z",
+      "glucose_mgdl": 108.67,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T12:35:00.000Z",
+        "current_glucose_mgdl": 108.67,
+        "trend_mgdl_per_min": 0.448,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T12:40:00.000Z",
+      "glucose_mgdl": 110.99,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T12:40:00.000Z",
+        "current_glucose_mgdl": 110.99,
+        "trend_mgdl_per_min": 0.464,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T12:45:00.000Z",
+      "glucose_mgdl": 113.33,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T12:45:00.000Z",
+        "current_glucose_mgdl": 113.33,
+        "trend_mgdl_per_min": 0.469,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T12:50:00.000Z",
+      "glucose_mgdl": 115.63,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T12:50:00.000Z",
+        "current_glucose_mgdl": 115.63,
+        "trend_mgdl_per_min": 0.461,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T12:55:00.000Z",
+      "glucose_mgdl": 117.82,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T12:55:00.000Z",
+        "current_glucose_mgdl": 117.82,
+        "trend_mgdl_per_min": 0.439,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T13:00:00.000Z",
+      "glucose_mgdl": 119.83,
+      "carbs_g_per_min": 2,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T13:00:00.000Z",
+        "current_glucose_mgdl": 119.83,
+        "trend_mgdl_per_min": 0.403,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T13:05:00.000Z",
+      "glucose_mgdl": 121.59,
+      "carbs_g_per_min": 2,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T13:05:00.000Z",
+        "current_glucose_mgdl": 121.59,
+        "trend_mgdl_per_min": 0.353,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T13:10:00.000Z",
+      "glucose_mgdl": 123.04,
+      "carbs_g_per_min": 2,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T13:10:00.000Z",
+        "current_glucose_mgdl": 123.04,
+        "trend_mgdl_per_min": 0.289,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T13:15:00.000Z",
+      "glucose_mgdl": 124.11,
+      "carbs_g_per_min": 2,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T13:15:00.000Z",
+        "current_glucose_mgdl": 124.11,
+        "trend_mgdl_per_min": 0.214,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T13:20:00.000Z",
+      "glucose_mgdl": 124.77,
+      "carbs_g_per_min": 2,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T13:20:00.000Z",
+        "current_glucose_mgdl": 124.77,
+        "trend_mgdl_per_min": 0.133,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T13:25:00.000Z",
+      "glucose_mgdl": 125,
+      "carbs_g_per_min": 2,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T13:25:00.000Z",
+        "current_glucose_mgdl": 125,
+        "trend_mgdl_per_min": 0.046,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T13:30:00.000Z",
+      "glucose_mgdl": 124.78,
+      "carbs_g_per_min": 2,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T13:30:00.000Z",
+        "current_glucose_mgdl": 124.78,
+        "trend_mgdl_per_min": -0.045,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T13:35:00.000Z",
+      "glucose_mgdl": 124.12,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T13:35:00.000Z",
+        "current_glucose_mgdl": 124.12,
+        "trend_mgdl_per_min": -0.132,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T13:40:00.000Z",
+      "glucose_mgdl": 123.05,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T13:40:00.000Z",
+        "current_glucose_mgdl": 123.05,
+        "trend_mgdl_per_min": -0.214,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T13:45:00.000Z",
+      "glucose_mgdl": 121.61,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T13:45:00.000Z",
+        "current_glucose_mgdl": 121.61,
+        "trend_mgdl_per_min": -0.289,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T13:50:00.000Z",
+      "glucose_mgdl": 119.85,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T13:50:00.000Z",
+        "current_glucose_mgdl": 119.85,
+        "trend_mgdl_per_min": -0.352,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T13:55:00.000Z",
+      "glucose_mgdl": 117.85,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T13:55:00.000Z",
+        "current_glucose_mgdl": 117.85,
+        "trend_mgdl_per_min": -0.401,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T14:00:00.000Z",
+      "glucose_mgdl": 115.66,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T14:00:00.000Z",
+        "current_glucose_mgdl": 115.66,
+        "trend_mgdl_per_min": -0.439,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T14:05:00.000Z",
+      "glucose_mgdl": 113.36,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T14:05:00.000Z",
+        "current_glucose_mgdl": 113.36,
+        "trend_mgdl_per_min": -0.46,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T14:10:00.000Z",
+      "glucose_mgdl": 111.02,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T14:10:00.000Z",
+        "current_glucose_mgdl": 111.02,
+        "trend_mgdl_per_min": -0.468,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T14:15:00.000Z",
+      "glucose_mgdl": 108.7,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T14:15:00.000Z",
+        "current_glucose_mgdl": 108.7,
+        "trend_mgdl_per_min": -0.464,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T14:20:00.000Z",
+      "glucose_mgdl": 106.46,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T14:20:00.000Z",
+        "current_glucose_mgdl": 106.46,
+        "trend_mgdl_per_min": -0.449,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T14:25:00.000Z",
+      "glucose_mgdl": 104.33,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T14:25:00.000Z",
+        "current_glucose_mgdl": 104.33,
+        "trend_mgdl_per_min": -0.425,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T14:30:00.000Z",
+      "glucose_mgdl": 102.37,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T14:30:00.000Z",
+        "current_glucose_mgdl": 102.37,
+        "trend_mgdl_per_min": -0.393,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T14:35:00.000Z",
+      "glucose_mgdl": 100.58,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T14:35:00.000Z",
+        "current_glucose_mgdl": 100.58,
+        "trend_mgdl_per_min": -0.358,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T14:40:00.000Z",
+      "glucose_mgdl": 98.98,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T14:40:00.000Z",
+        "current_glucose_mgdl": 98.98,
+        "trend_mgdl_per_min": -0.32,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T14:45:00.000Z",
+      "glucose_mgdl": 97.57,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T14:45:00.000Z",
+        "current_glucose_mgdl": 97.57,
+        "trend_mgdl_per_min": -0.281,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T14:50:00.000Z",
+      "glucose_mgdl": 96.35,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T14:50:00.000Z",
+        "current_glucose_mgdl": 96.35,
+        "trend_mgdl_per_min": -0.243,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T14:55:00.000Z",
+      "glucose_mgdl": 95.31,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T14:55:00.000Z",
+        "current_glucose_mgdl": 95.31,
+        "trend_mgdl_per_min": -0.208,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T15:00:00.000Z",
+      "glucose_mgdl": 94.43,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T15:00:00.000Z",
+        "current_glucose_mgdl": 94.43,
+        "trend_mgdl_per_min": -0.177,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T15:05:00.000Z",
+      "glucose_mgdl": 93.68,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T15:05:00.000Z",
+        "current_glucose_mgdl": 93.68,
+        "trend_mgdl_per_min": -0.15,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T15:10:00.000Z",
+      "glucose_mgdl": 93.05,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T15:10:00.000Z",
+        "current_glucose_mgdl": 93.05,
+        "trend_mgdl_per_min": -0.125,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T15:15:00.000Z",
+      "glucose_mgdl": 92.52,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T15:15:00.000Z",
+        "current_glucose_mgdl": 92.52,
+        "trend_mgdl_per_min": -0.105,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T15:20:00.000Z",
+      "glucose_mgdl": 92.07,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T15:20:00.000Z",
+        "current_glucose_mgdl": 92.07,
+        "trend_mgdl_per_min": -0.09,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T15:25:00.000Z",
+      "glucose_mgdl": 91.67,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T15:25:00.000Z",
+        "current_glucose_mgdl": 91.67,
+        "trend_mgdl_per_min": -0.08,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T15:30:00.000Z",
+      "glucose_mgdl": 91.31,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T15:30:00.000Z",
+        "current_glucose_mgdl": 91.31,
+        "trend_mgdl_per_min": -0.072,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T15:35:00.000Z",
+      "glucose_mgdl": 90.97,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T15:35:00.000Z",
+        "current_glucose_mgdl": 90.97,
+        "trend_mgdl_per_min": -0.069,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T15:40:00.000Z",
+      "glucose_mgdl": 90.63,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T15:40:00.000Z",
+        "current_glucose_mgdl": 90.63,
+        "trend_mgdl_per_min": -0.068,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T15:45:00.000Z",
+      "glucose_mgdl": 90.29,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T15:45:00.000Z",
+        "current_glucose_mgdl": 90.29,
+        "trend_mgdl_per_min": -0.068,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T15:50:00.000Z",
+      "glucose_mgdl": 89.93,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T15:50:00.000Z",
+        "current_glucose_mgdl": 89.93,
+        "trend_mgdl_per_min": -0.072,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T15:55:00.000Z",
+      "glucose_mgdl": 89.54,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T15:55:00.000Z",
+        "current_glucose_mgdl": 89.54,
+        "trend_mgdl_per_min": -0.077,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T16:00:00.000Z",
+      "glucose_mgdl": 89.13,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T16:00:00.000Z",
+        "current_glucose_mgdl": 89.13,
+        "trend_mgdl_per_min": -0.083,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T16:05:00.000Z",
+      "glucose_mgdl": 88.67,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T16:05:00.000Z",
+        "current_glucose_mgdl": 88.67,
+        "trend_mgdl_per_min": -0.092,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T16:10:00.000Z",
+      "glucose_mgdl": 88.17,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T16:10:00.000Z",
+        "current_glucose_mgdl": 88.17,
+        "trend_mgdl_per_min": -0.1,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T16:15:00.000Z",
+      "glucose_mgdl": 87.63,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T16:15:00.000Z",
+        "current_glucose_mgdl": 87.63,
+        "trend_mgdl_per_min": -0.109,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T16:20:00.000Z",
+      "glucose_mgdl": 87.04,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T16:20:00.000Z",
+        "current_glucose_mgdl": 87.04,
+        "trend_mgdl_per_min": -0.118,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T16:25:00.000Z",
+      "glucose_mgdl": 86.41,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T16:25:00.000Z",
+        "current_glucose_mgdl": 86.41,
+        "trend_mgdl_per_min": -0.126,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T16:30:00.000Z",
+      "glucose_mgdl": 85.75,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T16:30:00.000Z",
+        "current_glucose_mgdl": 85.75,
+        "trend_mgdl_per_min": -0.133,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T16:35:00.000Z",
+      "glucose_mgdl": 85.05,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T16:35:00.000Z",
+        "current_glucose_mgdl": 85.05,
+        "trend_mgdl_per_min": -0.14,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T16:40:00.000Z",
+      "glucose_mgdl": 84.33,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T16:40:00.000Z",
+        "current_glucose_mgdl": 84.33,
+        "trend_mgdl_per_min": -0.144,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T16:45:00.000Z",
+      "glucose_mgdl": 83.6,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T16:45:00.000Z",
+        "current_glucose_mgdl": 83.6,
+        "trend_mgdl_per_min": -0.146,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T16:50:00.000Z",
+      "glucose_mgdl": 82.87,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T16:50:00.000Z",
+        "current_glucose_mgdl": 82.87,
+        "trend_mgdl_per_min": -0.146,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T16:55:00.000Z",
+      "glucose_mgdl": 82.16,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T16:55:00.000Z",
+        "current_glucose_mgdl": 82.16,
+        "trend_mgdl_per_min": -0.142,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T17:00:00.000Z",
+      "glucose_mgdl": 81.49,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T17:00:00.000Z",
+        "current_glucose_mgdl": 81.49,
+        "trend_mgdl_per_min": -0.134,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T17:05:00.000Z",
+      "glucose_mgdl": 80.87,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T17:05:00.000Z",
+        "current_glucose_mgdl": 80.87,
+        "trend_mgdl_per_min": -0.124,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T17:10:00.000Z",
+      "glucose_mgdl": 80.33,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T17:10:00.000Z",
+        "current_glucose_mgdl": 80.33,
+        "trend_mgdl_per_min": -0.108,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T17:15:00.000Z",
+      "glucose_mgdl": 79.89,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T17:15:00.000Z",
+        "current_glucose_mgdl": 79.89,
+        "trend_mgdl_per_min": -0.088,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T17:20:00.000Z",
+      "glucose_mgdl": 79.57,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T17:20:00.000Z",
+        "current_glucose_mgdl": 79.57,
+        "trend_mgdl_per_min": -0.064,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T17:25:00.000Z",
+      "glucose_mgdl": 79.4,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T17:25:00.000Z",
+        "current_glucose_mgdl": 79.4,
+        "trend_mgdl_per_min": -0.034,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T17:30:00.000Z",
+      "glucose_mgdl": 79.4,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 45,
+      "agent_state": {
+        "time": "2022-05-01T17:30:00.000Z",
+        "current_glucose_mgdl": 79.4,
+        "trend_mgdl_per_min": 0,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T17:35:00.000Z",
+      "glucose_mgdl": 79.6,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 45,
+      "agent_state": {
+        "time": "2022-05-01T17:35:00.000Z",
+        "current_glucose_mgdl": 79.6,
+        "trend_mgdl_per_min": 0.04,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T17:40:00.000Z",
+      "glucose_mgdl": 80.01,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 45,
+      "agent_state": {
+        "time": "2022-05-01T17:40:00.000Z",
+        "current_glucose_mgdl": 80.01,
+        "trend_mgdl_per_min": 0.082,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T17:45:00.000Z",
+      "glucose_mgdl": 80.65,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 45,
+      "agent_state": {
+        "time": "2022-05-01T17:45:00.000Z",
+        "current_glucose_mgdl": 80.65,
+        "trend_mgdl_per_min": 0.128,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T17:50:00.000Z",
+      "glucose_mgdl": 81.54,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 45,
+      "agent_state": {
+        "time": "2022-05-01T17:50:00.000Z",
+        "current_glucose_mgdl": 81.54,
+        "trend_mgdl_per_min": 0.178,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T17:55:00.000Z",
+      "glucose_mgdl": 82.69,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 45,
+      "agent_state": {
+        "time": "2022-05-01T17:55:00.000Z",
+        "current_glucose_mgdl": 82.69,
+        "trend_mgdl_per_min": 0.229,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T18:00:00.000Z",
+      "glucose_mgdl": 84.09,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 45,
+      "agent_state": {
+        "time": "2022-05-01T18:00:00.000Z",
+        "current_glucose_mgdl": 84.09,
+        "trend_mgdl_per_min": 0.281,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T18:05:00.000Z",
+      "glucose_mgdl": 85.76,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 45,
+      "agent_state": {
+        "time": "2022-05-01T18:05:00.000Z",
+        "current_glucose_mgdl": 85.76,
+        "trend_mgdl_per_min": 0.334,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T18:10:00.000Z",
+      "glucose_mgdl": 87.67,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 45,
+      "agent_state": {
+        "time": "2022-05-01T18:10:00.000Z",
+        "current_glucose_mgdl": 87.67,
+        "trend_mgdl_per_min": 0.383,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T18:15:00.000Z",
+      "glucose_mgdl": 89.82,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T18:15:00.000Z",
+        "current_glucose_mgdl": 89.82,
+        "trend_mgdl_per_min": 0.431,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T18:20:00.000Z",
+      "glucose_mgdl": 92.18,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T18:20:00.000Z",
+        "current_glucose_mgdl": 92.18,
+        "trend_mgdl_per_min": 0.472,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T18:25:00.000Z",
+      "glucose_mgdl": 94.71,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T18:25:00.000Z",
+        "current_glucose_mgdl": 94.71,
+        "trend_mgdl_per_min": 0.505,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T18:30:00.000Z",
+      "glucose_mgdl": 97.37,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T18:30:00.000Z",
+        "current_glucose_mgdl": 97.37,
+        "trend_mgdl_per_min": 0.532,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T18:35:00.000Z",
+      "glucose_mgdl": 100.11,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T18:35:00.000Z",
+        "current_glucose_mgdl": 100.11,
+        "trend_mgdl_per_min": 0.549,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T18:40:00.000Z",
+      "glucose_mgdl": 102.89,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T18:40:00.000Z",
+        "current_glucose_mgdl": 102.89,
+        "trend_mgdl_per_min": 0.556,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T18:45:00.000Z",
+      "glucose_mgdl": 105.64,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T18:45:00.000Z",
+        "current_glucose_mgdl": 105.64,
+        "trend_mgdl_per_min": 0.549,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T18:50:00.000Z",
+      "glucose_mgdl": 108.29,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T18:50:00.000Z",
+        "current_glucose_mgdl": 108.29,
+        "trend_mgdl_per_min": 0.53,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T18:55:00.000Z",
+      "glucose_mgdl": 110.79,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T18:55:00.000Z",
+        "current_glucose_mgdl": 110.79,
+        "trend_mgdl_per_min": 0.5,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T19:00:00.000Z",
+      "glucose_mgdl": 113.08,
+      "carbs_g_per_min": 1.857,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T19:00:00.000Z",
+        "current_glucose_mgdl": 113.08,
+        "trend_mgdl_per_min": 0.458,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T19:05:00.000Z",
+      "glucose_mgdl": 115.09,
+      "carbs_g_per_min": 1.857,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T19:05:00.000Z",
+        "current_glucose_mgdl": 115.09,
+        "trend_mgdl_per_min": 0.403,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T19:10:00.000Z",
+      "glucose_mgdl": 116.79,
+      "carbs_g_per_min": 1.857,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T19:10:00.000Z",
+        "current_glucose_mgdl": 116.79,
+        "trend_mgdl_per_min": 0.34,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T19:15:00.000Z",
+      "glucose_mgdl": 118.12,
+      "carbs_g_per_min": 1.857,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T19:15:00.000Z",
+        "current_glucose_mgdl": 118.12,
+        "trend_mgdl_per_min": 0.267,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T19:20:00.000Z",
+      "glucose_mgdl": 119.07,
+      "carbs_g_per_min": 1.857,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T19:20:00.000Z",
+        "current_glucose_mgdl": 119.07,
+        "trend_mgdl_per_min": 0.189,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T19:25:00.000Z",
+      "glucose_mgdl": 119.6,
+      "carbs_g_per_min": 1.857,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T19:25:00.000Z",
+        "current_glucose_mgdl": 119.6,
+        "trend_mgdl_per_min": 0.106,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T19:30:00.000Z",
+      "glucose_mgdl": 119.71,
+      "carbs_g_per_min": 1.857,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T19:30:00.000Z",
+        "current_glucose_mgdl": 119.71,
+        "trend_mgdl_per_min": 0.023,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T19:35:00.000Z",
+      "glucose_mgdl": 119.42,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T19:35:00.000Z",
+        "current_glucose_mgdl": 119.42,
+        "trend_mgdl_per_min": -0.057,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T19:40:00.000Z",
+      "glucose_mgdl": 118.74,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T19:40:00.000Z",
+        "current_glucose_mgdl": 118.74,
+        "trend_mgdl_per_min": -0.135,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T19:45:00.000Z",
+      "glucose_mgdl": 117.71,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T19:45:00.000Z",
+        "current_glucose_mgdl": 117.71,
+        "trend_mgdl_per_min": -0.206,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T19:50:00.000Z",
+      "glucose_mgdl": 116.36,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T19:50:00.000Z",
+        "current_glucose_mgdl": 116.36,
+        "trend_mgdl_per_min": -0.271,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T19:55:00.000Z",
+      "glucose_mgdl": 114.74,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T19:55:00.000Z",
+        "current_glucose_mgdl": 114.74,
+        "trend_mgdl_per_min": -0.325,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T20:00:00.000Z",
+      "glucose_mgdl": 112.9,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T20:00:00.000Z",
+        "current_glucose_mgdl": 112.9,
+        "trend_mgdl_per_min": -0.368,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T20:05:00.000Z",
+      "glucose_mgdl": 110.91,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T20:05:00.000Z",
+        "current_glucose_mgdl": 110.91,
+        "trend_mgdl_per_min": -0.398,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T20:10:00.000Z",
+      "glucose_mgdl": 108.81,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T20:10:00.000Z",
+        "current_glucose_mgdl": 108.81,
+        "trend_mgdl_per_min": -0.42,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T20:15:00.000Z",
+      "glucose_mgdl": 106.67,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T20:15:00.000Z",
+        "current_glucose_mgdl": 106.67,
+        "trend_mgdl_per_min": -0.428,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T20:20:00.000Z",
+      "glucose_mgdl": 104.52,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T20:20:00.000Z",
+        "current_glucose_mgdl": 104.52,
+        "trend_mgdl_per_min": -0.429,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T20:25:00.000Z",
+      "glucose_mgdl": 102.43,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T20:25:00.000Z",
+        "current_glucose_mgdl": 102.43,
+        "trend_mgdl_per_min": -0.419,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T20:30:00.000Z",
+      "glucose_mgdl": 100.41,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T20:30:00.000Z",
+        "current_glucose_mgdl": 100.41,
+        "trend_mgdl_per_min": -0.404,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T20:35:00.000Z",
+      "glucose_mgdl": 98.51,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T20:35:00.000Z",
+        "current_glucose_mgdl": 98.51,
+        "trend_mgdl_per_min": -0.38,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T20:40:00.000Z",
+      "glucose_mgdl": 96.75,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T20:40:00.000Z",
+        "current_glucose_mgdl": 96.75,
+        "trend_mgdl_per_min": -0.353,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T20:45:00.000Z",
+      "glucose_mgdl": 95.13,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T20:45:00.000Z",
+        "current_glucose_mgdl": 95.13,
+        "trend_mgdl_per_min": -0.324,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T20:50:00.000Z",
+      "glucose_mgdl": 93.67,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T20:50:00.000Z",
+        "current_glucose_mgdl": 93.67,
+        "trend_mgdl_per_min": -0.291,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T20:55:00.000Z",
+      "glucose_mgdl": 92.38,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T20:55:00.000Z",
+        "current_glucose_mgdl": 92.38,
+        "trend_mgdl_per_min": -0.258,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T21:00:00.000Z",
+      "glucose_mgdl": 91.24,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T21:00:00.000Z",
+        "current_glucose_mgdl": 91.24,
+        "trend_mgdl_per_min": -0.228,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T21:05:00.000Z",
+      "glucose_mgdl": 90.25,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T21:05:00.000Z",
+        "current_glucose_mgdl": 90.25,
+        "trend_mgdl_per_min": -0.197,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T21:10:00.000Z",
+      "glucose_mgdl": 89.4,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T21:10:00.000Z",
+        "current_glucose_mgdl": 89.4,
+        "trend_mgdl_per_min": -0.169,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T21:15:00.000Z",
+      "glucose_mgdl": 88.68,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T21:15:00.000Z",
+        "current_glucose_mgdl": 88.68,
+        "trend_mgdl_per_min": -0.143,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T21:20:00.000Z",
+      "glucose_mgdl": 88.07,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T21:20:00.000Z",
+        "current_glucose_mgdl": 88.07,
+        "trend_mgdl_per_min": -0.121,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T21:25:00.000Z",
+      "glucose_mgdl": 87.57,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T21:25:00.000Z",
+        "current_glucose_mgdl": 87.57,
+        "trend_mgdl_per_min": -0.101,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T21:30:00.000Z",
+      "glucose_mgdl": 87.14,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T21:30:00.000Z",
+        "current_glucose_mgdl": 87.14,
+        "trend_mgdl_per_min": -0.086,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T21:35:00.000Z",
+      "glucose_mgdl": 86.79,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T21:35:00.000Z",
+        "current_glucose_mgdl": 86.79,
+        "trend_mgdl_per_min": -0.07,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T21:40:00.000Z",
+      "glucose_mgdl": 86.5,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T21:40:00.000Z",
+        "current_glucose_mgdl": 86.5,
+        "trend_mgdl_per_min": -0.058,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T21:45:00.000Z",
+      "glucose_mgdl": 86.26,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T21:45:00.000Z",
+        "current_glucose_mgdl": 86.26,
+        "trend_mgdl_per_min": -0.048,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T21:50:00.000Z",
+      "glucose_mgdl": 86.06,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T21:50:00.000Z",
+        "current_glucose_mgdl": 86.06,
+        "trend_mgdl_per_min": -0.04,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T21:55:00.000Z",
+      "glucose_mgdl": 85.89,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T21:55:00.000Z",
+        "current_glucose_mgdl": 85.89,
+        "trend_mgdl_per_min": -0.034,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T22:00:00.000Z",
+      "glucose_mgdl": 85.75,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T22:00:00.000Z",
+        "current_glucose_mgdl": 85.75,
+        "trend_mgdl_per_min": -0.028,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T22:05:00.000Z",
+      "glucose_mgdl": 85.58,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T22:05:00.000Z",
+        "current_glucose_mgdl": 85.58,
+        "trend_mgdl_per_min": -0.034,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T22:10:00.000Z",
+      "glucose_mgdl": 85.42,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T22:10:00.000Z",
+        "current_glucose_mgdl": 85.42,
+        "trend_mgdl_per_min": -0.032,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T22:15:00.000Z",
+      "glucose_mgdl": 85.28,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T22:15:00.000Z",
+        "current_glucose_mgdl": 85.28,
+        "trend_mgdl_per_min": -0.029,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T22:20:00.000Z",
+      "glucose_mgdl": 85.14,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T22:20:00.000Z",
+        "current_glucose_mgdl": 85.14,
+        "trend_mgdl_per_min": -0.028,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T22:25:00.000Z",
+      "glucose_mgdl": 85.01,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T22:25:00.000Z",
+        "current_glucose_mgdl": 85.01,
+        "trend_mgdl_per_min": -0.025,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T22:30:00.000Z",
+      "glucose_mgdl": 84.89,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T22:30:00.000Z",
+        "current_glucose_mgdl": 84.89,
+        "trend_mgdl_per_min": -0.024,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T22:35:00.000Z",
+      "glucose_mgdl": 84.77,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T22:35:00.000Z",
+        "current_glucose_mgdl": 84.77,
+        "trend_mgdl_per_min": -0.023,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T22:40:00.000Z",
+      "glucose_mgdl": 84.66,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T22:40:00.000Z",
+        "current_glucose_mgdl": 84.66,
+        "trend_mgdl_per_min": -0.022,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T22:45:00.000Z",
+      "glucose_mgdl": 84.55,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T22:45:00.000Z",
+        "current_glucose_mgdl": 84.55,
+        "trend_mgdl_per_min": -0.022,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T22:50:00.000Z",
+      "glucose_mgdl": 84.44,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T22:50:00.000Z",
+        "current_glucose_mgdl": 84.44,
+        "trend_mgdl_per_min": -0.022,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T22:55:00.000Z",
+      "glucose_mgdl": 84.33,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T22:55:00.000Z",
+        "current_glucose_mgdl": 84.33,
+        "trend_mgdl_per_min": -0.021,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T23:00:00.000Z",
+      "glucose_mgdl": 84.23,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T23:00:00.000Z",
+        "current_glucose_mgdl": 84.23,
+        "trend_mgdl_per_min": -0.02,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T23:05:00.000Z",
+      "glucose_mgdl": 84.13,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T23:05:00.000Z",
+        "current_glucose_mgdl": 84.13,
+        "trend_mgdl_per_min": -0.021,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T23:10:00.000Z",
+      "glucose_mgdl": 84.02,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T23:10:00.000Z",
+        "current_glucose_mgdl": 84.02,
+        "trend_mgdl_per_min": -0.021,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T23:15:00.000Z",
+      "glucose_mgdl": 83.92,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T23:15:00.000Z",
+        "current_glucose_mgdl": 83.92,
+        "trend_mgdl_per_min": -0.019,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T23:20:00.000Z",
+      "glucose_mgdl": 83.83,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T23:20:00.000Z",
+        "current_glucose_mgdl": 83.83,
+        "trend_mgdl_per_min": -0.019,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T23:25:00.000Z",
+      "glucose_mgdl": 83.73,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T23:25:00.000Z",
+        "current_glucose_mgdl": 83.73,
+        "trend_mgdl_per_min": -0.02,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T23:30:00.000Z",
+      "glucose_mgdl": 83.64,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T23:30:00.000Z",
+        "current_glucose_mgdl": 83.64,
+        "trend_mgdl_per_min": -0.019,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T23:35:00.000Z",
+      "glucose_mgdl": 83.54,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T23:35:00.000Z",
+        "current_glucose_mgdl": 83.54,
+        "trend_mgdl_per_min": -0.019,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T23:40:00.000Z",
+      "glucose_mgdl": 83.45,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T23:40:00.000Z",
+        "current_glucose_mgdl": 83.45,
+        "trend_mgdl_per_min": -0.018,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T23:45:00.000Z",
+      "glucose_mgdl": 83.36,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T23:45:00.000Z",
+        "current_glucose_mgdl": 83.36,
+        "trend_mgdl_per_min": -0.017,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T23:50:00.000Z",
+      "glucose_mgdl": 83.27,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T23:50:00.000Z",
+        "current_glucose_mgdl": 83.27,
+        "trend_mgdl_per_min": -0.017,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-01T23:55:00.000Z",
+      "glucose_mgdl": 83.19,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-01T23:55:00.000Z",
+        "current_glucose_mgdl": 83.19,
+        "trend_mgdl_per_min": -0.016,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T00:00:00.000Z",
+      "glucose_mgdl": 83.1,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T00:00:00.000Z",
+        "current_glucose_mgdl": 83.1,
+        "trend_mgdl_per_min": -0.017,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T00:05:00.000Z",
+      "glucose_mgdl": 83.02,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T00:05:00.000Z",
+        "current_glucose_mgdl": 83.02,
+        "trend_mgdl_per_min": -0.016,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T00:10:00.000Z",
+      "glucose_mgdl": 82.94,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T00:10:00.000Z",
+        "current_glucose_mgdl": 82.94,
+        "trend_mgdl_per_min": -0.016,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T00:15:00.000Z",
+      "glucose_mgdl": 82.86,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T00:15:00.000Z",
+        "current_glucose_mgdl": 82.86,
+        "trend_mgdl_per_min": -0.016,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T00:20:00.000Z",
+      "glucose_mgdl": 82.79,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T00:20:00.000Z",
+        "current_glucose_mgdl": 82.79,
+        "trend_mgdl_per_min": -0.015,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T00:25:00.000Z",
+      "glucose_mgdl": 82.71,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T00:25:00.000Z",
+        "current_glucose_mgdl": 82.71,
+        "trend_mgdl_per_min": -0.016,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T00:30:00.000Z",
+      "glucose_mgdl": 82.64,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T00:30:00.000Z",
+        "current_glucose_mgdl": 82.64,
+        "trend_mgdl_per_min": -0.015,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T00:35:00.000Z",
+      "glucose_mgdl": 82.56,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T00:35:00.000Z",
+        "current_glucose_mgdl": 82.56,
+        "trend_mgdl_per_min": -0.015,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T00:40:00.000Z",
+      "glucose_mgdl": 82.49,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T00:40:00.000Z",
+        "current_glucose_mgdl": 82.49,
+        "trend_mgdl_per_min": -0.013,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T00:45:00.000Z",
+      "glucose_mgdl": 82.43,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T00:45:00.000Z",
+        "current_glucose_mgdl": 82.43,
+        "trend_mgdl_per_min": -0.013,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T00:50:00.000Z",
+      "glucose_mgdl": 82.36,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T00:50:00.000Z",
+        "current_glucose_mgdl": 82.36,
+        "trend_mgdl_per_min": -0.014,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T00:55:00.000Z",
+      "glucose_mgdl": 82.3,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T00:55:00.000Z",
+        "current_glucose_mgdl": 82.3,
+        "trend_mgdl_per_min": -0.013,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T01:00:00.000Z",
+      "glucose_mgdl": 82.23,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T01:00:00.000Z",
+        "current_glucose_mgdl": 82.23,
+        "trend_mgdl_per_min": -0.013,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T01:05:00.000Z",
+      "glucose_mgdl": 82.17,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T01:05:00.000Z",
+        "current_glucose_mgdl": 82.17,
+        "trend_mgdl_per_min": -0.011,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T01:10:00.000Z",
+      "glucose_mgdl": 82.12,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T01:10:00.000Z",
+        "current_glucose_mgdl": 82.12,
+        "trend_mgdl_per_min": -0.011,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T01:15:00.000Z",
+      "glucose_mgdl": 82.06,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T01:15:00.000Z",
+        "current_glucose_mgdl": 82.06,
+        "trend_mgdl_per_min": -0.012,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T01:20:00.000Z",
+      "glucose_mgdl": 82,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T01:20:00.000Z",
+        "current_glucose_mgdl": 82,
+        "trend_mgdl_per_min": -0.011,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T01:25:00.000Z",
+      "glucose_mgdl": 81.95,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T01:25:00.000Z",
+        "current_glucose_mgdl": 81.95,
+        "trend_mgdl_per_min": -0.01,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T01:30:00.000Z",
+      "glucose_mgdl": 81.9,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T01:30:00.000Z",
+        "current_glucose_mgdl": 81.9,
+        "trend_mgdl_per_min": -0.01,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T01:35:00.000Z",
+      "glucose_mgdl": 81.85,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T01:35:00.000Z",
+        "current_glucose_mgdl": 81.85,
+        "trend_mgdl_per_min": -0.01,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T01:40:00.000Z",
+      "glucose_mgdl": 81.8,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T01:40:00.000Z",
+        "current_glucose_mgdl": 81.8,
+        "trend_mgdl_per_min": -0.009,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T01:45:00.000Z",
+      "glucose_mgdl": 81.76,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T01:45:00.000Z",
+        "current_glucose_mgdl": 81.76,
+        "trend_mgdl_per_min": -0.008,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T01:50:00.000Z",
+      "glucose_mgdl": 81.72,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T01:50:00.000Z",
+        "current_glucose_mgdl": 81.72,
+        "trend_mgdl_per_min": -0.009,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T01:55:00.000Z",
+      "glucose_mgdl": 81.67,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T01:55:00.000Z",
+        "current_glucose_mgdl": 81.67,
+        "trend_mgdl_per_min": -0.009,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T02:00:00.000Z",
+      "glucose_mgdl": 81.63,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T02:00:00.000Z",
+        "current_glucose_mgdl": 81.63,
+        "trend_mgdl_per_min": -0.007,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T02:05:00.000Z",
+      "glucose_mgdl": 81.6,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T02:05:00.000Z",
+        "current_glucose_mgdl": 81.6,
+        "trend_mgdl_per_min": -0.007,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T02:10:00.000Z",
+      "glucose_mgdl": 81.56,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T02:10:00.000Z",
+        "current_glucose_mgdl": 81.56,
+        "trend_mgdl_per_min": -0.008,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T02:15:00.000Z",
+      "glucose_mgdl": 81.53,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T02:15:00.000Z",
+        "current_glucose_mgdl": 81.53,
+        "trend_mgdl_per_min": -0.007,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T02:20:00.000Z",
+      "glucose_mgdl": 81.49,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T02:20:00.000Z",
+        "current_glucose_mgdl": 81.49,
+        "trend_mgdl_per_min": -0.007,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T02:25:00.000Z",
+      "glucose_mgdl": 81.46,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T02:25:00.000Z",
+        "current_glucose_mgdl": 81.46,
+        "trend_mgdl_per_min": -0.005,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T02:30:00.000Z",
+      "glucose_mgdl": 81.44,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T02:30:00.000Z",
+        "current_glucose_mgdl": 81.44,
+        "trend_mgdl_per_min": -0.005,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T02:35:00.000Z",
+      "glucose_mgdl": 81.41,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T02:35:00.000Z",
+        "current_glucose_mgdl": 81.41,
+        "trend_mgdl_per_min": -0.006,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T02:40:00.000Z",
+      "glucose_mgdl": 81.39,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T02:40:00.000Z",
+        "current_glucose_mgdl": 81.39,
+        "trend_mgdl_per_min": -0.005,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T02:45:00.000Z",
+      "glucose_mgdl": 81.36,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T02:45:00.000Z",
+        "current_glucose_mgdl": 81.36,
+        "trend_mgdl_per_min": -0.006,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T02:50:00.000Z",
+      "glucose_mgdl": 81.34,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T02:50:00.000Z",
+        "current_glucose_mgdl": 81.34,
+        "trend_mgdl_per_min": -0.004,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T02:55:00.000Z",
+      "glucose_mgdl": 81.32,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T02:55:00.000Z",
+        "current_glucose_mgdl": 81.32,
+        "trend_mgdl_per_min": -0.004,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T03:00:00.000Z",
+      "glucose_mgdl": 81.3,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T03:00:00.000Z",
+        "current_glucose_mgdl": 81.3,
+        "trend_mgdl_per_min": -0.003,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T03:05:00.000Z",
+      "glucose_mgdl": 81.29,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T03:05:00.000Z",
+        "current_glucose_mgdl": 81.29,
+        "trend_mgdl_per_min": -0.002,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T03:10:00.000Z",
+      "glucose_mgdl": 81.27,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T03:10:00.000Z",
+        "current_glucose_mgdl": 81.27,
+        "trend_mgdl_per_min": -0.003,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T03:15:00.000Z",
+      "glucose_mgdl": 81.26,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T03:15:00.000Z",
+        "current_glucose_mgdl": 81.26,
+        "trend_mgdl_per_min": -0.001,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T03:20:00.000Z",
+      "glucose_mgdl": 81.25,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T03:20:00.000Z",
+        "current_glucose_mgdl": 81.25,
+        "trend_mgdl_per_min": -0.002,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T03:25:00.000Z",
+      "glucose_mgdl": 81.24,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T03:25:00.000Z",
+        "current_glucose_mgdl": 81.24,
+        "trend_mgdl_per_min": -0.001,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T03:30:00.000Z",
+      "glucose_mgdl": 81.24,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T03:30:00.000Z",
+        "current_glucose_mgdl": 81.24,
+        "trend_mgdl_per_min": -0.001,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T03:35:00.000Z",
+      "glucose_mgdl": 81.23,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T03:35:00.000Z",
+        "current_glucose_mgdl": 81.23,
+        "trend_mgdl_per_min": -0.002,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T03:40:00.000Z",
+      "glucose_mgdl": 81.23,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T03:40:00.000Z",
+        "current_glucose_mgdl": 81.23,
+        "trend_mgdl_per_min": -0.001,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T03:45:00.000Z",
+      "glucose_mgdl": 81.22,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T03:45:00.000Z",
+        "current_glucose_mgdl": 81.22,
+        "trend_mgdl_per_min": -0.001,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T03:50:00.000Z",
+      "glucose_mgdl": 81.22,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T03:50:00.000Z",
+        "current_glucose_mgdl": 81.22,
+        "trend_mgdl_per_min": 0.001,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T03:55:00.000Z",
+      "glucose_mgdl": 81.22,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T03:55:00.000Z",
+        "current_glucose_mgdl": 81.22,
+        "trend_mgdl_per_min": 0.001,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T04:00:00.000Z",
+      "glucose_mgdl": 81.23,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T04:00:00.000Z",
+        "current_glucose_mgdl": 81.23,
+        "trend_mgdl_per_min": 0.001,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T04:05:00.000Z",
+      "glucose_mgdl": 81.23,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T04:05:00.000Z",
+        "current_glucose_mgdl": 81.23,
+        "trend_mgdl_per_min": 0,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T04:10:00.000Z",
+      "glucose_mgdl": 81.24,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T04:10:00.000Z",
+        "current_glucose_mgdl": 81.24,
+        "trend_mgdl_per_min": 0.001,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T04:15:00.000Z",
+      "glucose_mgdl": 81.24,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T04:15:00.000Z",
+        "current_glucose_mgdl": 81.24,
+        "trend_mgdl_per_min": 0.001,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T04:20:00.000Z",
+      "glucose_mgdl": 81.25,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T04:20:00.000Z",
+        "current_glucose_mgdl": 81.25,
+        "trend_mgdl_per_min": 0.002,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T04:25:00.000Z",
+      "glucose_mgdl": 81.26,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T04:25:00.000Z",
+        "current_glucose_mgdl": 81.26,
+        "trend_mgdl_per_min": 0.002,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T04:30:00.000Z",
+      "glucose_mgdl": 81.27,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T04:30:00.000Z",
+        "current_glucose_mgdl": 81.27,
+        "trend_mgdl_per_min": 0.002,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T04:35:00.000Z",
+      "glucose_mgdl": 81.28,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T04:35:00.000Z",
+        "current_glucose_mgdl": 81.28,
+        "trend_mgdl_per_min": 0.003,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T04:40:00.000Z",
+      "glucose_mgdl": 81.3,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T04:40:00.000Z",
+        "current_glucose_mgdl": 81.3,
+        "trend_mgdl_per_min": 0.004,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T04:45:00.000Z",
+      "glucose_mgdl": 81.31,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T04:45:00.000Z",
+        "current_glucose_mgdl": 81.31,
+        "trend_mgdl_per_min": 0.003,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T04:50:00.000Z",
+      "glucose_mgdl": 81.33,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T04:50:00.000Z",
+        "current_glucose_mgdl": 81.33,
+        "trend_mgdl_per_min": 0.004,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T04:55:00.000Z",
+      "glucose_mgdl": 81.35,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T04:55:00.000Z",
+        "current_glucose_mgdl": 81.35,
+        "trend_mgdl_per_min": 0.003,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T05:00:00.000Z",
+      "glucose_mgdl": 81.36,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T05:00:00.000Z",
+        "current_glucose_mgdl": 81.36,
+        "trend_mgdl_per_min": 0.003,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T05:05:00.000Z",
+      "glucose_mgdl": 81.38,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T05:05:00.000Z",
+        "current_glucose_mgdl": 81.38,
+        "trend_mgdl_per_min": 0.005,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T05:10:00.000Z",
+      "glucose_mgdl": 81.41,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T05:10:00.000Z",
+        "current_glucose_mgdl": 81.41,
+        "trend_mgdl_per_min": 0.005,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T05:15:00.000Z",
+      "glucose_mgdl": 81.43,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T05:15:00.000Z",
+        "current_glucose_mgdl": 81.43,
+        "trend_mgdl_per_min": 0.004,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T05:20:00.000Z",
+      "glucose_mgdl": 81.45,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T05:20:00.000Z",
+        "current_glucose_mgdl": 81.45,
+        "trend_mgdl_per_min": 0.004,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T05:25:00.000Z",
+      "glucose_mgdl": 81.47,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T05:25:00.000Z",
+        "current_glucose_mgdl": 81.47,
+        "trend_mgdl_per_min": 0.005,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T05:30:00.000Z",
+      "glucose_mgdl": 81.5,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T05:30:00.000Z",
+        "current_glucose_mgdl": 81.5,
+        "trend_mgdl_per_min": 0.006,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T05:35:00.000Z",
+      "glucose_mgdl": 81.53,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T05:35:00.000Z",
+        "current_glucose_mgdl": 81.53,
+        "trend_mgdl_per_min": 0.005,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T05:40:00.000Z",
+      "glucose_mgdl": 81.55,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T05:40:00.000Z",
+        "current_glucose_mgdl": 81.55,
+        "trend_mgdl_per_min": 0.005,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T05:45:00.000Z",
+      "glucose_mgdl": 81.58,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T05:45:00.000Z",
+        "current_glucose_mgdl": 81.58,
+        "trend_mgdl_per_min": 0.006,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T05:50:00.000Z",
+      "glucose_mgdl": 81.61,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T05:50:00.000Z",
+        "current_glucose_mgdl": 81.61,
+        "trend_mgdl_per_min": 0.006,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T05:55:00.000Z",
+      "glucose_mgdl": 81.64,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T05:55:00.000Z",
+        "current_glucose_mgdl": 81.64,
+        "trend_mgdl_per_min": 0.006,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    },
+    {
+      "time": "2022-05-02T06:00:00.000Z",
+      "glucose_mgdl": 81.67,
+      "carbs_g_per_min": 0,
+      "exercise_percent": 0,
+      "agent_state": {
+        "time": "2022-05-02T06:00:00.000Z",
+        "current_glucose_mgdl": 81.67,
+        "trend_mgdl_per_min": 0.006,
+        "trend": "stable",
+        "pending_meals": [],
+        "recent_bolus_u": 0,
+        "minutes_since_last_bolus": null,
+        "data_quality": "complete",
+        "recent_risk": []
+      }
+    }
+  ]
+}

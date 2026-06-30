@@ -9,7 +9,7 @@ import { expect } from 'chai'
 
 import RNG_Ziggurat_SHR3 from '../../../src/common/random/RNG_Ziggurat_SHR3.js'
 import Statistics from '../../../src/common/Statistics.js'
-import { Vector } from '../../../src/types/CommonTypes.js'
+import type { Vector } from '../../../src/types/CommonTypes.js'
 
 describe("RNG_Ziggurat_SHR3", () => {
 

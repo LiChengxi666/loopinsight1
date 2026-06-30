@@ -9,9 +9,10 @@
 import NoiseAndError from '../../common/NoiseAndError.js'
 import { quantize } from '../../common/UtilityFunctions.js'
 import RNG_Ziggurat_SHR3 from '../../common/random/RNG_Ziggurat_SHR3.js'
-import Actuator, { ControllerOutput, Medication } from '../../types/Actuator.js'
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import { ParameterDescriptions } from '../../types/ParametricModule.js'
+import { ControllerOutput, Medication } from '../../types/Actuator.js'
+import type Actuator from '../../types/Actuator.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import type { ParameterDescriptions } from '../../types/ParametricModule.js'
 import AbstractActuator from '../AbstractActuator.js'
 
 export const profile: ModuleProfile = {

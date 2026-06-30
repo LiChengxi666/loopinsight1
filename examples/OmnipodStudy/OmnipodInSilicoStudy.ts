@@ -21,7 +21,7 @@ import OmnipodDash from '../../src/core/actuators/OmnipodDash.js'
 import ControllerCSII from '../../src/core/controllers/CSII.js'
 import VirtualPatientUvaPadova from '../../src/core/models/UvaPadova_T1DMS.js'
 import CGMSensor from '../../src/core/sensors/IdealCGM.js'
-import Patient from '../../src/types/Patient.js'
+import type Patient from '../../src/types/Patient.js'
 
 
 // function for easy call of simulation

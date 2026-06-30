@@ -5,21 +5,18 @@
  * See https://lt1.org for further information.
  */
 
-import { Vector } from '../../types/CommonTypes.js'
+import type { Vector } from '../../types/CommonTypes.js'
 import { isMultipleOfSamplingTime } from '../../common/DateUtility.js'
 import LevenbergMarquardt from '../../common/LevenbergMarquardt.js'
 import EKF from '../../common/EKF.js'
-import Controller, {
-    AnnouncementList,
-    ControllerOutput,
-    Measurement,
-    TracedMeasurement
-} from '../../types/Controller.js'
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import { ParameterDescriptions } from '../../types/ParametricModule.js'
-import { PatientInput, PatientInputOverTime } from '../../types/Signals.js'
+import { AnnouncementList, ControllerOutput, Measurement, TracedMeasurement } from '../../types/Controller.js'
+import type Controller from '../../types/Controller.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import type { ParameterDescriptions } from '../../types/ParametricModule.js'
+import type { PatientInput, PatientInputOverTime } from '../../types/Signals.js'
 import AbstractController from '../AbstractController.js'
-import Cambridge, { stateDescription, State, i18n_tooltip as stateTranslation } from '../models/Cambridge.js'
+import Cambridge, { stateDescription, i18n_tooltip as stateTranslation } from '../models/Cambridge.js'
+import type { State } from '../models/Cambridge.js'
 import SolverRK1 from '../solvers/SolverRK1.js'
 import { scalarMultiplyDiagonal, eye, vectorToDiagonalMatrix } from '../../common/LinearAlgebra.js'
 

@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import { NamedVector } from '../types/CommonTypes.js'
+import type { NamedVector } from '../types/CommonTypes.js'
 
 export default class NamedVectorUtil {
 

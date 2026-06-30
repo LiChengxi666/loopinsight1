@@ -22,10 +22,11 @@ import {
 import JohnsonTransform from '../../common/JohnsonTransform.js'
 import { limit, quantizeFloor } from '../../common/UtilityFunctions.js'
 import RNG_Ziggurat_SHR3 from '../../common/random/RNG_Ziggurat_SHR3.js'
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import { ParameterDescriptions } from '../../types/ParametricModule.js'
-import { NormalRandomNumberGenerator } from '../../types/RandomNumberGenerator.js'
-import Sensor, { Measurement, PatientOutput } from '../../types/Sensor.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import type { ParameterDescriptions } from '../../types/ParametricModule.js'
+import type { NormalRandomNumberGenerator } from '../../types/RandomNumberGenerator.js'
+import { Measurement, PatientOutput } from '../../types/Sensor.js'
+import type Sensor from '../../types/Sensor.js'
 import AbstractSensor from '../AbstractSensor.js'
 
 

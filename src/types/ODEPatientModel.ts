@@ -5,11 +5,10 @@
  * See https://lt1.org for further information.
  */
 
-import { ModuleProfile } from './ModuleProfile.js'
-import ParametricModule from './ParametricModule.js'
-import {
-    PatientState, StateDescription, PatientInput, PatientOutput
-} from './Patient.js'
+import type { ModuleProfile } from './ModuleProfile.js'
+import type ParametricModule from './ParametricModule.js'
+import { PatientInput, PatientOutput } from './Patient.js'
+import type { PatientState, StateDescription } from './Patient.js'
 
 
 // declare type State = PatientState

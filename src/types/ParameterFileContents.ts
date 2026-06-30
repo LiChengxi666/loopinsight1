@@ -5,8 +5,8 @@
  * See https://lt1.org for further information.
  */
 
-import { ModuleType } from './ModuleProfile.js'
-import { ParameterValues } from './ParametricModule.js'
+import type { ModuleType } from './ModuleProfile.js'
+import type { ParameterValues } from './ParametricModule.js'
 
 
 export type ParameterFileContents = {

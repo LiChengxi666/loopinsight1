@@ -5,9 +5,9 @@
  * See https://lt1.org for further information.
  */
 
-import { ModuleProfile } from './ModuleProfile.js'
-import ParametricModule from './ParametricModule.js'
-import Solver from './Solver.js'
+import type { ModuleProfile } from './ModuleProfile.js'
+import type ParametricModule from './ParametricModule.js'
+import type Solver from './Solver.js'
 
 /**
  * An interface describing a component of the simulation that accepts input

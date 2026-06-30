@@ -8,7 +8,7 @@
 import { expect } from 'chai'
 
 import NewtonRaphsonSolver from '../../src/common/NewtonRaphsonSolver.js'
-import { Vector } from '../../src/types/CommonTypes.js'
+import type { Vector } from '../../src/types/CommonTypes.js'
 import { vectorDifferenceNorm } from '../helper/linalg_helper.js'
 
 describe("NewtonRaphtonSolver", () => {

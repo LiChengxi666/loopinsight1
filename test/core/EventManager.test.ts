@@ -6,7 +6,8 @@
  */
 
 import { expect } from 'chai'
-import AnnouncementManager, { EventList, FilterFunction } from '../../src/core/EventManager.js'
+import AnnouncementManager from '../../src/core/EventManager.js'
+import type { EventList, FilterFunction } from '../../src/core/EventManager.js'
 
 type TestType = {
     name: string

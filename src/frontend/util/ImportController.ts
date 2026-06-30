@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import { ModuleContents } from '../../types/ModuleProfile.js'
+import type { ModuleContents } from '../../types/ModuleProfile.js'
 
 /**
  * utlitity function to import backend controller with standardized 

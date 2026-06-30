@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import { MealAnnouncement } from './Meal.js'
+import type { MealAnnouncement } from './Meal.js'
 
 
 /** scalar signal value */

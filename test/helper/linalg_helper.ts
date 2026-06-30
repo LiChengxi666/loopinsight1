@@ -6,7 +6,7 @@
  */
 
 import { assert, expect } from 'chai'
-import { Matrix, Vector } from '../../src/types/CommonTypes.js'
+import type { Matrix, Vector } from '../../src/types/CommonTypes.js'
 
 /**
  * utility: compute norm of difference of two vectors

@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import { NamedVector } from './CommonTypes.js'
+import type { NamedVector } from './CommonTypes.js'
 
 export type Derivatives = (t: Date, x: NamedVector) => NamedVector
 

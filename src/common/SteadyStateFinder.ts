@@ -5,7 +5,7 @@
  * See https://lt1.org for further information.
  */
 
-import { NamedVector, Vector } from '../types/CommonTypes.js'
+import type { NamedVector, Vector } from '../types/CommonTypes.js'
 import NamedVectorUtil from './NamedVectorUtil.js'
 import NewtonRaphsonSolver from './NewtonRaphsonSolver.js'
 

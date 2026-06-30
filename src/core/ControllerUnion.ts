@@ -5,16 +5,13 @@
  * See https://lt1.org for further information.
  */
 
-import Controller, { ControllerInternals } from '../types/Controller.js'
-import { ModuleProfile, ModuleTranslationList } from '../types/ModuleProfile.js'
-import {
-    ParameterDescriptions, ParameterValues
-} from '../types/ParametricModule.js'
-import { PatientProfile } from '../types/Patient.js'
-import {
-    AnnouncementList, ControllerOutput, Measurement, TracedMeasurement
-} from '../types/Signals.js'
-import Solver from '../types/Solver.js'
+import type Controller from '../types/Controller.js'
+import type { ControllerInternals } from '../types/Controller.js'
+import type { ModuleProfile, ModuleTranslationList } from '../types/ModuleProfile.js'
+import type { ParameterDescriptions, ParameterValues } from '../types/ParametricModule.js'
+import type { PatientProfile } from '../types/Patient.js'
+import type { AnnouncementList, ControllerOutput, Measurement, TracedMeasurement } from '../types/Signals.js'
+import type Solver from '../types/Solver.js'
 
 /**
  * utility class to easily build combinations of controllers

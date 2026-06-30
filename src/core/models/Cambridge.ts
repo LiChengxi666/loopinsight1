@@ -5,14 +5,11 @@
  * See https://lt1.org for further information.
  */
 
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import ODEPatientModel from '../../types/ODEPatientModel.js'
-import { ParameterDescriptions } from '../../types/ParametricModule.js'
-import {
-    PatientInput, PatientOutput,
-    StateDescription,
-    TypedPatientState
-} from '../../types/Patient.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import type ODEPatientModel from '../../types/ODEPatientModel.js'
+import type { ParameterDescriptions } from '../../types/ParametricModule.js'
+import { PatientInput, PatientOutput } from '../../types/Patient.js'
+import type { StateDescription, TypedPatientState } from '../../types/Patient.js'
 import AbstractODEPatient, {
     createPatientFromODE
 } from '../AbstractODEPatient.js'

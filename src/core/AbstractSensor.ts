@@ -6,13 +6,12 @@
  */
 
 import { nextUpdateTime } from '../common/DateUtility.js'
-import { ModuleProfile } from '../types/ModuleProfile.js'
-import { ParameterDescriptions } from '../types/ParametricModule.js'
-import Sensor, {
-    Measurement, PatientOutput
-} from '../types/Sensor.js'
-import { TracedMeasurement } from '../types/Signals.js'
-import Solver from '../types/Solver.js'
+import type { ModuleProfile } from '../types/ModuleProfile.js'
+import type { ParameterDescriptions } from '../types/ParametricModule.js'
+import { Measurement, PatientOutput } from '../types/Sensor.js'
+import type Sensor from '../types/Sensor.js'
+import type { TracedMeasurement } from '../types/Signals.js'
+import type Solver from '../types/Solver.js'
 import AbstractParametricModule from './AbstractParametricModule.js'
 
 /**

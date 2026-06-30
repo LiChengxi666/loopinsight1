@@ -7,7 +7,7 @@
 
 import { expect } from 'chai'
 import JohnsonTransform from '../../src/common/JohnsonTransform.js'
-import { Vector } from '../../src/types/CommonTypes.js'
+import type { Vector } from '../../src/types/CommonTypes.js'
 import { vectorDifferenceNorm } from '../helper/linalg_helper.js'
 
 describe("#JohnsonTransform", () => {

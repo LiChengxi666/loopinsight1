@@ -6,7 +6,7 @@
  */
 
 import Jacobian from '../../src/common/Jacobian.js'
-import { Matrix, Vector } from '../../src/types/CommonTypes.js'
+import type { Matrix, Vector } from '../../src/types/CommonTypes.js'
 import { assertTolerantMatrixEquality } from '../helper/linalg_helper.js'
 
 describe("Jacobian", () => {

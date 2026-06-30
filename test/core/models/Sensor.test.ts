@@ -6,14 +6,15 @@
  */
 
 import { expect } from 'chai'
-import Sensor from '../../../src/types/Sensor.js'
-import { MeasurementDescription, PatientOutputDescription, TracedMeasurement } from '../../../src/types/Signals.js'
+import type Sensor from '../../../src/types/Sensor.js'
+import { MeasurementDescription, PatientOutputDescription } from '../../../src/types/Signals.js'
+import type { TracedMeasurement } from '../../../src/types/Signals.js'
 import FindLocalModules from '../../../util/FindLocalModules.js'
 import ModuleContentsTest from './ModuleContentsTest.js'
 import ParametricModuleTest from './ParametricModuleTest.js'
 import IOModuleTest from './IOModuleTest.js'
 import { CommonSensorParametersDescription } from '../../../src/core/AbstractSensor.js'
-import { ModuleContents } from '../../../src/types/ModuleProfile.js'
+import type { ModuleContents } from '../../../src/types/ModuleProfile.js'
 import SolverRK4 from '../../../src/core/solvers/SolverRK4.js'
 
 const modelList = await FindLocalModules('src/core/sensors')

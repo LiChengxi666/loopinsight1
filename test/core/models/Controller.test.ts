@@ -9,16 +9,15 @@ import { expect } from 'chai'
 import {
     CommonControllerParametersDescription
 } from '../../../src/core/AbstractController.js'
-import Controller from '../../../src/types/Controller.js'
-import { PatientProfile } from '../../../src/types/Patient.js'
-import {
-    ControllerOutput, ControllerOutputDescription, MeasurementDescription
-} from '../../../src/types/Signals.js'
+import type Controller from '../../../src/types/Controller.js'
+import type { PatientProfile } from '../../../src/types/Patient.js'
+import { ControllerOutputDescription, MeasurementDescription } from '../../../src/types/Signals.js'
+import type { ControllerOutput } from '../../../src/types/Signals.js'
 import FindLocalModules from '../../../util/FindLocalModules.js'
 import IOModuleTest from './IOModuleTest.js'
 import ModuleContentsTest from './ModuleContentsTest.js'
 import ParametricModuleTest from './ParametricModuleTest.js'
-import { ModuleContents } from '../../../src/types/ModuleProfile.js'
+import type { ModuleContents } from '../../../src/types/ModuleProfile.js'
 import SolverRK4 from '../../../src/core/solvers/SolverRK4.js'
 
 const modelList = await FindLocalModules('src/core/controllers')

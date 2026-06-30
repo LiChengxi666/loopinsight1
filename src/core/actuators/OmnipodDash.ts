@@ -14,9 +14,10 @@ Journal of Diabetes Science and Technology, Volume 17, Issue 4, July 2023
 */
 
 import { quantize } from '../../common/UtilityFunctions.js'
-import Actuator, { ControllerOutput, Medication } from '../../types/Actuator.js'
-import { ModuleProfile } from '../../types/ModuleProfile.js'
-import { ParameterDescriptions } from '../../types/ParametricModule.js'
+import { ControllerOutput, Medication } from '../../types/Actuator.js'
+import type Actuator from '../../types/Actuator.js'
+import type { ModuleProfile } from '../../types/ModuleProfile.js'
+import type { ParameterDescriptions } from '../../types/ParametricModule.js'
 import AbstractActuator from '../AbstractActuator.js'
 
 export const profile: ModuleProfile = {

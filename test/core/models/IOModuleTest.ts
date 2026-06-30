@@ -6,8 +6,8 @@
  */
 
 import { expect } from 'chai'
-import IOModule from '../../../src/types/IOModule.js'
-import { ModuleType } from '../../../src/types/ModuleProfile.js'
+import type IOModule from '../../../src/types/IOModule.js'
+import type { ModuleType } from '../../../src/types/ModuleProfile.js'
 
 export default async function (
     type: ModuleType,

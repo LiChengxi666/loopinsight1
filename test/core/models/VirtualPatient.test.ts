@@ -9,16 +9,15 @@ import { expect } from 'chai'
 import {
     CommonPatientParametersDescription
 } from '../../../src/core/AbstractODEPatient.js'
-import ODEPatient from '../../../src/types/ODEPatientModel.js'
-import { ParameterValues } from '../../../src/types/ParametricModule.js'
-import Patient, {
-    PatientOutput,
-    PatientProfile, PatientState
-} from '../../../src/types/Patient.js'
+import type ODEPatient from '../../../src/types/ODEPatientModel.js'
+import type { ParameterValues } from '../../../src/types/ParametricModule.js'
+import { PatientOutput } from '../../../src/types/Patient.js'
+import type Patient from '../../../src/types/Patient.js'
+import type { PatientProfile, PatientState } from '../../../src/types/Patient.js'
 import FindLocalModules from '../../../util/FindLocalModules.js'
 import ModuleContentsTest from './ModuleContentsTest.js'
 import ParametricModuleTest from './ParametricModuleTest.js'
-import { ModuleContents } from '../../../src/types/ModuleProfile.js'
+import type { ModuleContents } from '../../../src/types/ModuleProfile.js'
 
 import SolverRK4 from '../../../src/core/solvers/SolverRK4.js'
 

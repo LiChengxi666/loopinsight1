@@ -6,12 +6,11 @@
  */
 
 import { nextUpdateTime } from '../common/DateUtility.js'
-import Actuator, {
-    ControllerOutput, Medication
-} from '../types/Actuator.js'
-import { ModuleProfile } from '../types/ModuleProfile.js'
-import { ParameterDescriptions } from '../types/ParametricModule.js'
-import Solver from '../types/Solver.js'
+import { ControllerOutput, Medication } from '../types/Actuator.js'
+import type Actuator from '../types/Actuator.js'
+import type { ModuleProfile } from '../types/ModuleProfile.js'
+import type { ParameterDescriptions } from '../types/ParametricModule.js'
+import type Solver from '../types/Solver.js'
 import AbstractParametricModule from './AbstractParametricModule.js'
 
 /**
