@@ -26,9 +26,17 @@ examples/AgentWorkflow/output/normal-reference-day.csv
 examples/AgentWorkflow/output/t1d-agent-day.json
 examples/AgentWorkflow/output/t1d-agent-day.csv
 examples/AgentWorkflow/output/demo-report.html
+examples/AgentWorkflow/output/nightscout/entries.json
+examples/AgentWorkflow/output/nightscout/treatments.json
+examples/AgentWorkflow/output/nightscout/profile.json
+examples/AgentWorkflow/output/nightscout/devicestatus.json
+examples/AgentWorkflow/output/nightscout/bundle.json
+examples/AgentWorkflow/output/nightscout/nightscout-report.html
 ```
 
 其中 `demo-report.html` 是自包含可视化报告，直接在浏览器里打开即可查看正常参考日和 I 型糖尿病仿真日的血糖曲线、进食、运动和 bolus 标记。
+
+`output/nightscout` 下是 Nightscout-compatible 产物。它们不会自动写入远端 Nightscout 站点；如果要 POST 到真实 NS，需要调用方额外提供目标站点和写入凭据。`nightscout-report.html` 是本地 NS 风格展示页，用来确认 entries、treatments、profile 和 devicestatus 能被同一套 NS 语义消费。
 
 ## Demo 内容
 
@@ -63,6 +71,17 @@ I 型糖尿病日包含：
 - 内置完整性校验：脚本会确认 1441 个 1 分钟采样点、三餐共 135 分钟碳水输入、45 分钟运动、全日连续胰岛素输入、3 次餐前 bolus、每分钟 agent state 完整。校验失败会直接抛错，不会静默生成结果。
 
 输出 JSON 的 `summary.scientific_basis`、`summary.scenario`、`summary.model` 和 `summary.validation` 会记录这些信息，方便 benchmark 和 agent 侧追溯。
+
+## Nightscout 适配输出
+
+`NightscoutAdapter.ts` 把仿真结果转换成四类 NS 核心对象：
+
+- `entries.json`：每分钟一条 SGV，字段包含 `type=sgv`、`date`、`created_at`、`sgv`、`direction`、`units=mg/dl`。
+- `treatments.json`：三次餐前 bolus 记录为 `Meal Bolus`，运动记录为 `Exercise`。基础率写入 profile，不按分钟写成 treatment。
+- `profile.json`：包含 demo profile 的 basal、carb ratio、ISF、target 和 DIA。当前 demo policy 使用的假设是 `carbratio=18 g/U`、`sens=70 mg/dL/U`、`target=130 mg/dL`、`dia=6 h`。
+- `devicestatus.json`：每个采样点记录一次 `openaps.suggested`；通过 safety gate 且实际执行的 bolus 会额外出现 `openaps.enacted`。
+
+这样 agent 可以继续负责读取真实 Nightscout；仿真端负责把“简单仿真”或“被 agent 操作后的仿真结果”导出成 NS 圈子熟悉的数据形态。
 
 ## Agent 接口约定
 

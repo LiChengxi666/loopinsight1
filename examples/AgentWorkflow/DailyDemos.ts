@@ -8,7 +8,8 @@ import type Exercise from '../../src/types/Exercise.js'
 import type Meal from '../../src/types/Meal.js'
 import type { SimulationResult } from '../../src/types/SimulationResult.js'
 import { AgentAdapterController, mealBolusDemoPolicy } from './AgentAdapter.js'
-import type { AgentState } from './AgentAdapter.js'
+import type { AgentState, GuardedAgentAction } from './AgentAdapter.js'
+import { writeNightscoutArtifacts } from './NightscoutAdapter.js'
 
 type DemoPoint = {
     time: string
@@ -18,6 +19,7 @@ type DemoPoint = {
     insulin_u_per_hr?: number
     bolus_u?: number
     agent_state?: AgentState
+    agent_action?: GuardedAgentAction
 }
 
 const outputDir = path.join(process.cwd(), 'examples', 'AgentWorkflow', 'output')
@@ -39,12 +41,34 @@ function main() {
 
     const t1d = runT1DAgentDay()
     writeDemo('t1d-agent-day', t1d.points, t1d.summary)
+    const nightscout = writeNightscoutArtifacts({
+        outputDir: path.join(outputDir, 'nightscout'),
+        points: t1d.points,
+        summary: t1d.summary,
+        device: 'LoopInsighT1 AgentWorkflow',
+        enteredBy: 'LoopInsighT1 AgentWorkflow',
+        timezone: 'UTC',
+        profileName: 'LoopInsighT1 Demo',
+        assumptions: {
+            carbRatioGPerU: 18,
+            insulinSensitivityMgdlPerU: 70,
+            targetMgdl: 130,
+            diaHours: 6,
+        },
+    })
     writeHtmlReport(normal, t1d)
 
     console.log('Wrote demo outputs to', outputDir)
     console.log('Open visualization:', path.join(outputDir, 'demo-report.html'))
+    console.log('Open Nightscout-compatible visualization:', path.join(outputDir, 'nightscout', 'nightscout-report.html'))
     console.log('Normal reference summary:', normal.summary)
     console.log('T1D agent summary:', t1d.summary)
+    console.log('Nightscout artifact summary:', {
+        entries: nightscout.entries.length,
+        treatments: nightscout.treatments.length,
+        devicestatus: nightscout.devicestatus.length,
+        profile: nightscout.profile.defaultProfile,
+    })
 }
 
 function runNormalReferenceDay() {
@@ -99,6 +123,20 @@ function runT1DAgentDay() {
     const points = results.map((result, index) => toDemoPoint(result, controller, index))
     const validation = validateT1DDay(points)
 
+    const scenario = {
+        meals: demoMeals().map(item => ({
+            start: item.start.toISOString(),
+            duration_min: item.duration ?? 0,
+            carbs_g: item.carbs,
+            announced_at: item.announcement?.time.toISOString(),
+        })),
+        exercise: demoExercise().map(item => ({
+            start: item.start.toISOString(),
+            duration_min: item.duration,
+            intensity_percent: item.intensity,
+        })),
+    }
+
     return {
         points,
         summary: {
@@ -112,19 +150,7 @@ function runT1DAgentDay() {
                 dt_min: 1,
                 seed: 42,
             },
-            scenario: {
-                meals: demoMeals().map(item => ({
-                    start: item.start.toISOString(),
-                    duration_min: item.duration,
-                    carbs_g: item.carbs,
-                    announced_at: item.announcement?.time.toISOString(),
-                })),
-                exercise: demoExercise().map(item => ({
-                    start: item.start.toISOString(),
-                    duration_min: item.duration,
-                    intensity_percent: item.intensity,
-                })),
-            },
+            scenario,
             scientific_basis: t1dScientificBasis,
             basal_u_per_hr: round(basalRate, 3),
             bolus_events: points.filter(point => (point.bolus_u ?? 0) > 0).map(point => ({
@@ -225,6 +251,7 @@ function toDemoPoint(
         insulin_u_per_hr: round(result.u.iir ?? 0, 3),
         bolus_u: decision?.output.ibolus,
         agent_state: decision?.state,
+        agent_action: decision?.action,
     }
 }
 
@@ -511,6 +538,9 @@ function toCsv(points: DemoPoint[]): string {
         'exercise_percent',
         'insulin_u_per_hr',
         'bolus_u',
+        'agent_action',
+        'agent_allowed',
+        'safety_flags',
         'trend',
         'risk',
     ]
@@ -521,6 +551,9 @@ function toCsv(points: DemoPoint[]): string {
         point.exercise_percent ?? '',
         point.insulin_u_per_hr ?? '',
         point.bolus_u ?? '',
+        point.agent_action?.kind ?? '',
+        point.agent_action?.allowed ?? '',
+        point.agent_action?.safety_flags.join('|') ?? '',
         point.agent_state?.trend ?? '',
         point.agent_state?.recent_risk.join('|') ?? '',
     ])

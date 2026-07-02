@@ -1,0 +1,50 @@
+[
+  {
+    "units": "mg/dL",
+    "startDate": "2022-05-01T06:00:00Z",
+    "defaultProfile": "LoopInsighT1 Demo",
+    "store": {
+      "LoopInsighT1 Demo": {
+        "units": "mg/dL",
+        "dia": 6,
+        "timezone": "UTC",
+        "carbs_hr": "0",
+        "basal": [
+          {
+            "time": "00:00",
+            "timeAsSeconds": 0,
+            "value": 0.43
+          }
+        ],
+        "sens": [
+          {
+            "time": "00:00",
+            "timeAsSeconds": 0,
+            "value": 70
+          }
+        ],
+        "carbratio": [
+          {
+            "time": "00:00",
+            "timeAsSeconds": 0,
+            "value": 18
+          }
+        ],
+        "target_low": [
+          {
+            "time": "00:00",
+            "timeAsSeconds": 0,
+            "value": 130
+          }
+        ],
+        "target_high": [
+          {
+            "time": "00:00",
+            "timeAsSeconds": 0,
+            "value": 130
+          }
+        ]
+      }
+    }
+  }
+]
