@@ -42,6 +42,10 @@ export type NightscoutAdapterOptions = {
     enteredBy?: string
     timezone?: string
     profileName?: string
+    sampleIntervalMin?: number
+    timeShift?: {
+        endAt: string
+    }
     assumptions?: {
         carbRatioGPerU?: number
         insulinSensitivityMgdlPerU?: number
@@ -150,11 +154,12 @@ export function writeNightscoutArtifacts(options: NightscoutAdapterOptions): Nig
 }
 
 export function buildNightscoutBundle(options: NightscoutAdapterOptions): NightscoutBundle {
+    const normalized = normalizeOptions(options)
     return {
-        entries: simulationToEntries(options.points, options.device ?? 'LoopInsighT1'),
-        treatments: simulationToTreatments(options),
-        profile: simulationToProfile(options),
-        devicestatus: simulationToDeviceStatus(options),
+        entries: simulationToEntries(normalized.points, normalized.device ?? 'LoopInsighT1'),
+        treatments: simulationToTreatments(normalized),
+        profile: simulationToProfile(normalized),
+        devicestatus: simulationToDeviceStatus(normalized),
     }
 }
 
@@ -449,6 +454,81 @@ draw();
 
 function writeJson(outputDir: string, filename: string, value: unknown) {
     fs.writeFileSync(path.join(outputDir, filename), JSON.stringify(value, null, 2))
+}
+
+function normalizeOptions(options: NightscoutAdapterOptions): NightscoutAdapterOptions {
+    const interval = options.sampleIntervalMin ?? 5
+    const sampled = samplePoints(options.points, interval)
+    const shifted = options.timeShift
+        ? shiftOptionsTime({
+            ...options,
+            points: sampled,
+        }, options.timeShift.endAt)
+        : {
+            ...options,
+            points: sampled,
+        }
+
+    return shifted
+}
+
+function samplePoints(points: DemoPointForNightscout[], intervalMin: number): DemoPointForNightscout[] {
+    if (intervalMin <= 1 || points.length <= 1) return points
+    const start = Date.parse(points[0].time)
+    const intervalMs = intervalMin * 60e3
+    const lastIndex = points.length - 1
+
+    return points.filter((point, index) => {
+        const elapsed = Date.parse(point.time) - start
+        return elapsed % intervalMs === 0 || index === lastIndex || (point.bolus_u ?? 0) > 0
+    })
+}
+
+function shiftOptionsTime(options: NightscoutAdapterOptions, endAt: string): NightscoutAdapterOptions {
+    const lastPoint = options.points.at(-1)
+    if (!lastPoint) return options
+
+    const deltaMs = Date.parse(endAt) - Date.parse(lastPoint.time)
+    const shiftIso = (value: string | undefined) => value
+        ? new Date(Date.parse(value) + deltaMs).toISOString()
+        : value
+
+    return {
+        ...options,
+        points: options.points.map(point => ({
+            ...point,
+            time: shiftIso(point.time)!,
+            agent_state: point.agent_state
+                ? {
+                    ...point.agent_state,
+                    time: shiftIso(point.agent_state.time)!,
+                }
+                : point.agent_state,
+        })),
+        summary: {
+            ...options.summary,
+            simulation_window: options.summary.simulation_window
+                ? {
+                    ...options.summary.simulation_window,
+                    start: shiftIso(options.summary.simulation_window.start)!,
+                    end: shiftIso(options.summary.simulation_window.end)!,
+                }
+                : options.summary.simulation_window,
+            scenario: options.summary.scenario
+                ? {
+                    meals: options.summary.scenario.meals.map(meal => ({
+                        ...meal,
+                        start: shiftIso(meal.start)!,
+                        announced_at: shiftIso(meal.announced_at),
+                    })),
+                    exercise: options.summary.scenario.exercise.map(exercise => ({
+                        ...exercise,
+                        start: shiftIso(exercise.start)!,
+                    })),
+                }
+                : options.summary.scenario,
+        },
+    }
 }
 
 function scheduleEntry(time: string, value: number): ProfileScheduleEntry {

@@ -32,11 +32,19 @@ examples/AgentWorkflow/output/nightscout/profile.json
 examples/AgentWorkflow/output/nightscout/devicestatus.json
 examples/AgentWorkflow/output/nightscout/bundle.json
 examples/AgentWorkflow/output/nightscout/nightscout-report.html
+examples/AgentWorkflow/output/nightscout-realtime/entries.json
+examples/AgentWorkflow/output/nightscout-realtime/treatments.json
+examples/AgentWorkflow/output/nightscout-realtime/profile.json
+examples/AgentWorkflow/output/nightscout-realtime/devicestatus.json
+examples/AgentWorkflow/output/nightscout-realtime/bundle.json
+examples/AgentWorkflow/output/nightscout-realtime/nightscout-report.html
 ```
 
 其中 `demo-report.html` 是自包含可视化报告，直接在浏览器里打开即可查看正常参考日和 I 型糖尿病仿真日的血糖曲线、进食、运动和 bolus 标记。
 
-`output/nightscout` 下是 Nightscout-compatible 产物。它们不会自动写入远端 Nightscout 站点；如果要 POST 到真实 NS，需要调用方额外提供目标站点和写入凭据。`nightscout-report.html` 是本地 NS 风格展示页，用来确认 entries、treatments、profile 和 devicestatus 能被同一套 NS 语义消费。
+`output/nightscout` 下是 Nightscout-compatible 历史产物，保留仿真原始日期，适合在 Nightscout `/report` 里按日期范围回看。`output/nightscout-realtime` 使用同一段仿真结果，但把时间整体平移到当前时间窗口，适合导入本地 Nightscout 后直接在首页 `/` 查看实时 dashboard。
+
+这两组 NS 产物默认都按现实世界 `5 min / step` 导出。它们不会自动写入远端 Nightscout 站点；如果要 POST 到真实 NS，需要调用方额外提供目标站点和写入凭据。`nightscout-report.html` 是本地 NS 风格展示页，用来确认 entries、treatments、profile 和 devicestatus 能被同一套 NS 语义消费。
 
 ## Demo 内容
 
@@ -68,7 +76,7 @@ I 型糖尿病日包含：
 - 患者输入：三餐碳水、基础胰岛素、餐前 bolus、运动强度。
 - 患者输出：血浆葡萄糖 `Gp`，由 `IdealCGM` 作为确定性 CGM 读数提供给 agent。
 - 给药路径：`AgentAdapterController` 生成 controller output，`StaticInsulinPump` 将基础率和 bolus 转换成实际胰岛素输入。
-- 内置完整性校验：脚本会确认 1441 个 1 分钟采样点、三餐共 135 分钟碳水输入、45 分钟运动、全日连续胰岛素输入、3 次餐前 bolus、每分钟 agent state 完整。校验失败会直接抛错，不会静默生成结果。
+- 内置完整性校验：脚本会确认 simulator 内部产生 1441 个 1 分钟积分点、三餐共 135 分钟碳水输入、45 分钟运动、全日连续胰岛素输入、3 次餐前 bolus、每分钟 agent state 完整。校验失败会直接抛错，不会静默生成结果。对外发给 NS 和 agent 展示的默认步长是现实世界 `5 min / step`。
 
 输出 JSON 的 `summary.scientific_basis`、`summary.scenario`、`summary.model` 和 `summary.validation` 会记录这些信息，方便 benchmark 和 agent 侧追溯。
 
@@ -76,10 +84,12 @@ I 型糖尿病日包含：
 
 `NightscoutAdapter.ts` 把仿真结果转换成四类 NS 核心对象：
 
-- `entries.json`：每分钟一条 SGV，字段包含 `type=sgv`、`date`、`created_at`、`sgv`、`direction`、`units=mg/dl`。
+- `entries.json`：默认每 5 分钟一条 SGV，字段包含 `type=sgv`、`date`、`created_at`、`sgv`、`direction`、`units=mg/dl`。
 - `treatments.json`：三次餐前 bolus 记录为 `Meal Bolus`，运动记录为 `Exercise`。基础率写入 profile，不按分钟写成 treatment。
 - `profile.json`：包含 demo profile 的 basal、carb ratio、ISF、target 和 DIA。当前 demo policy 使用的假设是 `carbratio=18 g/U`、`sens=70 mg/dL/U`、`target=130 mg/dL`、`dia=6 h`。
-- `devicestatus.json`：每个采样点记录一次 `openaps.suggested`；通过 safety gate 且实际执行的 bolus 会额外出现 `openaps.enacted`。
+- `devicestatus.json`：默认每 5 分钟记录一次 `openaps.suggested`；通过 safety gate 且实际执行的 bolus 会额外出现 `openaps.enacted`。
+
+`NightscoutAdapterOptions.sampleIntervalMin` 可以覆盖导出步长，但没有特别说明时固定使用 `5`。`NightscoutAdapterOptions.timeShift.endAt` 可以把整段仿真平移到指定结束时间；`nightscout-realtime` 就是用这个能力让最后一个 SGV 落在当前 5 分钟边界附近，从而能在 Nightscout 首页实时视图显示。
 
 这样 agent 可以继续负责读取真实 Nightscout；仿真端负责把“简单仿真”或“被 agent 操作后的仿真结果”导出成 NS 圈子熟悉的数据形态。
 

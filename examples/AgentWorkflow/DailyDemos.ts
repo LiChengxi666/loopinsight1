@@ -41,7 +41,7 @@ function main() {
 
     const t1d = runT1DAgentDay()
     writeDemo('t1d-agent-day', t1d.points, t1d.summary)
-    const nightscout = writeNightscoutArtifacts({
+    const nightscoutOptions = {
         outputDir: path.join(outputDir, 'nightscout'),
         points: t1d.points,
         summary: t1d.summary,
@@ -54,6 +54,14 @@ function main() {
             insulinSensitivityMgdlPerU: 70,
             targetMgdl: 130,
             diaHours: 6,
+        },
+    }
+    const nightscout = writeNightscoutArtifacts(nightscoutOptions)
+    const realtimeNightscout = writeNightscoutArtifacts({
+        ...nightscoutOptions,
+        outputDir: path.join(outputDir, 'nightscout-realtime'),
+        timeShift: {
+            endAt: roundedNowIso(5),
         },
     })
     writeHtmlReport(normal, t1d)
@@ -68,6 +76,16 @@ function main() {
         treatments: nightscout.treatments.length,
         devicestatus: nightscout.devicestatus.length,
         profile: nightscout.profile.defaultProfile,
+    })
+    console.log('Realtime Nightscout artifact summary:', {
+        entries: realtimeNightscout.entries.length,
+        treatments: realtimeNightscout.treatments.length,
+        devicestatus: realtimeNightscout.devicestatus.length,
+        profile: realtimeNightscout.profile.defaultProfile,
+        window: {
+            start: realtimeNightscout.entries[0]?.dateString,
+            end: realtimeNightscout.entries.at(-1)?.dateString,
+        },
     })
 }
 
@@ -618,6 +636,11 @@ function clamp(value: number, min: number, max: number): number {
 function round(value: number, digits = 2): number {
     const factor = Math.pow(10, digits)
     return Math.round(value * factor) / factor
+}
+
+function roundedNowIso(stepMin: number): string {
+    const stepMs = stepMin * 60e3
+    return new Date(Math.floor(Date.now() / stepMs) * stepMs).toISOString()
 }
 
 main()
