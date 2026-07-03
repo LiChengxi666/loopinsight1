@@ -93,6 +93,125 @@ I 型糖尿病日包含：
 
 这样 agent 可以继续负责读取真实 Nightscout；仿真端负责把“简单仿真”或“被 agent 操作后的仿真结果”导出成 NS 圈子熟悉的数据形态。
 
+## 本地部署 Nightscout 并查看结果
+
+下面流程用于把 demo 生成的 NS 产物导入一个本地 Nightscout 服务，验证 `/report` 历史报表和首页实时 dashboard 都能消费同一套仿真语义。
+
+### 1. 启动本地 Nightscout
+
+如果需要 clone Nightscout 仓库，建议 clone 到本仓库的上一级目录，避免混入当前项目：
+
+```bash
+cd ..
+git clone https://github.com/nightscout/cgm-remote-monitor.git
+cd loopinsight1
+```
+
+本地验证不需要修改 Nightscout 仓库。可以直接用 Docker 启动 MongoDB 和 Nightscout：
+
+```bash
+docker network create loopinsight-nightscout-net 2>/dev/null || true
+docker volume create loopinsight-nightscout-mongo-data
+
+docker rm -f loopinsight-nightscout-mongo loopinsight-nightscout 2>/dev/null || true
+
+docker run -d \
+  --name loopinsight-nightscout-mongo \
+  --network loopinsight-nightscout-net \
+  -v loopinsight-nightscout-mongo-data:/data/db \
+  mongo:4.4
+
+docker run -d \
+  --name loopinsight-nightscout \
+  --network loopinsight-nightscout-net \
+  -p 1337:1337 \
+  -e NODE_ENV=production \
+  -e TZ=Etc/UTC \
+  -e PORT=1337 \
+  -e INSECURE_USE_HTTP=true \
+  -e MONGO_CONNECTION=mongodb://loopinsight-nightscout-mongo:27017/nightscout \
+  -e MONGODB_URI=mongodb://loopinsight-nightscout-mongo:27017/nightscout \
+  -e API_SECRET='LoopInsightNSSecret2026!' \
+  -e DISPLAY_UNITS=mmol \
+  -e AUTH_DEFAULT_ROLES=readable \
+  -e ENABLE='careportal rawbg iob cob basal profile bolus openaps pump loop devicestatus' \
+  nightscout/cgm-remote-monitor:latest
+```
+
+确认服务启动：
+
+```bash
+curl -s http://localhost:1337/api/v1/status.json
+```
+
+返回里应包含 `status: "ok"`，并且 `settings.units` 是 `mmol`。
+
+### 2. 导入 demo 数据
+
+先生成 demo 和 NS 产物：
+
+```bash
+npm run demo:agent
+```
+
+然后把历史版和实时版都导入本地 Mongo。历史版用于 `/report` 按日期回看；实时版用于首页 `/` 显示当前窗口。
+
+```bash
+for dir in nightscout nightscout-realtime; do
+  docker cp examples/AgentWorkflow/output/$dir/entries.json loopinsight-nightscout-mongo:/tmp/${dir}-entries.json
+  docker cp examples/AgentWorkflow/output/$dir/treatments.json loopinsight-nightscout-mongo:/tmp/${dir}-treatments.json
+  docker cp examples/AgentWorkflow/output/$dir/profile.json loopinsight-nightscout-mongo:/tmp/${dir}-profile.json
+  docker cp examples/AgentWorkflow/output/$dir/devicestatus.json loopinsight-nightscout-mongo:/tmp/${dir}-devicestatus.json
+done
+
+docker exec loopinsight-nightscout-mongo mongo nightscout --quiet --eval \
+  'db.entries.drop(); db.treatments.drop(); db.profile.drop(); db.devicestatus.drop();'
+
+for dir in nightscout nightscout-realtime; do
+  docker exec loopinsight-nightscout-mongo mongoimport --db nightscout --collection entries --file /tmp/${dir}-entries.json --jsonArray --quiet
+  docker exec loopinsight-nightscout-mongo mongoimport --db nightscout --collection treatments --file /tmp/${dir}-treatments.json --jsonArray --quiet
+  docker exec loopinsight-nightscout-mongo mongoimport --db nightscout --collection profile --file /tmp/${dir}-profile.json --jsonArray --quiet
+  docker exec loopinsight-nightscout-mongo mongoimport --db nightscout --collection devicestatus --file /tmp/${dir}-devicestatus.json --jsonArray --quiet
+done
+
+docker restart loopinsight-nightscout
+```
+
+最后的 `docker restart` 很重要：Nightscout 首页使用服务启动时加载到内存的 runtime data；直接 `mongoimport` 后 API 能读到数据，但首页可能要重启服务后才会显示。
+
+检查导入数量：
+
+```bash
+docker exec loopinsight-nightscout-mongo mongo nightscout --quiet --eval \
+  '({entries: db.entries.countDocuments({}), treatments: db.treatments.countDocuments({}), profile: db.profile.countDocuments({}), devicestatus: db.devicestatus.countDocuments({})})'
+```
+
+当前 demo 同时导入历史版和实时版后，通常应看到 `entries=578`、`devicestatus=578`、`treatments=8`、`profile=2`。
+
+### 3. 查看结果
+
+历史报表：
+
+1. 打开 `http://localhost:1337/report/`。
+2. 选择 `From: 2022/05/01`、`To: 2022/05/02`。
+3. 点击 `SHOW`，查看 `Day to day` 曲线、三餐 bolus、运动事件和 profile 标记。
+
+实时 dashboard：
+
+1. 打开 `http://localhost:1337/`。
+2. 首页应显示黑底实时视图，单位为 `mmol/L`。
+3. 因为 `nightscout-realtime` 会把最后一个 SGV 平移到当前 5 分钟边界附近，首页会显示类似 `5 mins ago` 的当前数据。
+
+也可以用 CLI 直接确认：
+
+```bash
+curl -g -s 'http://localhost:1337/api/v1/entries/sgv.json?count=5'
+curl -g -s 'http://localhost:1337/api/v1/treatments.json?count=10'
+curl -s 'http://localhost:1337/pebble?count=3'
+```
+
+其中 `/pebble` 是首页实时视图会消费的聚合数据；如果 `/api/v1/entries` 有数据但 `/pebble` 的 `bgs` 为空，通常说明 Nightscout 需要在导入后重启一次。
+
 ## Agent 接口约定
 
 `AgentAdapter.ts` 定义了 Agent 侧优先使用的接口。
