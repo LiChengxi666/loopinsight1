@@ -18,6 +18,43 @@ npm install
 npm run demo:agent
 ```
 
+运行“读取本地授权回放状态 → 生成候选 Plan → 多次仿真比较 → 输出隔离 Action”的参考规划闭环：
+
+```bash
+DEMO_NIGHTSCOUT_URL=https://your-nightscout.example \
+DEMO_START=<start-iso> DEMO_END=<end-iso> \
+npm run demo:real-data
+npm run demo:planning-loop
+```
+
+闭环输出写入 `examples/AgentWorkflow/output/planning-loop.json`。它读取指定 Nightscout 日数据的末端确定性状态，但不会用该真实数据校准患者参数；四个候选 Plan 会在同一个 `Deichmann2021` 虚拟患者上分别重跑 24 小时场景。固定选择器先淘汰严重高/低血糖候选，再按 TBR、TIR、TAR 和 CV 风险分数选择。最终 Action 固定为 `human_review_only` 且 `executable=false`。
+
+为避免回归测试产生仅由当前时间导致的 diff，可固定实时窗口结束时间：
+
+```bash
+DEMO_REALTIME_END_AT=2026-07-02T15:35:00.000Z npm run demo:agent
+```
+
+真实 Nightscout 日数据回放与确定性摘要（只保存在本地忽略目录）：
+
+```bash
+DEMO_NIGHTSCOUT_URL=https://your-nightscout.example \
+DEMO_START=<start-iso> DEMO_END=<end-iso> \
+npm run demo:real-data
+```
+
+必须通过 `DEMO_NIGHTSCOUT_URL` 提供本地地址，并可通过 `DEMO_START`、`DEMO_END` 指定窗口。输出写入被 Git 忽略的 `output/real-world-demo`。该路径可能保留真实 entries/treatments，禁止提交。
+
+范围边界：真实日数据用于历史回放、State Builder 和报告 demo。没有完成个体参数辨识与验证之前，不能把它描述为已经校准的虚拟患者仿真。
+
+在线患者状态初始化与双 Plan 闭环：
+
+```bash
+NIGHTSCOUT_URL=https://your-nightscout.example npm run demo:online-loop
+```
+
+该命令只发送 GET 请求。输出 `output/online-patient-loop.json` 含患者摘要并被 Git 忽略；仓库内不得保存真实 URL、凭据或产物。
+
 输出文件会写到：
 
 ```text
@@ -26,6 +63,7 @@ examples/AgentWorkflow/output/normal-reference-day.csv
 examples/AgentWorkflow/output/t1d-agent-day.json
 examples/AgentWorkflow/output/t1d-agent-day.csv
 examples/AgentWorkflow/output/demo-report.html
+examples/AgentWorkflow/output/planning-loop.json
 examples/AgentWorkflow/output/nightscout/entries.json
 examples/AgentWorkflow/output/nightscout/treatments.json
 examples/AgentWorkflow/output/nightscout/profile.json

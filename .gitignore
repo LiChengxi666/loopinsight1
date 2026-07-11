@@ -5,3 +5,8 @@ examples/**.json
 examples/**.png
 package-lock.json
 deploy.sh
+
+# Local real-patient Agent workflow artifacts
+examples/AgentWorkflow/output/online-patient-loop.json
+examples/AgentWorkflow/output/planning-loop.json
+examples/AgentWorkflow/output/real-world-demo/
