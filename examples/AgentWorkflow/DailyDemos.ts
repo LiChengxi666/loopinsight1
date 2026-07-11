@@ -61,7 +61,7 @@ function main() {
         ...nightscoutOptions,
         outputDir: path.join(outputDir, 'nightscout-realtime'),
         timeShift: {
-            endAt: roundedNowIso(5),
+            endAt: process.env.DEMO_REALTIME_END_AT || roundedNowIso(5),
         },
     })
     writeHtmlReport(normal, t1d)

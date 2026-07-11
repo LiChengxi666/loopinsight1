@@ -3,6 +3,7 @@ import type Controller from '../../src/types/Controller.js'
 import type { ModuleProfile } from '../../src/types/ModuleProfile.js'
 import type { ParameterDescriptions } from '../../src/types/ParametricModule.js'
 import AbstractController from '../../src/core/AbstractController.js'
+import { buildDeterministicGlucoseFeatures } from './GlucoseStateBuilder.js'
 
 export type AgentMeal = {
     id: string
@@ -164,11 +165,14 @@ export class AgentAdapterController
             this.history = this.history.filter(point => t.valueOf() - point.t.valueOf() <= 30 * 60e3)
         }
 
-        const first = this.history[0]
-        const last = this.history[this.history.length - 1]
-        const trendMgdlPerMin = first && last && last.t > first.t
-            ? (last.glucose - first.glucose) / ((last.t.valueOf() - first.t.valueOf()) / 60e3)
-            : null
+        const deterministic = buildDeterministicGlucoseFeatures(
+            this.history.map(point => ({
+                time: point.t,
+                glucoseMgdl: point.glucose,
+            })),
+            t,
+        )
+        const trendMgdlPerMin = deterministic.slope30Min
 
         const pendingMeals = Object.entries(announcements)
             .filter(([id]) => !this.handledMealIds.has(id))
@@ -188,7 +192,7 @@ export class AgentAdapterController
             time: t.toISOString(),
             current_glucose_mgdl: glucose,
             trend_mgdl_per_min: trendMgdlPerMin,
-            trend: classifyTrend(trendMgdlPerMin),
+            trend: deterministic.trend,
             pending_meals: pendingMeals,
             recent_bolus_u: this.lastBolusU,
             minutes_since_last_bolus: minutesSinceLastBolus,
@@ -271,13 +275,6 @@ export function mealBolusDemoPolicy(state: AgentState): AgentAction {
 function readGlucose(s: TracedMeasurement): number | null {
     const value = s.CGM?.() ?? s.SMBG?.()
     return Number.isFinite(value) ? value! : null
-}
-
-function classifyTrend(trend: number | null): AgentState['trend'] {
-    if (trend === null) return 'unknown'
-    if (trend > 1) return 'rising'
-    if (trend < -1) return 'falling'
-    return 'stable'
 }
 
 function inferRisk(glucose: number | null, trend: number | null): string[] {
