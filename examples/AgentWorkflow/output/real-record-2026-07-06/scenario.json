@@ -1,0 +1,140 @@
+{
+  "window": {
+    "start": "2026-07-06T00:00:00.000Z",
+    "end": "2026-07-07T00:00:00.000Z",
+    "simulator_dt_min": 1,
+    "nightscout_export_step_min": 5
+  },
+  "source": {
+    "glucose_entries": 222,
+    "treatments": 84,
+    "devicestatus": 370,
+    "profile": "Default"
+  },
+  "assumptions": [
+    "Nightscout treatment records drive insulin delivery; real glucose entries are used only as benchmark data.",
+    "Meal Bolus records have carbs=null, so meal carbohydrates are inferred as insulin * profile carbratio at the bolus time.",
+    "Temp Basal records override the profile basal rate during their recorded duration; zero-duration records are treated as instant pump annotations and ignored for interval delivery.",
+    "No exercise was added because the provided Nightscout records do not encode exercise events for this day."
+  ],
+  "counts": {
+    "boluses": 37,
+    "meal_boluses": 11,
+    "correction_boluses": 26,
+    "temp_basal_intervals": 40,
+    "inferred_meals": 11
+  },
+  "totals": {
+    "recorded_bolus_u": 39.7,
+    "inferred_carbs_g": 248.6,
+    "simulated_entries": 289
+  },
+  "benchmark": {
+    "matched_real_points": 222,
+    "source_real_points": 222,
+    "mae_mgdl": 35.36,
+    "rmse_mgdl": 41.33,
+    "bias_mgdl": 17.11,
+    "max_abs_error_mgdl": 95.98,
+    "first_pairs": [
+      {
+        "time": "2026-07-06T23:45:40.448Z",
+        "real_mgdl": 96,
+        "simulated_mgdl": 66.02,
+        "error_mgdl": -29.98
+      },
+      {
+        "time": "2026-07-06T23:40:40.613Z",
+        "real_mgdl": 95,
+        "simulated_mgdl": 66.55,
+        "error_mgdl": -28.45
+      },
+      {
+        "time": "2026-07-06T23:35:40.603Z",
+        "real_mgdl": 95,
+        "simulated_mgdl": 67.15,
+        "error_mgdl": -27.85
+      },
+      {
+        "time": "2026-07-06T23:30:40.607Z",
+        "real_mgdl": 97,
+        "simulated_mgdl": 67.83,
+        "error_mgdl": -29.17
+      },
+      {
+        "time": "2026-07-06T23:25:41.117Z",
+        "real_mgdl": 97,
+        "simulated_mgdl": 68.59,
+        "error_mgdl": -28.41
+      },
+      {
+        "time": "2026-07-06T23:20:40.247Z",
+        "real_mgdl": 96,
+        "simulated_mgdl": 69.44,
+        "error_mgdl": -26.56
+      },
+      {
+        "time": "2026-07-06T23:15:40.324Z",
+        "real_mgdl": 96,
+        "simulated_mgdl": 70.37,
+        "error_mgdl": -25.63
+      },
+      {
+        "time": "2026-07-06T23:10:41.167Z",
+        "real_mgdl": 94,
+        "simulated_mgdl": 71.39,
+        "error_mgdl": -22.61
+      }
+    ],
+    "last_pairs": [
+      {
+        "time": "2026-07-06T02:30:37.732Z",
+        "real_mgdl": 169,
+        "simulated_mgdl": 165.67,
+        "error_mgdl": -3.33
+      },
+      {
+        "time": "2026-07-06T02:25:38.899Z",
+        "real_mgdl": 169,
+        "simulated_mgdl": 161.96,
+        "error_mgdl": -7.04
+      },
+      {
+        "time": "2026-07-06T02:15:39.373Z",
+        "real_mgdl": 168,
+        "simulated_mgdl": 153.41,
+        "error_mgdl": -14.59
+      },
+      {
+        "time": "2026-07-06T01:05:40.912Z",
+        "real_mgdl": 93,
+        "simulated_mgdl": 100.85,
+        "error_mgdl": 7.85
+      },
+      {
+        "time": "2026-07-06T01:00:39.345Z",
+        "real_mgdl": 82,
+        "simulated_mgdl": 100.32,
+        "error_mgdl": 18.32
+      },
+      {
+        "time": "2026-07-06T00:55:38.049Z",
+        "real_mgdl": 71,
+        "simulated_mgdl": 100.06,
+        "error_mgdl": 29.06
+      },
+      {
+        "time": "2026-07-06T00:50:38.265Z",
+        "real_mgdl": 63,
+        "simulated_mgdl": 99.99,
+        "error_mgdl": 36.99
+      },
+      {
+        "time": "2026-07-06T00:45:37.672Z",
+        "real_mgdl": 59,
+        "simulated_mgdl": 99.99,
+        "error_mgdl": 40.99
+      }
+    ]
+  }
+}

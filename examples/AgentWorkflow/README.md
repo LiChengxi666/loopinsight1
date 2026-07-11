@@ -93,6 +93,69 @@ I 型糖尿病日包含：
 
 这样 agent 可以继续负责读取真实 Nightscout；仿真端负责把“简单仿真”或“被 agent 操作后的仿真结果”导出成 NS 圈子熟悉的数据形态。
 
+## 真实记录驱动的仿真场景
+
+`RealRecordScenario.ts` 用一段真实 Nightscout 日志构造 LoopInsighT1 仿真场景。它不是把真实 CGM 读数直接展示出来，而是把真实记录拆成两类用途：
+
+- `treatments.json`、`profile.latest.json`：作为仿真输入，驱动基础率、临时基础率、餐前 bolus、校正 bolus 和餐食假设。
+- `glucose.json`：只作为仿真后的 benchmark 对照，用来计算 simulated SGV 与真实 SGV 的误差。
+
+先把真实源数据放在：
+
+```text
+examples/AgentWorkflow/output/real-record-2026-07-06/source/glucose.json
+examples/AgentWorkflow/output/real-record-2026-07-06/source/treatments.json
+examples/AgentWorkflow/output/real-record-2026-07-06/source/profile.latest.json
+examples/AgentWorkflow/output/real-record-2026-07-06/source/devicestatus.json
+```
+
+然后运行：
+
+```bash
+npm run demo:agent:real-record
+```
+
+脚本会生成：
+
+```text
+examples/AgentWorkflow/output/real-record-2026-07-06/scenario.json
+examples/AgentWorkflow/output/real-record-2026-07-06/benchmark.json
+examples/AgentWorkflow/output/real-record-2026-07-06/simulated-points.json
+examples/AgentWorkflow/output/real-record-2026-07-06/nightscout-simulated/entries.json
+examples/AgentWorkflow/output/real-record-2026-07-06/nightscout-simulated/treatments.json
+examples/AgentWorkflow/output/real-record-2026-07-06/nightscout-simulated/profile.json
+examples/AgentWorkflow/output/real-record-2026-07-06/nightscout-simulated/devicestatus.json
+```
+
+这个场景的关键假设：
+
+- pump 事件严格来自真实 `treatments.json`：`Temp Basal` 覆盖 profile basal，`Meal Bolus` 和 `Correction Bolus` 作为 bolus 输入 simulator。
+- 真实记录里的 `Meal Bolus` 没有录入碳水，`carbs=null`；为了让 simulator 有餐食输入，脚本用 `meal bolus insulin * 当时 profile carbratio` 反推餐食碳水，并在同一时间摄入 45 分钟。
+- 没有从记录中加入运动，因为这一天的 NS treatments 没有可用的 exercise 事件。
+- simulator 内部用 1 分钟处理泵事件，导出给 NS 的 SGV 固定为现实世界 `5 min / step`。
+
+把这段“仿真输出”导入本地 Nightscout：
+
+```bash
+NS_DIR=examples/AgentWorkflow/output/real-record-2026-07-06/nightscout-simulated
+
+docker cp $NS_DIR/entries.json loopinsight-nightscout-mongo:/tmp/real-record-entries.json
+docker cp $NS_DIR/treatments.json loopinsight-nightscout-mongo:/tmp/real-record-treatments.json
+docker cp $NS_DIR/profile.json loopinsight-nightscout-mongo:/tmp/real-record-profile.json
+docker cp $NS_DIR/devicestatus.json loopinsight-nightscout-mongo:/tmp/real-record-devicestatus.json
+
+docker exec loopinsight-nightscout-mongo mongo nightscout --quiet --eval \
+  'db.entries.drop(); db.treatments.drop(); db.profile.drop(); db.devicestatus.drop();'
+
+docker exec loopinsight-nightscout-mongo mongoimport --db nightscout --collection entries --file /tmp/real-record-entries.json --jsonArray --quiet
+docker exec loopinsight-nightscout-mongo mongoimport --db nightscout --collection treatments --file /tmp/real-record-treatments.json --jsonArray --quiet
+docker exec loopinsight-nightscout-mongo mongoimport --db nightscout --collection profile --file /tmp/real-record-profile.json --jsonArray --quiet
+docker exec loopinsight-nightscout-mongo mongoimport --db nightscout --collection devicestatus --file /tmp/real-record-devicestatus.json --jsonArray --quiet
+docker restart loopinsight-nightscout
+```
+
+然后打开 `http://localhost:1337/report/`，选择 `From: 2026/07/06`、`To: 2026/07/07` 并点击 `SHOW`。页面上的 SGV 是 LoopInsighT1 按真实治疗行为跑出的仿真曲线；真实 SGV 只留在 `benchmark.json` 里用于误差评估。
+
 ## 本地部署 Nightscout 并查看结果
 
 下面流程用于把 demo 生成的 NS 产物导入一个本地 Nightscout 服务，验证 `/report` 历史报表和首页实时 dashboard 都能消费同一套仿真语义。

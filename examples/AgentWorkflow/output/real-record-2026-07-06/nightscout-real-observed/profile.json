@@ -1,0 +1,223 @@
+[
+  {
+    "_id": "6a4c424663052f18e1beec1d",
+    "defaultProfile": "Default",
+    "store": {
+      "Default": {
+        "delay": "0",
+        "carbratio": [
+          {
+            "time": "00:00",
+            "timeAsSeconds": 0,
+            "value": 15
+          },
+          {
+            "value": 7,
+            "timeAsSeconds": 10800,
+            "time": "03:00"
+          },
+          {
+            "timeAsSeconds": 32400,
+            "value": 5,
+            "time": "09:00"
+          },
+          {
+            "value": 8,
+            "time": "15:00",
+            "timeAsSeconds": 54000
+          },
+          {
+            "value": 15,
+            "timeAsSeconds": 68400,
+            "time": "19:00"
+          }
+        ],
+        "units": "mg/dL",
+        "carbs_hr": "0",
+        "target_high": [
+          {
+            "value": 100,
+            "time": "00:00",
+            "timeAsSeconds": 0
+          }
+        ],
+        "sens": [
+          {
+            "timeAsSeconds": 0,
+            "time": "00:00",
+            "value": 50
+          },
+          {
+            "timeAsSeconds": 10800,
+            "time": "03:00",
+            "value": 27
+          },
+          {
+            "time": "09:00",
+            "value": 40,
+            "timeAsSeconds": 32400
+          },
+          {
+            "time": "15:00",
+            "timeAsSeconds": 54000,
+            "value": 27
+          },
+          {
+            "value": 45,
+            "timeAsSeconds": 68400,
+            "time": "19:00"
+          }
+        ],
+        "target_low": [
+          {
+            "time": "00:00",
+            "timeAsSeconds": 0,
+            "value": 100
+          }
+        ],
+        "timezone": "ETC/GMT-8",
+        "dia": 6,
+        "basal": [
+          {
+            "timeAsSeconds": 0,
+            "value": 0.2,
+            "time": "00:00"
+          },
+          {
+            "time": "01:00",
+            "value": 0.2,
+            "timeAsSeconds": 3600
+          },
+          {
+            "value": 0.35,
+            "time": "02:00",
+            "timeAsSeconds": 7200
+          },
+          {
+            "value": 0.5,
+            "time": "03:00",
+            "timeAsSeconds": 10800
+          },
+          {
+            "time": "04:00",
+            "value": 0.45,
+            "timeAsSeconds": 14400
+          },
+          {
+            "timeAsSeconds": 18000,
+            "time": "05:00",
+            "value": 0.5
+          },
+          {
+            "time": "06:00",
+            "value": 0.5,
+            "timeAsSeconds": 21600
+          },
+          {
+            "time": "07:00",
+            "value": 0.55,
+            "timeAsSeconds": 25200
+          },
+          {
+            "timeAsSeconds": 28800,
+            "value": 0.6,
+            "time": "08:00"
+          },
+          {
+            "time": "09:00",
+            "value": 0.4,
+            "timeAsSeconds": 32400
+          },
+          {
+            "time": "10:00",
+            "timeAsSeconds": 36000,
+            "value": 0.35
+          },
+          {
+            "time": "11:00",
+            "value": 0.35,
+            "timeAsSeconds": 39600
+          },
+          {
+            "timeAsSeconds": 43200,
+            "value": 0.35,
+            "time": "12:00"
+          },
+          {
+            "time": "13:00",
+            "value": 0.35,
+            "timeAsSeconds": 46800
+          },
+          {
+            "value": 0.7,
+            "timeAsSeconds": 50400,
+            "time": "14:00"
+          },
+          {
+            "value": 0.7,
+            "time": "15:00",
+            "timeAsSeconds": 54000
+          },
+          {
+            "value": 0.7,
+            "time": "16:00",
+            "timeAsSeconds": 57600
+          },
+          {
+            "timeAsSeconds": 61200,
+            "value": 0.3,
+            "time": "17:00"
+          },
+          {
+            "timeAsSeconds": 64800,
+            "time": "18:00",
+            "value": 0.3
+          },
+          {
+            "value": 0.3,
+            "timeAsSeconds": 68400,
+            "time": "19:00"
+          },
+          {
+            "value": 0.3,
+            "timeAsSeconds": 72000,
+            "time": "20:00"
+          },
+          {
+            "value": 0.3,
+            "time": "21:00",
+            "timeAsSeconds": 75600
+          },
+          {
+            "time": "22:00",
+            "value": 0.3,
+            "timeAsSeconds": 79200
+          },
+          {
+            "time": "23:00",
+            "timeAsSeconds": 82800,
+            "value": 0.3
+          }
+        ]
+      }
+    },
+    "enteredBy": "Loop",
+    "units": "mg/dL",
+    "mills": "1783382596818",
+    "loopSettings": {
+      "overridePresets": [],
+      "dosingEnabled": false,
+      "deviceToken": "750ead80ce41a92f22d42dedac3158998613dd6cf407f1e1881ed2f9f80c4836",
+      "dosingStrategy": "tempBasalOnly",
+      "maximumBasalRatePerHour": 1.5,
+      "minimumBGGuard": 80,
+      "bundleIdentifier": "com.9GB3VE863R.loopkit.Loop314.Loop",
+      "preMealTargetRange": [
+        80,
+        100
+      ],
+      "maximumBolus": 8
+    },
+    "startDate": "2026-07-07T00:03:16Z"
+  }
+]

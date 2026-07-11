@@ -1,8 +1,8 @@
 [
   {
     "eventType": "Meal Bolus",
-    "created_at": "2026-07-01T17:20:00.000Z",
-    "date": 1782926400000,
+    "created_at": "2026-07-04T04:15:00.000Z",
+    "date": 1783138500000,
     "enteredBy": "LoopInsighT1 AgentWorkflow",
     "glucose": 100,
     "glucoseType": "Sensor",
@@ -12,8 +12,8 @@
   },
   {
     "eventType": "Meal Bolus",
-    "created_at": "2026-07-01T22:20:00.000Z",
-    "date": 1782944400000,
+    "created_at": "2026-07-04T09:15:00.000Z",
+    "date": 1783156500000,
     "enteredBy": "LoopInsighT1 AgentWorkflow",
     "glucose": 146,
     "glucoseType": "Sensor",
@@ -23,16 +23,16 @@
   },
   {
     "eventType": "Exercise",
-    "created_at": "2026-07-02T02:05:00.000Z",
-    "date": 1782957900000,
+    "created_at": "2026-07-04T13:00:00.000Z",
+    "date": 1783170000000,
     "enteredBy": "LoopInsighT1 AgentWorkflow",
     "duration": 45,
     "notes": "Intensity 25%"
   },
   {
     "eventType": "Meal Bolus",
-    "created_at": "2026-07-02T04:20:00.000Z",
-    "date": 1782966000000,
+    "created_at": "2026-07-04T15:15:00.000Z",
+    "date": 1783178100000,
     "enteredBy": "LoopInsighT1 AgentWorkflow",
     "glucose": 81,
     "glucoseType": "Sensor",

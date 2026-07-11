@@ -1,11 +1,11 @@
 [
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T15:35:00.000Z",
-    "date": 1782920100000,
+    "created_at": "2026-07-04T02:30:00.000Z",
+    "date": 1783132200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T15:35:00.000Z",
+        "timestamp": "2026-07-04T02:30:00.000Z",
         "bg": 100,
         "tick": "?",
         "eventualBG": null,
@@ -18,11 +18,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T15:40:00.000Z",
-    "date": 1782920400000,
+    "created_at": "2026-07-04T02:35:00.000Z",
+    "date": 1783132500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T15:40:00.000Z",
+        "timestamp": "2026-07-04T02:35:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -35,11 +35,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T15:45:00.000Z",
-    "date": 1782920700000,
+    "created_at": "2026-07-04T02:40:00.000Z",
+    "date": 1783132800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T15:45:00.000Z",
+        "timestamp": "2026-07-04T02:40:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -52,11 +52,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T15:50:00.000Z",
-    "date": 1782921000000,
+    "created_at": "2026-07-04T02:45:00.000Z",
+    "date": 1783133100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T15:50:00.000Z",
+        "timestamp": "2026-07-04T02:45:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -69,11 +69,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T15:55:00.000Z",
-    "date": 1782921300000,
+    "created_at": "2026-07-04T02:50:00.000Z",
+    "date": 1783133400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T15:55:00.000Z",
+        "timestamp": "2026-07-04T02:50:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -86,11 +86,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T16:00:00.000Z",
-    "date": 1782921600000,
+    "created_at": "2026-07-04T02:55:00.000Z",
+    "date": 1783133700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T16:00:00.000Z",
+        "timestamp": "2026-07-04T02:55:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -103,11 +103,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T16:05:00.000Z",
-    "date": 1782921900000,
+    "created_at": "2026-07-04T03:00:00.000Z",
+    "date": 1783134000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T16:05:00.000Z",
+        "timestamp": "2026-07-04T03:00:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -120,11 +120,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T16:10:00.000Z",
-    "date": 1782922200000,
+    "created_at": "2026-07-04T03:05:00.000Z",
+    "date": 1783134300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T16:10:00.000Z",
+        "timestamp": "2026-07-04T03:05:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -137,11 +137,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T16:15:00.000Z",
-    "date": 1782922500000,
+    "created_at": "2026-07-04T03:10:00.000Z",
+    "date": 1783134600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T16:15:00.000Z",
+        "timestamp": "2026-07-04T03:10:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -154,11 +154,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T16:20:00.000Z",
-    "date": 1782922800000,
+    "created_at": "2026-07-04T03:15:00.000Z",
+    "date": 1783134900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T16:20:00.000Z",
+        "timestamp": "2026-07-04T03:15:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -171,11 +171,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T16:25:00.000Z",
-    "date": 1782923100000,
+    "created_at": "2026-07-04T03:20:00.000Z",
+    "date": 1783135200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T16:25:00.000Z",
+        "timestamp": "2026-07-04T03:20:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -188,11 +188,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T16:30:00.000Z",
-    "date": 1782923400000,
+    "created_at": "2026-07-04T03:25:00.000Z",
+    "date": 1783135500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T16:30:00.000Z",
+        "timestamp": "2026-07-04T03:25:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -205,11 +205,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T16:35:00.000Z",
-    "date": 1782923700000,
+    "created_at": "2026-07-04T03:30:00.000Z",
+    "date": 1783135800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T16:35:00.000Z",
+        "timestamp": "2026-07-04T03:30:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -222,11 +222,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T16:40:00.000Z",
-    "date": 1782924000000,
+    "created_at": "2026-07-04T03:35:00.000Z",
+    "date": 1783136100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T16:40:00.000Z",
+        "timestamp": "2026-07-04T03:35:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -239,11 +239,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T16:45:00.000Z",
-    "date": 1782924300000,
+    "created_at": "2026-07-04T03:40:00.000Z",
+    "date": 1783136400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T16:45:00.000Z",
+        "timestamp": "2026-07-04T03:40:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -256,11 +256,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T16:50:00.000Z",
-    "date": 1782924600000,
+    "created_at": "2026-07-04T03:45:00.000Z",
+    "date": 1783136700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T16:50:00.000Z",
+        "timestamp": "2026-07-04T03:45:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -273,11 +273,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T16:55:00.000Z",
-    "date": 1782924900000,
+    "created_at": "2026-07-04T03:50:00.000Z",
+    "date": 1783137000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T16:55:00.000Z",
+        "timestamp": "2026-07-04T03:50:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -290,11 +290,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T17:00:00.000Z",
-    "date": 1782925200000,
+    "created_at": "2026-07-04T03:55:00.000Z",
+    "date": 1783137300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T17:00:00.000Z",
+        "timestamp": "2026-07-04T03:55:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -307,11 +307,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T17:05:00.000Z",
-    "date": 1782925500000,
+    "created_at": "2026-07-04T04:00:00.000Z",
+    "date": 1783137600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T17:05:00.000Z",
+        "timestamp": "2026-07-04T04:00:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -324,11 +324,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T17:10:00.000Z",
-    "date": 1782925800000,
+    "created_at": "2026-07-04T04:05:00.000Z",
+    "date": 1783137900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T17:10:00.000Z",
+        "timestamp": "2026-07-04T04:05:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -341,11 +341,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T17:15:00.000Z",
-    "date": 1782926100000,
+    "created_at": "2026-07-04T04:10:00.000Z",
+    "date": 1783138200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T17:15:00.000Z",
+        "timestamp": "2026-07-04T04:10:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -358,11 +358,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T17:20:00.000Z",
-    "date": 1782926400000,
+    "created_at": "2026-07-04T04:15:00.000Z",
+    "date": 1783138500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T17:20:00.000Z",
+        "timestamp": "2026-07-04T04:15:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -372,7 +372,7 @@
         "safetyFlags": []
       },
       "enacted": {
-        "timestamp": "2026-07-01T17:20:00.000Z",
+        "timestamp": "2026-07-04T04:15:00.000Z",
         "bolus": 3.0500000000000003,
         "received": true,
         "reason": "Demo policy: 55g carbs / 18g/U plus conservative correction."
@@ -381,11 +381,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T17:25:00.000Z",
-    "date": 1782926700000,
+    "created_at": "2026-07-04T04:20:00.000Z",
+    "date": 1783138800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T17:25:00.000Z",
+        "timestamp": "2026-07-04T04:20:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -398,11 +398,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T17:30:00.000Z",
-    "date": 1782927000000,
+    "created_at": "2026-07-04T04:25:00.000Z",
+    "date": 1783139100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T17:30:00.000Z",
+        "timestamp": "2026-07-04T04:25:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -415,11 +415,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T17:35:00.000Z",
-    "date": 1782927300000,
+    "created_at": "2026-07-04T04:30:00.000Z",
+    "date": 1783139400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T17:35:00.000Z",
+        "timestamp": "2026-07-04T04:30:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -432,11 +432,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T17:40:00.000Z",
-    "date": 1782927600000,
+    "created_at": "2026-07-04T04:35:00.000Z",
+    "date": 1783139700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T17:40:00.000Z",
+        "timestamp": "2026-07-04T04:35:00.000Z",
         "bg": 100,
         "tick": "0",
         "eventualBG": null,
@@ -449,11 +449,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T17:45:00.000Z",
-    "date": 1782927900000,
+    "created_at": "2026-07-04T04:40:00.000Z",
+    "date": 1783140000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T17:45:00.000Z",
+        "timestamp": "2026-07-04T04:40:00.000Z",
         "bg": 101,
         "tick": "0",
         "eventualBG": null,
@@ -466,11 +466,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T17:50:00.000Z",
-    "date": 1782928200000,
+    "created_at": "2026-07-04T04:45:00.000Z",
+    "date": 1783140300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T17:50:00.000Z",
+        "timestamp": "2026-07-04T04:45:00.000Z",
         "bg": 101,
         "tick": "0",
         "eventualBG": null,
@@ -483,11 +483,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T17:55:00.000Z",
-    "date": 1782928500000,
+    "created_at": "2026-07-04T04:50:00.000Z",
+    "date": 1783140600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T17:55:00.000Z",
+        "timestamp": "2026-07-04T04:50:00.000Z",
         "bg": 102,
         "tick": "0",
         "eventualBG": null,
@@ -500,11 +500,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T18:00:00.000Z",
-    "date": 1782928800000,
+    "created_at": "2026-07-04T04:55:00.000Z",
+    "date": 1783140900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T18:00:00.000Z",
+        "timestamp": "2026-07-04T04:55:00.000Z",
         "bg": 104,
         "tick": "+1",
         "eventualBG": null,
@@ -517,11 +517,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T18:05:00.000Z",
-    "date": 1782929100000,
+    "created_at": "2026-07-04T05:00:00.000Z",
+    "date": 1783141200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T18:05:00.000Z",
+        "timestamp": "2026-07-04T05:00:00.000Z",
         "bg": 107,
         "tick": "+1",
         "eventualBG": null,
@@ -534,11 +534,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T18:10:00.000Z",
-    "date": 1782929400000,
+    "created_at": "2026-07-04T05:05:00.000Z",
+    "date": 1783141500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T18:10:00.000Z",
+        "timestamp": "2026-07-04T05:05:00.000Z",
         "bg": 111,
         "tick": "+2",
         "eventualBG": null,
@@ -551,11 +551,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T18:15:00.000Z",
-    "date": 1782929700000,
+    "created_at": "2026-07-04T05:10:00.000Z",
+    "date": 1783141800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T18:15:00.000Z",
+        "timestamp": "2026-07-04T05:10:00.000Z",
         "bg": 115,
         "tick": "+2",
         "eventualBG": null,
@@ -568,11 +568,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T18:20:00.000Z",
-    "date": 1782930000000,
+    "created_at": "2026-07-04T05:15:00.000Z",
+    "date": 1783142100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T18:20:00.000Z",
+        "timestamp": "2026-07-04T05:15:00.000Z",
         "bg": 120,
         "tick": "+3",
         "eventualBG": null,
@@ -585,11 +585,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T18:25:00.000Z",
-    "date": 1782930300000,
+    "created_at": "2026-07-04T05:20:00.000Z",
+    "date": 1783142400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T18:25:00.000Z",
+        "timestamp": "2026-07-04T05:20:00.000Z",
         "bg": 126,
         "tick": "+4",
         "eventualBG": null,
@@ -602,11 +602,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T18:30:00.000Z",
-    "date": 1782930600000,
+    "created_at": "2026-07-04T05:25:00.000Z",
+    "date": 1783142700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T18:30:00.000Z",
+        "timestamp": "2026-07-04T05:25:00.000Z",
         "bg": 133,
         "tick": "+5",
         "eventualBG": null,
@@ -619,11 +619,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T18:35:00.000Z",
-    "date": 1782930900000,
+    "created_at": "2026-07-04T05:30:00.000Z",
+    "date": 1783143000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T18:35:00.000Z",
+        "timestamp": "2026-07-04T05:30:00.000Z",
         "bg": 139,
         "tick": "+5",
         "eventualBG": null,
@@ -636,11 +636,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T18:40:00.000Z",
-    "date": 1782931200000,
+    "created_at": "2026-07-04T05:35:00.000Z",
+    "date": 1783143300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T18:40:00.000Z",
+        "timestamp": "2026-07-04T05:35:00.000Z",
         "bg": 146,
         "tick": "+6",
         "eventualBG": null,
@@ -653,11 +653,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T18:45:00.000Z",
-    "date": 1782931500000,
+    "created_at": "2026-07-04T05:40:00.000Z",
+    "date": 1783143600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T18:45:00.000Z",
+        "timestamp": "2026-07-04T05:40:00.000Z",
         "bg": 153,
         "tick": "+6",
         "eventualBG": null,
@@ -670,11 +670,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T18:50:00.000Z",
-    "date": 1782931800000,
+    "created_at": "2026-07-04T05:45:00.000Z",
+    "date": 1783143900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T18:50:00.000Z",
+        "timestamp": "2026-07-04T05:45:00.000Z",
         "bg": 159,
         "tick": "+7",
         "eventualBG": null,
@@ -687,11 +687,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T18:55:00.000Z",
-    "date": 1782932100000,
+    "created_at": "2026-07-04T05:50:00.000Z",
+    "date": 1783144200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T18:55:00.000Z",
+        "timestamp": "2026-07-04T05:50:00.000Z",
         "bg": 165,
         "tick": "+7",
         "eventualBG": null,
@@ -704,11 +704,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T19:00:00.000Z",
-    "date": 1782932400000,
+    "created_at": "2026-07-04T05:55:00.000Z",
+    "date": 1783144500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T19:00:00.000Z",
+        "timestamp": "2026-07-04T05:55:00.000Z",
         "bg": 171,
         "tick": "+6",
         "eventualBG": null,
@@ -721,11 +721,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T19:05:00.000Z",
-    "date": 1782932700000,
+    "created_at": "2026-07-04T06:00:00.000Z",
+    "date": 1783144800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T19:05:00.000Z",
+        "timestamp": "2026-07-04T06:00:00.000Z",
         "bg": 176,
         "tick": "+6",
         "eventualBG": null,
@@ -738,11 +738,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T19:10:00.000Z",
-    "date": 1782933000000,
+    "created_at": "2026-07-04T06:05:00.000Z",
+    "date": 1783145100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T19:10:00.000Z",
+        "timestamp": "2026-07-04T06:05:00.000Z",
         "bg": 181,
         "tick": "+6",
         "eventualBG": null,
@@ -755,11 +755,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T19:15:00.000Z",
-    "date": 1782933300000,
+    "created_at": "2026-07-04T06:10:00.000Z",
+    "date": 1783145400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T19:15:00.000Z",
+        "timestamp": "2026-07-04T06:10:00.000Z",
         "bg": 185,
         "tick": "+5",
         "eventualBG": null,
@@ -772,11 +772,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T19:20:00.000Z",
-    "date": 1782933600000,
+    "created_at": "2026-07-04T06:15:00.000Z",
+    "date": 1783145700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T19:20:00.000Z",
+        "timestamp": "2026-07-04T06:15:00.000Z",
         "bg": 188,
         "tick": "+5",
         "eventualBG": null,
@@ -789,11 +789,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T19:25:00.000Z",
-    "date": 1782933900000,
+    "created_at": "2026-07-04T06:20:00.000Z",
+    "date": 1783146000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T19:25:00.000Z",
+        "timestamp": "2026-07-04T06:20:00.000Z",
         "bg": 191,
         "tick": "+4",
         "eventualBG": null,
@@ -806,11 +806,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T19:30:00.000Z",
-    "date": 1782934200000,
+    "created_at": "2026-07-04T06:25:00.000Z",
+    "date": 1783146300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T19:30:00.000Z",
+        "timestamp": "2026-07-04T06:25:00.000Z",
         "bg": 194,
         "tick": "+4",
         "eventualBG": null,
@@ -823,11 +823,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T19:35:00.000Z",
-    "date": 1782934500000,
+    "created_at": "2026-07-04T06:30:00.000Z",
+    "date": 1783146600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T19:35:00.000Z",
+        "timestamp": "2026-07-04T06:30:00.000Z",
         "bg": 196,
         "tick": "+3",
         "eventualBG": null,
@@ -840,11 +840,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T19:40:00.000Z",
-    "date": 1782934800000,
+    "created_at": "2026-07-04T06:35:00.000Z",
+    "date": 1783146900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T19:40:00.000Z",
+        "timestamp": "2026-07-04T06:35:00.000Z",
         "bg": 197,
         "tick": "+3",
         "eventualBG": null,
@@ -857,11 +857,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T19:45:00.000Z",
-    "date": 1782935100000,
+    "created_at": "2026-07-04T06:40:00.000Z",
+    "date": 1783147200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T19:45:00.000Z",
+        "timestamp": "2026-07-04T06:40:00.000Z",
         "bg": 198,
         "tick": "+2",
         "eventualBG": null,
@@ -874,11 +874,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T19:50:00.000Z",
-    "date": 1782935400000,
+    "created_at": "2026-07-04T06:45:00.000Z",
+    "date": 1783147500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T19:50:00.000Z",
+        "timestamp": "2026-07-04T06:45:00.000Z",
         "bg": 198,
         "tick": "+2",
         "eventualBG": null,
@@ -891,11 +891,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T19:55:00.000Z",
-    "date": 1782935700000,
+    "created_at": "2026-07-04T06:50:00.000Z",
+    "date": 1783147800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T19:55:00.000Z",
+        "timestamp": "2026-07-04T06:50:00.000Z",
         "bg": 199,
         "tick": "+1",
         "eventualBG": null,
@@ -908,11 +908,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T20:00:00.000Z",
-    "date": 1782936000000,
+    "created_at": "2026-07-04T06:55:00.000Z",
+    "date": 1783148100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T20:00:00.000Z",
+        "timestamp": "2026-07-04T06:55:00.000Z",
         "bg": 198,
         "tick": "+1",
         "eventualBG": null,
@@ -925,11 +925,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T20:05:00.000Z",
-    "date": 1782936300000,
+    "created_at": "2026-07-04T07:00:00.000Z",
+    "date": 1783148400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T20:05:00.000Z",
+        "timestamp": "2026-07-04T07:00:00.000Z",
         "bg": 198,
         "tick": "0",
         "eventualBG": null,
@@ -942,11 +942,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T20:10:00.000Z",
-    "date": 1782936600000,
+    "created_at": "2026-07-04T07:05:00.000Z",
+    "date": 1783148700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T20:10:00.000Z",
+        "timestamp": "2026-07-04T07:05:00.000Z",
         "bg": 197,
         "tick": "0",
         "eventualBG": null,
@@ -959,11 +959,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T20:15:00.000Z",
-    "date": 1782936900000,
+    "created_at": "2026-07-04T07:10:00.000Z",
+    "date": 1783149000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T20:15:00.000Z",
+        "timestamp": "2026-07-04T07:10:00.000Z",
         "bg": 196,
         "tick": "0",
         "eventualBG": null,
@@ -976,11 +976,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T20:20:00.000Z",
-    "date": 1782937200000,
+    "created_at": "2026-07-04T07:15:00.000Z",
+    "date": 1783149300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T20:20:00.000Z",
+        "timestamp": "2026-07-04T07:15:00.000Z",
         "bg": 195,
         "tick": "-1",
         "eventualBG": null,
@@ -993,11 +993,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T20:25:00.000Z",
-    "date": 1782937500000,
+    "created_at": "2026-07-04T07:20:00.000Z",
+    "date": 1783149600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T20:25:00.000Z",
+        "timestamp": "2026-07-04T07:20:00.000Z",
         "bg": 193,
         "tick": "-1",
         "eventualBG": null,
@@ -1010,11 +1010,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T20:30:00.000Z",
-    "date": 1782937800000,
+    "created_at": "2026-07-04T07:25:00.000Z",
+    "date": 1783149900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T20:30:00.000Z",
+        "timestamp": "2026-07-04T07:25:00.000Z",
         "bg": 192,
         "tick": "-1",
         "eventualBG": null,
@@ -1027,11 +1027,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T20:35:00.000Z",
-    "date": 1782938100000,
+    "created_at": "2026-07-04T07:30:00.000Z",
+    "date": 1783150200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T20:35:00.000Z",
+        "timestamp": "2026-07-04T07:30:00.000Z",
         "bg": 190,
         "tick": "-1",
         "eventualBG": null,
@@ -1044,11 +1044,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T20:40:00.000Z",
-    "date": 1782938400000,
+    "created_at": "2026-07-04T07:35:00.000Z",
+    "date": 1783150500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T20:40:00.000Z",
+        "timestamp": "2026-07-04T07:35:00.000Z",
         "bg": 188,
         "tick": "-1",
         "eventualBG": null,
@@ -1061,11 +1061,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T20:45:00.000Z",
-    "date": 1782938700000,
+    "created_at": "2026-07-04T07:40:00.000Z",
+    "date": 1783150800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T20:45:00.000Z",
+        "timestamp": "2026-07-04T07:40:00.000Z",
         "bg": 186,
         "tick": "-2",
         "eventualBG": null,
@@ -1078,11 +1078,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T20:50:00.000Z",
-    "date": 1782939000000,
+    "created_at": "2026-07-04T07:45:00.000Z",
+    "date": 1783151100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T20:50:00.000Z",
+        "timestamp": "2026-07-04T07:45:00.000Z",
         "bg": 184,
         "tick": "-2",
         "eventualBG": null,
@@ -1095,11 +1095,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T20:55:00.000Z",
-    "date": 1782939300000,
+    "created_at": "2026-07-04T07:50:00.000Z",
+    "date": 1783151400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T20:55:00.000Z",
+        "timestamp": "2026-07-04T07:50:00.000Z",
         "bg": 182,
         "tick": "-2",
         "eventualBG": null,
@@ -1112,11 +1112,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T21:00:00.000Z",
-    "date": 1782939600000,
+    "created_at": "2026-07-04T07:55:00.000Z",
+    "date": 1783151700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T21:00:00.000Z",
+        "timestamp": "2026-07-04T07:55:00.000Z",
         "bg": 180,
         "tick": "-2",
         "eventualBG": null,
@@ -1129,11 +1129,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T21:05:00.000Z",
-    "date": 1782939900000,
+    "created_at": "2026-07-04T08:00:00.000Z",
+    "date": 1783152000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T21:05:00.000Z",
+        "timestamp": "2026-07-04T08:00:00.000Z",
         "bg": 178,
         "tick": "-2",
         "eventualBG": null,
@@ -1146,11 +1146,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T21:10:00.000Z",
-    "date": 1782940200000,
+    "created_at": "2026-07-04T08:05:00.000Z",
+    "date": 1783152300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T21:10:00.000Z",
+        "timestamp": "2026-07-04T08:05:00.000Z",
         "bg": 175,
         "tick": "-2",
         "eventualBG": null,
@@ -1163,11 +1163,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T21:15:00.000Z",
-    "date": 1782940500000,
+    "created_at": "2026-07-04T08:10:00.000Z",
+    "date": 1783152600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T21:15:00.000Z",
+        "timestamp": "2026-07-04T08:10:00.000Z",
         "bg": 173,
         "tick": "-2",
         "eventualBG": null,
@@ -1180,11 +1180,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T21:20:00.000Z",
-    "date": 1782940800000,
+    "created_at": "2026-07-04T08:15:00.000Z",
+    "date": 1783152900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T21:20:00.000Z",
+        "timestamp": "2026-07-04T08:15:00.000Z",
         "bg": 171,
         "tick": "-2",
         "eventualBG": null,
@@ -1197,11 +1197,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T21:25:00.000Z",
-    "date": 1782941100000,
+    "created_at": "2026-07-04T08:20:00.000Z",
+    "date": 1783153200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T21:25:00.000Z",
+        "timestamp": "2026-07-04T08:20:00.000Z",
         "bg": 169,
         "tick": "-2",
         "eventualBG": null,
@@ -1214,11 +1214,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T21:30:00.000Z",
-    "date": 1782941400000,
+    "created_at": "2026-07-04T08:25:00.000Z",
+    "date": 1783153500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T21:30:00.000Z",
+        "timestamp": "2026-07-04T08:25:00.000Z",
         "bg": 166,
         "tick": "-2",
         "eventualBG": null,
@@ -1231,11 +1231,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T21:35:00.000Z",
-    "date": 1782941700000,
+    "created_at": "2026-07-04T08:30:00.000Z",
+    "date": 1783153800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T21:35:00.000Z",
+        "timestamp": "2026-07-04T08:30:00.000Z",
         "bg": 164,
         "tick": "-2",
         "eventualBG": null,
@@ -1248,11 +1248,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T21:40:00.000Z",
-    "date": 1782942000000,
+    "created_at": "2026-07-04T08:35:00.000Z",
+    "date": 1783154100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T21:40:00.000Z",
+        "timestamp": "2026-07-04T08:35:00.000Z",
         "bg": 162,
         "tick": "-2",
         "eventualBG": null,
@@ -1265,11 +1265,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T21:45:00.000Z",
-    "date": 1782942300000,
+    "created_at": "2026-07-04T08:40:00.000Z",
+    "date": 1783154400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T21:45:00.000Z",
+        "timestamp": "2026-07-04T08:40:00.000Z",
         "bg": 160,
         "tick": "-2",
         "eventualBG": null,
@@ -1282,11 +1282,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T21:50:00.000Z",
-    "date": 1782942600000,
+    "created_at": "2026-07-04T08:45:00.000Z",
+    "date": 1783154700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T21:50:00.000Z",
+        "timestamp": "2026-07-04T08:45:00.000Z",
         "bg": 158,
         "tick": "-2",
         "eventualBG": null,
@@ -1299,11 +1299,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T21:55:00.000Z",
-    "date": 1782942900000,
+    "created_at": "2026-07-04T08:50:00.000Z",
+    "date": 1783155000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T21:55:00.000Z",
+        "timestamp": "2026-07-04T08:50:00.000Z",
         "bg": 156,
         "tick": "-2",
         "eventualBG": null,
@@ -1316,11 +1316,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T22:00:00.000Z",
-    "date": 1782943200000,
+    "created_at": "2026-07-04T08:55:00.000Z",
+    "date": 1783155300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T22:00:00.000Z",
+        "timestamp": "2026-07-04T08:55:00.000Z",
         "bg": 154,
         "tick": "-2",
         "eventualBG": null,
@@ -1333,11 +1333,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T22:05:00.000Z",
-    "date": 1782943500000,
+    "created_at": "2026-07-04T09:00:00.000Z",
+    "date": 1783155600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T22:05:00.000Z",
+        "timestamp": "2026-07-04T09:00:00.000Z",
         "bg": 152,
         "tick": "-2",
         "eventualBG": null,
@@ -1350,11 +1350,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T22:10:00.000Z",
-    "date": 1782943800000,
+    "created_at": "2026-07-04T09:05:00.000Z",
+    "date": 1783155900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T22:10:00.000Z",
+        "timestamp": "2026-07-04T09:05:00.000Z",
         "bg": 150,
         "tick": "-2",
         "eventualBG": null,
@@ -1367,11 +1367,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T22:15:00.000Z",
-    "date": 1782944100000,
+    "created_at": "2026-07-04T09:10:00.000Z",
+    "date": 1783156200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T22:15:00.000Z",
+        "timestamp": "2026-07-04T09:10:00.000Z",
         "bg": 148,
         "tick": "-2",
         "eventualBG": null,
@@ -1384,11 +1384,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T22:20:00.000Z",
-    "date": 1782944400000,
+    "created_at": "2026-07-04T09:15:00.000Z",
+    "date": 1783156500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T22:20:00.000Z",
+        "timestamp": "2026-07-04T09:15:00.000Z",
         "bg": 146,
         "tick": "-2",
         "eventualBG": null,
@@ -1398,7 +1398,7 @@
         "safetyFlags": []
       },
       "enacted": {
-        "timestamp": "2026-07-01T22:20:00.000Z",
+        "timestamp": "2026-07-04T09:15:00.000Z",
         "bolus": 4.1000000000000005,
         "received": true,
         "reason": "Demo policy: 70g carbs / 18g/U plus conservative correction."
@@ -1407,11 +1407,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T22:25:00.000Z",
-    "date": 1782944700000,
+    "created_at": "2026-07-04T09:20:00.000Z",
+    "date": 1783156800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T22:25:00.000Z",
+        "timestamp": "2026-07-04T09:20:00.000Z",
         "bg": 144,
         "tick": "-2",
         "eventualBG": null,
@@ -1424,11 +1424,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T22:30:00.000Z",
-    "date": 1782945000000,
+    "created_at": "2026-07-04T09:25:00.000Z",
+    "date": 1783157100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T22:30:00.000Z",
+        "timestamp": "2026-07-04T09:25:00.000Z",
         "bg": 142,
         "tick": "-2",
         "eventualBG": null,
@@ -1441,11 +1441,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T22:35:00.000Z",
-    "date": 1782945300000,
+    "created_at": "2026-07-04T09:30:00.000Z",
+    "date": 1783157400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T22:35:00.000Z",
+        "timestamp": "2026-07-04T09:30:00.000Z",
         "bg": 141,
         "tick": "-2",
         "eventualBG": null,
@@ -1458,11 +1458,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T22:40:00.000Z",
-    "date": 1782945600000,
+    "created_at": "2026-07-04T09:35:00.000Z",
+    "date": 1783157700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T22:40:00.000Z",
+        "timestamp": "2026-07-04T09:35:00.000Z",
         "bg": 139,
         "tick": "-2",
         "eventualBG": null,
@@ -1475,11 +1475,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T22:45:00.000Z",
-    "date": 1782945900000,
+    "created_at": "2026-07-04T09:40:00.000Z",
+    "date": 1783158000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T22:45:00.000Z",
+        "timestamp": "2026-07-04T09:40:00.000Z",
         "bg": 138,
         "tick": "-2",
         "eventualBG": null,
@@ -1492,11 +1492,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T22:50:00.000Z",
-    "date": 1782946200000,
+    "created_at": "2026-07-04T09:45:00.000Z",
+    "date": 1783158300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T22:50:00.000Z",
+        "timestamp": "2026-07-04T09:45:00.000Z",
         "bg": 137,
         "tick": "-2",
         "eventualBG": null,
@@ -1509,11 +1509,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T22:55:00.000Z",
-    "date": 1782946500000,
+    "created_at": "2026-07-04T09:50:00.000Z",
+    "date": 1783158600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T22:55:00.000Z",
+        "timestamp": "2026-07-04T09:50:00.000Z",
         "bg": 137,
         "tick": "-1",
         "eventualBG": null,
@@ -1526,11 +1526,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T23:00:00.000Z",
-    "date": 1782946800000,
+    "created_at": "2026-07-04T09:55:00.000Z",
+    "date": 1783158900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T23:00:00.000Z",
+        "timestamp": "2026-07-04T09:55:00.000Z",
         "bg": 137,
         "tick": "-1",
         "eventualBG": null,
@@ -1543,11 +1543,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T23:05:00.000Z",
-    "date": 1782947100000,
+    "created_at": "2026-07-04T10:00:00.000Z",
+    "date": 1783159200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T23:05:00.000Z",
+        "timestamp": "2026-07-04T10:00:00.000Z",
         "bg": 139,
         "tick": "0",
         "eventualBG": null,
@@ -1560,11 +1560,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T23:10:00.000Z",
-    "date": 1782947400000,
+    "created_at": "2026-07-04T10:05:00.000Z",
+    "date": 1783159500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T23:10:00.000Z",
+        "timestamp": "2026-07-04T10:05:00.000Z",
         "bg": 142,
         "tick": "0",
         "eventualBG": null,
@@ -1577,11 +1577,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T23:15:00.000Z",
-    "date": 1782947700000,
+    "created_at": "2026-07-04T10:10:00.000Z",
+    "date": 1783159800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T23:15:00.000Z",
+        "timestamp": "2026-07-04T10:10:00.000Z",
         "bg": 145,
         "tick": "+1",
         "eventualBG": null,
@@ -1594,11 +1594,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T23:20:00.000Z",
-    "date": 1782948000000,
+    "created_at": "2026-07-04T10:15:00.000Z",
+    "date": 1783160100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T23:20:00.000Z",
+        "timestamp": "2026-07-04T10:15:00.000Z",
         "bg": 150,
         "tick": "+2",
         "eventualBG": null,
@@ -1611,11 +1611,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T23:25:00.000Z",
-    "date": 1782948300000,
+    "created_at": "2026-07-04T10:20:00.000Z",
+    "date": 1783160400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T23:25:00.000Z",
+        "timestamp": "2026-07-04T10:20:00.000Z",
         "bg": 156,
         "tick": "+3",
         "eventualBG": null,
@@ -1628,11 +1628,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T23:30:00.000Z",
-    "date": 1782948600000,
+    "created_at": "2026-07-04T10:25:00.000Z",
+    "date": 1783160700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T23:30:00.000Z",
+        "timestamp": "2026-07-04T10:25:00.000Z",
         "bg": 162,
         "tick": "+4",
         "eventualBG": null,
@@ -1645,11 +1645,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T23:35:00.000Z",
-    "date": 1782948900000,
+    "created_at": "2026-07-04T10:30:00.000Z",
+    "date": 1783161000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T23:35:00.000Z",
+        "timestamp": "2026-07-04T10:30:00.000Z",
         "bg": 168,
         "tick": "+5",
         "eventualBG": null,
@@ -1662,11 +1662,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T23:40:00.000Z",
-    "date": 1782949200000,
+    "created_at": "2026-07-04T10:35:00.000Z",
+    "date": 1783161300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T23:40:00.000Z",
+        "timestamp": "2026-07-04T10:35:00.000Z",
         "bg": 175,
         "tick": "+6",
         "eventualBG": null,
@@ -1679,11 +1679,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T23:45:00.000Z",
-    "date": 1782949500000,
+    "created_at": "2026-07-04T10:40:00.000Z",
+    "date": 1783161600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T23:45:00.000Z",
+        "timestamp": "2026-07-04T10:40:00.000Z",
         "bg": 181,
         "tick": "+6",
         "eventualBG": null,
@@ -1696,11 +1696,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T23:50:00.000Z",
-    "date": 1782949800000,
+    "created_at": "2026-07-04T10:45:00.000Z",
+    "date": 1783161900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T23:50:00.000Z",
+        "timestamp": "2026-07-04T10:45:00.000Z",
         "bg": 187,
         "tick": "+6",
         "eventualBG": null,
@@ -1713,11 +1713,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-01T23:55:00.000Z",
-    "date": 1782950100000,
+    "created_at": "2026-07-04T10:50:00.000Z",
+    "date": 1783162200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-01T23:55:00.000Z",
+        "timestamp": "2026-07-04T10:50:00.000Z",
         "bg": 192,
         "tick": "+6",
         "eventualBG": null,
@@ -1730,11 +1730,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T00:00:00.000Z",
-    "date": 1782950400000,
+    "created_at": "2026-07-04T10:55:00.000Z",
+    "date": 1783162500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T00:00:00.000Z",
+        "timestamp": "2026-07-04T10:55:00.000Z",
         "bg": 197,
         "tick": "+6",
         "eventualBG": null,
@@ -1747,11 +1747,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T00:05:00.000Z",
-    "date": 1782950700000,
+    "created_at": "2026-07-04T11:00:00.000Z",
+    "date": 1783162800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T00:05:00.000Z",
+        "timestamp": "2026-07-04T11:00:00.000Z",
         "bg": 202,
         "tick": "+6",
         "eventualBG": null,
@@ -1764,11 +1764,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T00:10:00.000Z",
-    "date": 1782951000000,
+    "created_at": "2026-07-04T11:05:00.000Z",
+    "date": 1783163100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T00:10:00.000Z",
+        "timestamp": "2026-07-04T11:05:00.000Z",
         "bg": 205,
         "tick": "+5",
         "eventualBG": null,
@@ -1781,11 +1781,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T00:15:00.000Z",
-    "date": 1782951300000,
+    "created_at": "2026-07-04T11:10:00.000Z",
+    "date": 1783163400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T00:15:00.000Z",
+        "timestamp": "2026-07-04T11:10:00.000Z",
         "bg": 208,
         "tick": "+5",
         "eventualBG": null,
@@ -1798,11 +1798,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T00:20:00.000Z",
-    "date": 1782951600000,
+    "created_at": "2026-07-04T11:15:00.000Z",
+    "date": 1783163700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T00:20:00.000Z",
+        "timestamp": "2026-07-04T11:15:00.000Z",
         "bg": 211,
         "tick": "+4",
         "eventualBG": null,
@@ -1815,11 +1815,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T00:25:00.000Z",
-    "date": 1782951900000,
+    "created_at": "2026-07-04T11:20:00.000Z",
+    "date": 1783164000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T00:25:00.000Z",
+        "timestamp": "2026-07-04T11:20:00.000Z",
         "bg": 212,
         "tick": "+3",
         "eventualBG": null,
@@ -1832,11 +1832,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T00:30:00.000Z",
-    "date": 1782952200000,
+    "created_at": "2026-07-04T11:25:00.000Z",
+    "date": 1783164300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T00:30:00.000Z",
+        "timestamp": "2026-07-04T11:25:00.000Z",
         "bg": 214,
         "tick": "+3",
         "eventualBG": null,
@@ -1849,11 +1849,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T00:35:00.000Z",
-    "date": 1782952500000,
+    "created_at": "2026-07-04T11:30:00.000Z",
+    "date": 1783164600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T00:35:00.000Z",
+        "timestamp": "2026-07-04T11:30:00.000Z",
         "bg": 214,
         "tick": "+2",
         "eventualBG": null,
@@ -1866,11 +1866,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T00:40:00.000Z",
-    "date": 1782952800000,
+    "created_at": "2026-07-04T11:35:00.000Z",
+    "date": 1783164900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T00:40:00.000Z",
+        "timestamp": "2026-07-04T11:35:00.000Z",
         "bg": 214,
         "tick": "+2",
         "eventualBG": null,
@@ -1883,11 +1883,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T00:45:00.000Z",
-    "date": 1782953100000,
+    "created_at": "2026-07-04T11:40:00.000Z",
+    "date": 1783165200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T00:45:00.000Z",
+        "timestamp": "2026-07-04T11:40:00.000Z",
         "bg": 214,
         "tick": "+1",
         "eventualBG": null,
@@ -1900,11 +1900,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T00:50:00.000Z",
-    "date": 1782953400000,
+    "created_at": "2026-07-04T11:45:00.000Z",
+    "date": 1783165500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T00:50:00.000Z",
+        "timestamp": "2026-07-04T11:45:00.000Z",
         "bg": 213,
         "tick": "0",
         "eventualBG": null,
@@ -1917,11 +1917,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T00:55:00.000Z",
-    "date": 1782953700000,
+    "created_at": "2026-07-04T11:50:00.000Z",
+    "date": 1783165800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T00:55:00.000Z",
+        "timestamp": "2026-07-04T11:50:00.000Z",
         "bg": 212,
         "tick": "0",
         "eventualBG": null,
@@ -1934,11 +1934,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T01:00:00.000Z",
-    "date": 1782954000000,
+    "created_at": "2026-07-04T11:55:00.000Z",
+    "date": 1783166100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T01:00:00.000Z",
+        "timestamp": "2026-07-04T11:55:00.000Z",
         "bg": 211,
         "tick": "0",
         "eventualBG": null,
@@ -1951,11 +1951,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T01:05:00.000Z",
-    "date": 1782954300000,
+    "created_at": "2026-07-04T12:00:00.000Z",
+    "date": 1783166400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T01:05:00.000Z",
+        "timestamp": "2026-07-04T12:00:00.000Z",
         "bg": 209,
         "tick": "-1",
         "eventualBG": null,
@@ -1968,11 +1968,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T01:10:00.000Z",
-    "date": 1782954600000,
+    "created_at": "2026-07-04T12:05:00.000Z",
+    "date": 1783166700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T01:10:00.000Z",
+        "timestamp": "2026-07-04T12:05:00.000Z",
         "bg": 207,
         "tick": "-1",
         "eventualBG": null,
@@ -1985,11 +1985,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T01:15:00.000Z",
-    "date": 1782954900000,
+    "created_at": "2026-07-04T12:10:00.000Z",
+    "date": 1783167000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T01:15:00.000Z",
+        "timestamp": "2026-07-04T12:10:00.000Z",
         "bg": 205,
         "tick": "-2",
         "eventualBG": null,
@@ -2002,11 +2002,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T01:20:00.000Z",
-    "date": 1782955200000,
+    "created_at": "2026-07-04T12:15:00.000Z",
+    "date": 1783167300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T01:20:00.000Z",
+        "timestamp": "2026-07-04T12:15:00.000Z",
         "bg": 203,
         "tick": "-2",
         "eventualBG": null,
@@ -2019,11 +2019,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T01:25:00.000Z",
-    "date": 1782955500000,
+    "created_at": "2026-07-04T12:20:00.000Z",
+    "date": 1783167600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T01:25:00.000Z",
+        "timestamp": "2026-07-04T12:20:00.000Z",
         "bg": 200,
         "tick": "-2",
         "eventualBG": null,
@@ -2036,11 +2036,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T01:30:00.000Z",
-    "date": 1782955800000,
+    "created_at": "2026-07-04T12:25:00.000Z",
+    "date": 1783167900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T01:30:00.000Z",
+        "timestamp": "2026-07-04T12:25:00.000Z",
         "bg": 198,
         "tick": "-2",
         "eventualBG": null,
@@ -2053,11 +2053,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T01:35:00.000Z",
-    "date": 1782956100000,
+    "created_at": "2026-07-04T12:30:00.000Z",
+    "date": 1783168200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T01:35:00.000Z",
+        "timestamp": "2026-07-04T12:30:00.000Z",
         "bg": 195,
         "tick": "-2",
         "eventualBG": null,
@@ -2070,11 +2070,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T01:40:00.000Z",
-    "date": 1782956400000,
+    "created_at": "2026-07-04T12:35:00.000Z",
+    "date": 1783168500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T01:40:00.000Z",
+        "timestamp": "2026-07-04T12:35:00.000Z",
         "bg": 192,
         "tick": "-3",
         "eventualBG": null,
@@ -2087,11 +2087,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T01:45:00.000Z",
-    "date": 1782956700000,
+    "created_at": "2026-07-04T12:40:00.000Z",
+    "date": 1783168800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T01:45:00.000Z",
+        "timestamp": "2026-07-04T12:40:00.000Z",
         "bg": 189,
         "tick": "-3",
         "eventualBG": null,
@@ -2104,11 +2104,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T01:50:00.000Z",
-    "date": 1782957000000,
+    "created_at": "2026-07-04T12:45:00.000Z",
+    "date": 1783169100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T01:50:00.000Z",
+        "timestamp": "2026-07-04T12:45:00.000Z",
         "bg": 186,
         "tick": "-3",
         "eventualBG": null,
@@ -2121,11 +2121,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T01:55:00.000Z",
-    "date": 1782957300000,
+    "created_at": "2026-07-04T12:50:00.000Z",
+    "date": 1783169400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T01:55:00.000Z",
+        "timestamp": "2026-07-04T12:50:00.000Z",
         "bg": 184,
         "tick": "-3",
         "eventualBG": null,
@@ -2138,11 +2138,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T02:00:00.000Z",
-    "date": 1782957600000,
+    "created_at": "2026-07-04T12:55:00.000Z",
+    "date": 1783169700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T02:00:00.000Z",
+        "timestamp": "2026-07-04T12:55:00.000Z",
         "bg": 181,
         "tick": "-3",
         "eventualBG": null,
@@ -2155,11 +2155,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T02:05:00.000Z",
-    "date": 1782957900000,
+    "created_at": "2026-07-04T13:00:00.000Z",
+    "date": 1783170000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T02:05:00.000Z",
+        "timestamp": "2026-07-04T13:00:00.000Z",
         "bg": 178,
         "tick": "-3",
         "eventualBG": null,
@@ -2172,11 +2172,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T02:10:00.000Z",
-    "date": 1782958200000,
+    "created_at": "2026-07-04T13:05:00.000Z",
+    "date": 1783170300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T02:10:00.000Z",
+        "timestamp": "2026-07-04T13:05:00.000Z",
         "bg": 171,
         "tick": "-4",
         "eventualBG": null,
@@ -2189,11 +2189,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T02:15:00.000Z",
-    "date": 1782958500000,
+    "created_at": "2026-07-04T13:10:00.000Z",
+    "date": 1783170600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T02:15:00.000Z",
+        "timestamp": "2026-07-04T13:10:00.000Z",
         "bg": 161,
         "tick": "-5",
         "eventualBG": null,
@@ -2206,11 +2206,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T02:20:00.000Z",
-    "date": 1782958800000,
+    "created_at": "2026-07-04T13:15:00.000Z",
+    "date": 1783170900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T02:20:00.000Z",
+        "timestamp": "2026-07-04T13:15:00.000Z",
         "bg": 151,
         "tick": "-6",
         "eventualBG": null,
@@ -2223,11 +2223,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T02:25:00.000Z",
-    "date": 1782959100000,
+    "created_at": "2026-07-04T13:20:00.000Z",
+    "date": 1783171200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T02:25:00.000Z",
+        "timestamp": "2026-07-04T13:20:00.000Z",
         "bg": 141,
         "tick": "-7",
         "eventualBG": null,
@@ -2240,11 +2240,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T02:30:00.000Z",
-    "date": 1782959400000,
+    "created_at": "2026-07-04T13:25:00.000Z",
+    "date": 1783171500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T02:30:00.000Z",
+        "timestamp": "2026-07-04T13:25:00.000Z",
         "bg": 132,
         "tick": "-8",
         "eventualBG": null,
@@ -2257,11 +2257,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T02:35:00.000Z",
-    "date": 1782959700000,
+    "created_at": "2026-07-04T13:30:00.000Z",
+    "date": 1783171800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T02:35:00.000Z",
+        "timestamp": "2026-07-04T13:30:00.000Z",
         "bg": 123,
         "tick": "-9",
         "eventualBG": null,
@@ -2274,11 +2274,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T02:40:00.000Z",
-    "date": 1782960000000,
+    "created_at": "2026-07-04T13:35:00.000Z",
+    "date": 1783172100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T02:40:00.000Z",
+        "timestamp": "2026-07-04T13:35:00.000Z",
         "bg": 115,
         "tick": "-9",
         "eventualBG": null,
@@ -2291,11 +2291,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T02:45:00.000Z",
-    "date": 1782960300000,
+    "created_at": "2026-07-04T13:40:00.000Z",
+    "date": 1783172400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T02:45:00.000Z",
+        "timestamp": "2026-07-04T13:40:00.000Z",
         "bg": 108,
         "tick": "-9",
         "eventualBG": null,
@@ -2308,11 +2308,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T02:50:00.000Z",
-    "date": 1782960600000,
+    "created_at": "2026-07-04T13:45:00.000Z",
+    "date": 1783172700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T02:50:00.000Z",
+        "timestamp": "2026-07-04T13:45:00.000Z",
         "bg": 101,
         "tick": "-8",
         "eventualBG": null,
@@ -2325,11 +2325,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T02:55:00.000Z",
-    "date": 1782960900000,
+    "created_at": "2026-07-04T13:50:00.000Z",
+    "date": 1783173000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T02:55:00.000Z",
+        "timestamp": "2026-07-04T13:50:00.000Z",
         "bg": 97,
         "tick": "-7",
         "eventualBG": null,
@@ -2342,11 +2342,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T03:00:00.000Z",
-    "date": 1782961200000,
+    "created_at": "2026-07-04T13:55:00.000Z",
+    "date": 1783173300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T03:00:00.000Z",
+        "timestamp": "2026-07-04T13:55:00.000Z",
         "bg": 95,
         "tick": "-6",
         "eventualBG": null,
@@ -2359,11 +2359,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T03:05:00.000Z",
-    "date": 1782961500000,
+    "created_at": "2026-07-04T14:00:00.000Z",
+    "date": 1783173600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T03:05:00.000Z",
+        "timestamp": "2026-07-04T14:00:00.000Z",
         "bg": 93,
         "tick": "-5",
         "eventualBG": null,
@@ -2376,11 +2376,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T03:10:00.000Z",
-    "date": 1782961800000,
+    "created_at": "2026-07-04T14:05:00.000Z",
+    "date": 1783173900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T03:10:00.000Z",
+        "timestamp": "2026-07-04T14:05:00.000Z",
         "bg": 92,
         "tick": "-4",
         "eventualBG": null,
@@ -2393,11 +2393,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T03:15:00.000Z",
-    "date": 1782962100000,
+    "created_at": "2026-07-04T14:10:00.000Z",
+    "date": 1783174200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T03:15:00.000Z",
+        "timestamp": "2026-07-04T14:10:00.000Z",
         "bg": 91,
         "tick": "-3",
         "eventualBG": null,
@@ -2410,11 +2410,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T03:20:00.000Z",
-    "date": 1782962400000,
+    "created_at": "2026-07-04T14:15:00.000Z",
+    "date": 1783174500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T03:20:00.000Z",
+        "timestamp": "2026-07-04T14:15:00.000Z",
         "bg": 90,
         "tick": "-2",
         "eventualBG": null,
@@ -2427,11 +2427,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T03:25:00.000Z",
-    "date": 1782962700000,
+    "created_at": "2026-07-04T14:20:00.000Z",
+    "date": 1783174800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T03:25:00.000Z",
+        "timestamp": "2026-07-04T14:20:00.000Z",
         "bg": 89,
         "tick": "-1",
         "eventualBG": null,
@@ -2444,11 +2444,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T03:30:00.000Z",
-    "date": 1782963000000,
+    "created_at": "2026-07-04T14:25:00.000Z",
+    "date": 1783175100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T03:30:00.000Z",
+        "timestamp": "2026-07-04T14:25:00.000Z",
         "bg": 88,
         "tick": "-1",
         "eventualBG": null,
@@ -2461,11 +2461,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T03:35:00.000Z",
-    "date": 1782963300000,
+    "created_at": "2026-07-04T14:30:00.000Z",
+    "date": 1783175400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T03:35:00.000Z",
+        "timestamp": "2026-07-04T14:30:00.000Z",
         "bg": 88,
         "tick": "-1",
         "eventualBG": null,
@@ -2478,11 +2478,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T03:40:00.000Z",
-    "date": 1782963600000,
+    "created_at": "2026-07-04T14:35:00.000Z",
+    "date": 1783175700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T03:40:00.000Z",
+        "timestamp": "2026-07-04T14:35:00.000Z",
         "bg": 87,
         "tick": "-1",
         "eventualBG": null,
@@ -2495,11 +2495,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T03:45:00.000Z",
-    "date": 1782963900000,
+    "created_at": "2026-07-04T14:40:00.000Z",
+    "date": 1783176000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T03:45:00.000Z",
+        "timestamp": "2026-07-04T14:40:00.000Z",
         "bg": 86,
         "tick": "-1",
         "eventualBG": null,
@@ -2512,11 +2512,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T03:50:00.000Z",
-    "date": 1782964200000,
+    "created_at": "2026-07-04T14:45:00.000Z",
+    "date": 1783176300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T03:50:00.000Z",
+        "timestamp": "2026-07-04T14:45:00.000Z",
         "bg": 85,
         "tick": "-1",
         "eventualBG": null,
@@ -2529,11 +2529,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T03:55:00.000Z",
-    "date": 1782964500000,
+    "created_at": "2026-07-04T14:50:00.000Z",
+    "date": 1783176600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T03:55:00.000Z",
+        "timestamp": "2026-07-04T14:50:00.000Z",
         "bg": 85,
         "tick": "-1",
         "eventualBG": null,
@@ -2546,11 +2546,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T04:00:00.000Z",
-    "date": 1782964800000,
+    "created_at": "2026-07-04T14:55:00.000Z",
+    "date": 1783176900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T04:00:00.000Z",
+        "timestamp": "2026-07-04T14:55:00.000Z",
         "bg": 84,
         "tick": "-1",
         "eventualBG": null,
@@ -2563,11 +2563,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T04:05:00.000Z",
-    "date": 1782965100000,
+    "created_at": "2026-07-04T15:00:00.000Z",
+    "date": 1783177200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T04:05:00.000Z",
+        "timestamp": "2026-07-04T15:00:00.000Z",
         "bg": 83,
         "tick": "-1",
         "eventualBG": null,
@@ -2580,11 +2580,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T04:10:00.000Z",
-    "date": 1782965400000,
+    "created_at": "2026-07-04T15:05:00.000Z",
+    "date": 1783177500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T04:10:00.000Z",
+        "timestamp": "2026-07-04T15:05:00.000Z",
         "bg": 83,
         "tick": "-1",
         "eventualBG": null,
@@ -2597,11 +2597,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T04:15:00.000Z",
-    "date": 1782965700000,
+    "created_at": "2026-07-04T15:10:00.000Z",
+    "date": 1783177800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T04:15:00.000Z",
+        "timestamp": "2026-07-04T15:10:00.000Z",
         "bg": 82,
         "tick": "-1",
         "eventualBG": null,
@@ -2614,11 +2614,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T04:20:00.000Z",
-    "date": 1782966000000,
+    "created_at": "2026-07-04T15:15:00.000Z",
+    "date": 1783178100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T04:20:00.000Z",
+        "timestamp": "2026-07-04T15:15:00.000Z",
         "bg": 81,
         "tick": "-1",
         "eventualBG": null,
@@ -2628,7 +2628,7 @@
         "safetyFlags": []
       },
       "enacted": {
-        "timestamp": "2026-07-02T04:20:00.000Z",
+        "timestamp": "2026-07-04T15:15:00.000Z",
         "bolus": 3.6,
         "received": true,
         "reason": "Demo policy: 65g carbs / 18g/U plus conservative correction."
@@ -2637,11 +2637,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T04:25:00.000Z",
-    "date": 1782966300000,
+    "created_at": "2026-07-04T15:20:00.000Z",
+    "date": 1783178400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T04:25:00.000Z",
+        "timestamp": "2026-07-04T15:20:00.000Z",
         "bg": 81,
         "tick": "-1",
         "eventualBG": null,
@@ -2654,11 +2654,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T04:30:00.000Z",
-    "date": 1782966600000,
+    "created_at": "2026-07-04T15:25:00.000Z",
+    "date": 1783178700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T04:30:00.000Z",
+        "timestamp": "2026-07-04T15:25:00.000Z",
         "bg": 80,
         "tick": "-1",
         "eventualBG": null,
@@ -2671,11 +2671,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T04:35:00.000Z",
-    "date": 1782966900000,
+    "created_at": "2026-07-04T15:30:00.000Z",
+    "date": 1783179000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T04:35:00.000Z",
+        "timestamp": "2026-07-04T15:30:00.000Z",
         "bg": 80,
         "tick": "-1",
         "eventualBG": null,
@@ -2690,11 +2690,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T04:40:00.000Z",
-    "date": 1782967200000,
+    "created_at": "2026-07-04T15:35:00.000Z",
+    "date": 1783179300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T04:40:00.000Z",
+        "timestamp": "2026-07-04T15:35:00.000Z",
         "bg": 79,
         "tick": "-1",
         "eventualBG": null,
@@ -2709,11 +2709,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T04:45:00.000Z",
-    "date": 1782967500000,
+    "created_at": "2026-07-04T15:40:00.000Z",
+    "date": 1783179600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T04:45:00.000Z",
+        "timestamp": "2026-07-04T15:40:00.000Z",
         "bg": 79,
         "tick": "0",
         "eventualBG": null,
@@ -2728,11 +2728,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T04:50:00.000Z",
-    "date": 1782967800000,
+    "created_at": "2026-07-04T15:45:00.000Z",
+    "date": 1783179900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T04:50:00.000Z",
+        "timestamp": "2026-07-04T15:45:00.000Z",
         "bg": 80,
         "tick": "0",
         "eventualBG": null,
@@ -2747,11 +2747,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T04:55:00.000Z",
-    "date": 1782968100000,
+    "created_at": "2026-07-04T15:50:00.000Z",
+    "date": 1783180200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T04:55:00.000Z",
+        "timestamp": "2026-07-04T15:50:00.000Z",
         "bg": 81,
         "tick": "0",
         "eventualBG": null,
@@ -2764,11 +2764,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T05:00:00.000Z",
-    "date": 1782968400000,
+    "created_at": "2026-07-04T15:55:00.000Z",
+    "date": 1783180500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T05:00:00.000Z",
+        "timestamp": "2026-07-04T15:55:00.000Z",
         "bg": 83,
         "tick": "0",
         "eventualBG": null,
@@ -2781,11 +2781,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T05:05:00.000Z",
-    "date": 1782968700000,
+    "created_at": "2026-07-04T16:00:00.000Z",
+    "date": 1783180800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T05:05:00.000Z",
+        "timestamp": "2026-07-04T16:00:00.000Z",
         "bg": 85,
         "tick": "+1",
         "eventualBG": null,
@@ -2798,11 +2798,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T05:10:00.000Z",
-    "date": 1782969000000,
+    "created_at": "2026-07-04T16:05:00.000Z",
+    "date": 1783181100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T05:10:00.000Z",
+        "timestamp": "2026-07-04T16:05:00.000Z",
         "bg": 89,
         "tick": "+2",
         "eventualBG": null,
@@ -2815,11 +2815,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T05:15:00.000Z",
-    "date": 1782969300000,
+    "created_at": "2026-07-04T16:10:00.000Z",
+    "date": 1783181400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T05:15:00.000Z",
+        "timestamp": "2026-07-04T16:10:00.000Z",
         "bg": 93,
         "tick": "+2",
         "eventualBG": null,
@@ -2832,11 +2832,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T05:20:00.000Z",
-    "date": 1782969600000,
+    "created_at": "2026-07-04T16:15:00.000Z",
+    "date": 1783181700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T05:20:00.000Z",
+        "timestamp": "2026-07-04T16:15:00.000Z",
         "bg": 99,
         "tick": "+3",
         "eventualBG": null,
@@ -2849,11 +2849,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T05:25:00.000Z",
-    "date": 1782969900000,
+    "created_at": "2026-07-04T16:20:00.000Z",
+    "date": 1783182000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T05:25:00.000Z",
+        "timestamp": "2026-07-04T16:20:00.000Z",
         "bg": 105,
         "tick": "+4",
         "eventualBG": null,
@@ -2866,11 +2866,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T05:30:00.000Z",
-    "date": 1782970200000,
+    "created_at": "2026-07-04T16:25:00.000Z",
+    "date": 1783182300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T05:30:00.000Z",
+        "timestamp": "2026-07-04T16:25:00.000Z",
         "bg": 112,
         "tick": "+5",
         "eventualBG": null,
@@ -2883,11 +2883,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T05:35:00.000Z",
-    "date": 1782970500000,
+    "created_at": "2026-07-04T16:30:00.000Z",
+    "date": 1783182600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T05:35:00.000Z",
+        "timestamp": "2026-07-04T16:30:00.000Z",
         "bg": 119,
         "tick": "+6",
         "eventualBG": null,
@@ -2900,11 +2900,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T05:40:00.000Z",
-    "date": 1782970800000,
+    "created_at": "2026-07-04T16:35:00.000Z",
+    "date": 1783182900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T05:40:00.000Z",
+        "timestamp": "2026-07-04T16:35:00.000Z",
         "bg": 126,
         "tick": "+6",
         "eventualBG": null,
@@ -2917,11 +2917,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T05:45:00.000Z",
-    "date": 1782971100000,
+    "created_at": "2026-07-04T16:40:00.000Z",
+    "date": 1783183200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T05:45:00.000Z",
+        "timestamp": "2026-07-04T16:40:00.000Z",
         "bg": 132,
         "tick": "+6",
         "eventualBG": null,
@@ -2934,11 +2934,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T05:50:00.000Z",
-    "date": 1782971400000,
+    "created_at": "2026-07-04T16:45:00.000Z",
+    "date": 1783183500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T05:50:00.000Z",
+        "timestamp": "2026-07-04T16:45:00.000Z",
         "bg": 138,
         "tick": "+7",
         "eventualBG": null,
@@ -2951,11 +2951,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T05:55:00.000Z",
-    "date": 1782971700000,
+    "created_at": "2026-07-04T16:50:00.000Z",
+    "date": 1783183800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T05:55:00.000Z",
+        "timestamp": "2026-07-04T16:50:00.000Z",
         "bg": 144,
         "tick": "+7",
         "eventualBG": null,
@@ -2968,11 +2968,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T06:00:00.000Z",
-    "date": 1782972000000,
+    "created_at": "2026-07-04T16:55:00.000Z",
+    "date": 1783184100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T06:00:00.000Z",
+        "timestamp": "2026-07-04T16:55:00.000Z",
         "bg": 149,
         "tick": "+6",
         "eventualBG": null,
@@ -2985,11 +2985,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T06:05:00.000Z",
-    "date": 1782972300000,
+    "created_at": "2026-07-04T17:00:00.000Z",
+    "date": 1783184400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T06:05:00.000Z",
+        "timestamp": "2026-07-04T17:00:00.000Z",
         "bg": 154,
         "tick": "+6",
         "eventualBG": null,
@@ -3002,11 +3002,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T06:10:00.000Z",
-    "date": 1782972600000,
+    "created_at": "2026-07-04T17:05:00.000Z",
+    "date": 1783184700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T06:10:00.000Z",
+        "timestamp": "2026-07-04T17:05:00.000Z",
         "bg": 158,
         "tick": "+5",
         "eventualBG": null,
@@ -3019,11 +3019,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T06:15:00.000Z",
-    "date": 1782972900000,
+    "created_at": "2026-07-04T17:10:00.000Z",
+    "date": 1783185000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T06:15:00.000Z",
+        "timestamp": "2026-07-04T17:10:00.000Z",
         "bg": 161,
         "tick": "+5",
         "eventualBG": null,
@@ -3036,11 +3036,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T06:20:00.000Z",
-    "date": 1782973200000,
+    "created_at": "2026-07-04T17:15:00.000Z",
+    "date": 1783185300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T06:20:00.000Z",
+        "timestamp": "2026-07-04T17:15:00.000Z",
         "bg": 164,
         "tick": "+4",
         "eventualBG": null,
@@ -3053,11 +3053,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T06:25:00.000Z",
-    "date": 1782973500000,
+    "created_at": "2026-07-04T17:20:00.000Z",
+    "date": 1783185600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T06:25:00.000Z",
+        "timestamp": "2026-07-04T17:20:00.000Z",
         "bg": 166,
         "tick": "+4",
         "eventualBG": null,
@@ -3070,11 +3070,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T06:30:00.000Z",
-    "date": 1782973800000,
+    "created_at": "2026-07-04T17:25:00.000Z",
+    "date": 1783185900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T06:30:00.000Z",
+        "timestamp": "2026-07-04T17:25:00.000Z",
         "bg": 167,
         "tick": "+3",
         "eventualBG": null,
@@ -3087,11 +3087,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T06:35:00.000Z",
-    "date": 1782974100000,
+    "created_at": "2026-07-04T17:30:00.000Z",
+    "date": 1783186200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T06:35:00.000Z",
+        "timestamp": "2026-07-04T17:30:00.000Z",
         "bg": 168,
         "tick": "+2",
         "eventualBG": null,
@@ -3104,11 +3104,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T06:40:00.000Z",
-    "date": 1782974400000,
+    "created_at": "2026-07-04T17:35:00.000Z",
+    "date": 1783186500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T06:40:00.000Z",
+        "timestamp": "2026-07-04T17:35:00.000Z",
         "bg": 169,
         "tick": "+2",
         "eventualBG": null,
@@ -3121,11 +3121,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T06:45:00.000Z",
-    "date": 1782974700000,
+    "created_at": "2026-07-04T17:40:00.000Z",
+    "date": 1783186800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T06:45:00.000Z",
+        "timestamp": "2026-07-04T17:40:00.000Z",
         "bg": 169,
         "tick": "+1",
         "eventualBG": null,
@@ -3138,11 +3138,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T06:50:00.000Z",
-    "date": 1782975000000,
+    "created_at": "2026-07-04T17:45:00.000Z",
+    "date": 1783187100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T06:50:00.000Z",
+        "timestamp": "2026-07-04T17:45:00.000Z",
         "bg": 169,
         "tick": "+1",
         "eventualBG": null,
@@ -3155,11 +3155,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T06:55:00.000Z",
-    "date": 1782975300000,
+    "created_at": "2026-07-04T17:50:00.000Z",
+    "date": 1783187400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T06:55:00.000Z",
+        "timestamp": "2026-07-04T17:50:00.000Z",
         "bg": 168,
         "tick": "0",
         "eventualBG": null,
@@ -3172,11 +3172,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T07:00:00.000Z",
-    "date": 1782975600000,
+    "created_at": "2026-07-04T17:55:00.000Z",
+    "date": 1783187700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T07:00:00.000Z",
+        "timestamp": "2026-07-04T17:55:00.000Z",
         "bg": 167,
         "tick": "0",
         "eventualBG": null,
@@ -3189,11 +3189,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T07:05:00.000Z",
-    "date": 1782975900000,
+    "created_at": "2026-07-04T18:00:00.000Z",
+    "date": 1783188000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T07:05:00.000Z",
+        "timestamp": "2026-07-04T18:00:00.000Z",
         "bg": 166,
         "tick": "0",
         "eventualBG": null,
@@ -3206,11 +3206,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T07:10:00.000Z",
-    "date": 1782976200000,
+    "created_at": "2026-07-04T18:05:00.000Z",
+    "date": 1783188300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T07:10:00.000Z",
+        "timestamp": "2026-07-04T18:05:00.000Z",
         "bg": 165,
         "tick": "-1",
         "eventualBG": null,
@@ -3223,11 +3223,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T07:15:00.000Z",
-    "date": 1782976500000,
+    "created_at": "2026-07-04T18:10:00.000Z",
+    "date": 1783188600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T07:15:00.000Z",
+        "timestamp": "2026-07-04T18:10:00.000Z",
         "bg": 163,
         "tick": "-1",
         "eventualBG": null,
@@ -3240,11 +3240,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T07:20:00.000Z",
-    "date": 1782976800000,
+    "created_at": "2026-07-04T18:15:00.000Z",
+    "date": 1783188900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T07:20:00.000Z",
+        "timestamp": "2026-07-04T18:15:00.000Z",
         "bg": 161,
         "tick": "-1",
         "eventualBG": null,
@@ -3257,11 +3257,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T07:25:00.000Z",
-    "date": 1782977100000,
+    "created_at": "2026-07-04T18:20:00.000Z",
+    "date": 1783189200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T07:25:00.000Z",
+        "timestamp": "2026-07-04T18:20:00.000Z",
         "bg": 160,
         "tick": "-1",
         "eventualBG": null,
@@ -3274,11 +3274,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T07:30:00.000Z",
-    "date": 1782977400000,
+    "created_at": "2026-07-04T18:25:00.000Z",
+    "date": 1783189500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T07:30:00.000Z",
+        "timestamp": "2026-07-04T18:25:00.000Z",
         "bg": 158,
         "tick": "-2",
         "eventualBG": null,
@@ -3291,11 +3291,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T07:35:00.000Z",
-    "date": 1782977700000,
+    "created_at": "2026-07-04T18:30:00.000Z",
+    "date": 1783189800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T07:35:00.000Z",
+        "timestamp": "2026-07-04T18:30:00.000Z",
         "bg": 156,
         "tick": "-2",
         "eventualBG": null,
@@ -3308,11 +3308,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T07:40:00.000Z",
-    "date": 1782978000000,
+    "created_at": "2026-07-04T18:35:00.000Z",
+    "date": 1783190100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T07:40:00.000Z",
+        "timestamp": "2026-07-04T18:35:00.000Z",
         "bg": 153,
         "tick": "-2",
         "eventualBG": null,
@@ -3325,11 +3325,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T07:45:00.000Z",
-    "date": 1782978300000,
+    "created_at": "2026-07-04T18:40:00.000Z",
+    "date": 1783190400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T07:45:00.000Z",
+        "timestamp": "2026-07-04T18:40:00.000Z",
         "bg": 151,
         "tick": "-2",
         "eventualBG": null,
@@ -3342,11 +3342,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T07:50:00.000Z",
-    "date": 1782978600000,
+    "created_at": "2026-07-04T18:45:00.000Z",
+    "date": 1783190700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T07:50:00.000Z",
+        "timestamp": "2026-07-04T18:45:00.000Z",
         "bg": 149,
         "tick": "-2",
         "eventualBG": null,
@@ -3359,11 +3359,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T07:55:00.000Z",
-    "date": 1782978900000,
+    "created_at": "2026-07-04T18:50:00.000Z",
+    "date": 1783191000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T07:55:00.000Z",
+        "timestamp": "2026-07-04T18:50:00.000Z",
         "bg": 147,
         "tick": "-2",
         "eventualBG": null,
@@ -3376,11 +3376,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T08:00:00.000Z",
-    "date": 1782979200000,
+    "created_at": "2026-07-04T18:55:00.000Z",
+    "date": 1783191300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T08:00:00.000Z",
+        "timestamp": "2026-07-04T18:55:00.000Z",
         "bg": 145,
         "tick": "-2",
         "eventualBG": null,
@@ -3393,11 +3393,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T08:05:00.000Z",
-    "date": 1782979500000,
+    "created_at": "2026-07-04T19:00:00.000Z",
+    "date": 1783191600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T08:05:00.000Z",
+        "timestamp": "2026-07-04T19:00:00.000Z",
         "bg": 142,
         "tick": "-2",
         "eventualBG": null,
@@ -3410,11 +3410,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T08:10:00.000Z",
-    "date": 1782979800000,
+    "created_at": "2026-07-04T19:05:00.000Z",
+    "date": 1783191900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T08:10:00.000Z",
+        "timestamp": "2026-07-04T19:05:00.000Z",
         "bg": 140,
         "tick": "-2",
         "eventualBG": null,
@@ -3427,11 +3427,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T08:15:00.000Z",
-    "date": 1782980100000,
+    "created_at": "2026-07-04T19:10:00.000Z",
+    "date": 1783192200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T08:15:00.000Z",
+        "timestamp": "2026-07-04T19:10:00.000Z",
         "bg": 138,
         "tick": "-2",
         "eventualBG": null,
@@ -3444,11 +3444,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T08:20:00.000Z",
-    "date": 1782980400000,
+    "created_at": "2026-07-04T19:15:00.000Z",
+    "date": 1783192500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T08:20:00.000Z",
+        "timestamp": "2026-07-04T19:15:00.000Z",
         "bg": 136,
         "tick": "-2",
         "eventualBG": null,
@@ -3461,11 +3461,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T08:25:00.000Z",
-    "date": 1782980700000,
+    "created_at": "2026-07-04T19:20:00.000Z",
+    "date": 1783192800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T08:25:00.000Z",
+        "timestamp": "2026-07-04T19:20:00.000Z",
         "bg": 134,
         "tick": "-2",
         "eventualBG": null,
@@ -3478,11 +3478,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T08:30:00.000Z",
-    "date": 1782981000000,
+    "created_at": "2026-07-04T19:25:00.000Z",
+    "date": 1783193100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T08:30:00.000Z",
+        "timestamp": "2026-07-04T19:25:00.000Z",
         "bg": 132,
         "tick": "-2",
         "eventualBG": null,
@@ -3495,11 +3495,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T08:35:00.000Z",
-    "date": 1782981300000,
+    "created_at": "2026-07-04T19:30:00.000Z",
+    "date": 1783193400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T08:35:00.000Z",
+        "timestamp": "2026-07-04T19:30:00.000Z",
         "bg": 130,
         "tick": "-2",
         "eventualBG": null,
@@ -3512,11 +3512,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T08:40:00.000Z",
-    "date": 1782981600000,
+    "created_at": "2026-07-04T19:35:00.000Z",
+    "date": 1783193700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T08:40:00.000Z",
+        "timestamp": "2026-07-04T19:35:00.000Z",
         "bg": 128,
         "tick": "-2",
         "eventualBG": null,
@@ -3529,11 +3529,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T08:45:00.000Z",
-    "date": 1782981900000,
+    "created_at": "2026-07-04T19:40:00.000Z",
+    "date": 1783194000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T08:45:00.000Z",
+        "timestamp": "2026-07-04T19:40:00.000Z",
         "bg": 126,
         "tick": "-2",
         "eventualBG": null,
@@ -3546,11 +3546,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T08:50:00.000Z",
-    "date": 1782982200000,
+    "created_at": "2026-07-04T19:45:00.000Z",
+    "date": 1783194300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T08:50:00.000Z",
+        "timestamp": "2026-07-04T19:45:00.000Z",
         "bg": 124,
         "tick": "-2",
         "eventualBG": null,
@@ -3563,11 +3563,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T08:55:00.000Z",
-    "date": 1782982500000,
+    "created_at": "2026-07-04T19:50:00.000Z",
+    "date": 1783194600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T08:55:00.000Z",
+        "timestamp": "2026-07-04T19:50:00.000Z",
         "bg": 122,
         "tick": "-2",
         "eventualBG": null,
@@ -3580,11 +3580,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T09:00:00.000Z",
-    "date": 1782982800000,
+    "created_at": "2026-07-04T19:55:00.000Z",
+    "date": 1783194900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T09:00:00.000Z",
+        "timestamp": "2026-07-04T19:55:00.000Z",
         "bg": 120,
         "tick": "-2",
         "eventualBG": null,
@@ -3597,11 +3597,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T09:05:00.000Z",
-    "date": 1782983100000,
+    "created_at": "2026-07-04T20:00:00.000Z",
+    "date": 1783195200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T09:05:00.000Z",
+        "timestamp": "2026-07-04T20:00:00.000Z",
         "bg": 119,
         "tick": "-2",
         "eventualBG": null,
@@ -3614,11 +3614,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T09:10:00.000Z",
-    "date": 1782983400000,
+    "created_at": "2026-07-04T20:05:00.000Z",
+    "date": 1783195500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T09:10:00.000Z",
+        "timestamp": "2026-07-04T20:05:00.000Z",
         "bg": 117,
         "tick": "-2",
         "eventualBG": null,
@@ -3631,11 +3631,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T09:15:00.000Z",
-    "date": 1782983700000,
+    "created_at": "2026-07-04T20:10:00.000Z",
+    "date": 1783195800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T09:15:00.000Z",
+        "timestamp": "2026-07-04T20:10:00.000Z",
         "bg": 115,
         "tick": "-2",
         "eventualBG": null,
@@ -3648,11 +3648,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T09:20:00.000Z",
-    "date": 1782984000000,
+    "created_at": "2026-07-04T20:15:00.000Z",
+    "date": 1783196100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T09:20:00.000Z",
+        "timestamp": "2026-07-04T20:15:00.000Z",
         "bg": 114,
         "tick": "-2",
         "eventualBG": null,
@@ -3665,11 +3665,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T09:25:00.000Z",
-    "date": 1782984300000,
+    "created_at": "2026-07-04T20:20:00.000Z",
+    "date": 1783196400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T09:25:00.000Z",
+        "timestamp": "2026-07-04T20:20:00.000Z",
         "bg": 112,
         "tick": "-2",
         "eventualBG": null,
@@ -3682,11 +3682,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T09:30:00.000Z",
-    "date": 1782984600000,
+    "created_at": "2026-07-04T20:25:00.000Z",
+    "date": 1783196700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T09:30:00.000Z",
+        "timestamp": "2026-07-04T20:25:00.000Z",
         "bg": 111,
         "tick": "-2",
         "eventualBG": null,
@@ -3699,11 +3699,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T09:35:00.000Z",
-    "date": 1782984900000,
+    "created_at": "2026-07-04T20:30:00.000Z",
+    "date": 1783197000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T09:35:00.000Z",
+        "timestamp": "2026-07-04T20:30:00.000Z",
         "bg": 110,
         "tick": "-2",
         "eventualBG": null,
@@ -3716,11 +3716,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T09:40:00.000Z",
-    "date": 1782985200000,
+    "created_at": "2026-07-04T20:35:00.000Z",
+    "date": 1783197300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T09:40:00.000Z",
+        "timestamp": "2026-07-04T20:35:00.000Z",
         "bg": 108,
         "tick": "-1",
         "eventualBG": null,
@@ -3733,11 +3733,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T09:45:00.000Z",
-    "date": 1782985500000,
+    "created_at": "2026-07-04T20:40:00.000Z",
+    "date": 1783197600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T09:45:00.000Z",
+        "timestamp": "2026-07-04T20:40:00.000Z",
         "bg": 107,
         "tick": "-1",
         "eventualBG": null,
@@ -3750,11 +3750,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T09:50:00.000Z",
-    "date": 1782985800000,
+    "created_at": "2026-07-04T20:45:00.000Z",
+    "date": 1783197900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T09:50:00.000Z",
+        "timestamp": "2026-07-04T20:45:00.000Z",
         "bg": 106,
         "tick": "-1",
         "eventualBG": null,
@@ -3767,11 +3767,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T09:55:00.000Z",
-    "date": 1782986100000,
+    "created_at": "2026-07-04T20:50:00.000Z",
+    "date": 1783198200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T09:55:00.000Z",
+        "timestamp": "2026-07-04T20:50:00.000Z",
         "bg": 105,
         "tick": "-1",
         "eventualBG": null,
@@ -3784,11 +3784,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T10:00:00.000Z",
-    "date": 1782986400000,
+    "created_at": "2026-07-04T20:55:00.000Z",
+    "date": 1783198500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T10:00:00.000Z",
+        "timestamp": "2026-07-04T20:55:00.000Z",
         "bg": 104,
         "tick": "-1",
         "eventualBG": null,
@@ -3801,11 +3801,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T10:05:00.000Z",
-    "date": 1782986700000,
+    "created_at": "2026-07-04T21:00:00.000Z",
+    "date": 1783198800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T10:05:00.000Z",
+        "timestamp": "2026-07-04T21:00:00.000Z",
         "bg": 103,
         "tick": "-1",
         "eventualBG": null,
@@ -3818,11 +3818,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T10:10:00.000Z",
-    "date": 1782987000000,
+    "created_at": "2026-07-04T21:05:00.000Z",
+    "date": 1783199100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T10:10:00.000Z",
+        "timestamp": "2026-07-04T21:05:00.000Z",
         "bg": 102,
         "tick": "-1",
         "eventualBG": null,
@@ -3835,11 +3835,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T10:15:00.000Z",
-    "date": 1782987300000,
+    "created_at": "2026-07-04T21:10:00.000Z",
+    "date": 1783199400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T10:15:00.000Z",
+        "timestamp": "2026-07-04T21:10:00.000Z",
         "bg": 101,
         "tick": "-1",
         "eventualBG": null,
@@ -3852,11 +3852,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T10:20:00.000Z",
-    "date": 1782987600000,
+    "created_at": "2026-07-04T21:15:00.000Z",
+    "date": 1783199700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T10:20:00.000Z",
+        "timestamp": "2026-07-04T21:15:00.000Z",
         "bg": 100,
         "tick": "-1",
         "eventualBG": null,
@@ -3869,11 +3869,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T10:25:00.000Z",
-    "date": 1782987900000,
+    "created_at": "2026-07-04T21:20:00.000Z",
+    "date": 1783200000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T10:25:00.000Z",
+        "timestamp": "2026-07-04T21:20:00.000Z",
         "bg": 99,
         "tick": "-1",
         "eventualBG": null,
@@ -3886,11 +3886,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T10:30:00.000Z",
-    "date": 1782988200000,
+    "created_at": "2026-07-04T21:25:00.000Z",
+    "date": 1783200300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T10:30:00.000Z",
+        "timestamp": "2026-07-04T21:25:00.000Z",
         "bg": 98,
         "tick": "-1",
         "eventualBG": null,
@@ -3903,11 +3903,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T10:35:00.000Z",
-    "date": 1782988500000,
+    "created_at": "2026-07-04T21:30:00.000Z",
+    "date": 1783200600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T10:35:00.000Z",
+        "timestamp": "2026-07-04T21:30:00.000Z",
         "bg": 97,
         "tick": "-1",
         "eventualBG": null,
@@ -3920,11 +3920,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T10:40:00.000Z",
-    "date": 1782988800000,
+    "created_at": "2026-07-04T21:35:00.000Z",
+    "date": 1783200900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T10:40:00.000Z",
+        "timestamp": "2026-07-04T21:35:00.000Z",
         "bg": 97,
         "tick": "-1",
         "eventualBG": null,
@@ -3937,11 +3937,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T10:45:00.000Z",
-    "date": 1782989100000,
+    "created_at": "2026-07-04T21:40:00.000Z",
+    "date": 1783201200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T10:45:00.000Z",
+        "timestamp": "2026-07-04T21:40:00.000Z",
         "bg": 96,
         "tick": "-1",
         "eventualBG": null,
@@ -3954,11 +3954,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T10:50:00.000Z",
-    "date": 1782989400000,
+    "created_at": "2026-07-04T21:45:00.000Z",
+    "date": 1783201500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T10:50:00.000Z",
+        "timestamp": "2026-07-04T21:45:00.000Z",
         "bg": 95,
         "tick": "-1",
         "eventualBG": null,
@@ -3971,11 +3971,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T10:55:00.000Z",
-    "date": 1782989700000,
+    "created_at": "2026-07-04T21:50:00.000Z",
+    "date": 1783201800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T10:55:00.000Z",
+        "timestamp": "2026-07-04T21:50:00.000Z",
         "bg": 95,
         "tick": "-1",
         "eventualBG": null,
@@ -3988,11 +3988,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T11:00:00.000Z",
-    "date": 1782990000000,
+    "created_at": "2026-07-04T21:55:00.000Z",
+    "date": 1783202100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T11:00:00.000Z",
+        "timestamp": "2026-07-04T21:55:00.000Z",
         "bg": 94,
         "tick": "-1",
         "eventualBG": null,
@@ -4005,11 +4005,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T11:05:00.000Z",
-    "date": 1782990300000,
+    "created_at": "2026-07-04T22:00:00.000Z",
+    "date": 1783202400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T11:05:00.000Z",
+        "timestamp": "2026-07-04T22:00:00.000Z",
         "bg": 93,
         "tick": "-1",
         "eventualBG": null,
@@ -4022,11 +4022,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T11:10:00.000Z",
-    "date": 1782990600000,
+    "created_at": "2026-07-04T22:05:00.000Z",
+    "date": 1783202700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T11:10:00.000Z",
+        "timestamp": "2026-07-04T22:05:00.000Z",
         "bg": 93,
         "tick": "-1",
         "eventualBG": null,
@@ -4039,11 +4039,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T11:15:00.000Z",
-    "date": 1782990900000,
+    "created_at": "2026-07-04T22:10:00.000Z",
+    "date": 1783203000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T11:15:00.000Z",
+        "timestamp": "2026-07-04T22:10:00.000Z",
         "bg": 92,
         "tick": "-1",
         "eventualBG": null,
@@ -4056,11 +4056,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T11:20:00.000Z",
-    "date": 1782991200000,
+    "created_at": "2026-07-04T22:15:00.000Z",
+    "date": 1783203300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T11:20:00.000Z",
+        "timestamp": "2026-07-04T22:15:00.000Z",
         "bg": 92,
         "tick": "-1",
         "eventualBG": null,
@@ -4073,11 +4073,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T11:25:00.000Z",
-    "date": 1782991500000,
+    "created_at": "2026-07-04T22:20:00.000Z",
+    "date": 1783203600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T11:25:00.000Z",
+        "timestamp": "2026-07-04T22:20:00.000Z",
         "bg": 92,
         "tick": "0",
         "eventualBG": null,
@@ -4090,11 +4090,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T11:30:00.000Z",
-    "date": 1782991800000,
+    "created_at": "2026-07-04T22:25:00.000Z",
+    "date": 1783203900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T11:30:00.000Z",
+        "timestamp": "2026-07-04T22:25:00.000Z",
         "bg": 91,
         "tick": "0",
         "eventualBG": null,
@@ -4107,11 +4107,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T11:35:00.000Z",
-    "date": 1782992100000,
+    "created_at": "2026-07-04T22:30:00.000Z",
+    "date": 1783204200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T11:35:00.000Z",
+        "timestamp": "2026-07-04T22:30:00.000Z",
         "bg": 91,
         "tick": "0",
         "eventualBG": null,
@@ -4124,11 +4124,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T11:40:00.000Z",
-    "date": 1782992400000,
+    "created_at": "2026-07-04T22:35:00.000Z",
+    "date": 1783204500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T11:40:00.000Z",
+        "timestamp": "2026-07-04T22:35:00.000Z",
         "bg": 91,
         "tick": "0",
         "eventualBG": null,
@@ -4141,11 +4141,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T11:45:00.000Z",
-    "date": 1782992700000,
+    "created_at": "2026-07-04T22:40:00.000Z",
+    "date": 1783204800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T11:45:00.000Z",
+        "timestamp": "2026-07-04T22:40:00.000Z",
         "bg": 90,
         "tick": "0",
         "eventualBG": null,
@@ -4158,11 +4158,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T11:50:00.000Z",
-    "date": 1782993000000,
+    "created_at": "2026-07-04T22:45:00.000Z",
+    "date": 1783205100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T11:50:00.000Z",
+        "timestamp": "2026-07-04T22:45:00.000Z",
         "bg": 90,
         "tick": "0",
         "eventualBG": null,
@@ -4175,11 +4175,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T11:55:00.000Z",
-    "date": 1782993300000,
+    "created_at": "2026-07-04T22:50:00.000Z",
+    "date": 1783205400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T11:55:00.000Z",
+        "timestamp": "2026-07-04T22:50:00.000Z",
         "bg": 90,
         "tick": "0",
         "eventualBG": null,
@@ -4192,11 +4192,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T12:00:00.000Z",
-    "date": 1782993600000,
+    "created_at": "2026-07-04T22:55:00.000Z",
+    "date": 1783205700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T12:00:00.000Z",
+        "timestamp": "2026-07-04T22:55:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4209,11 +4209,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T12:05:00.000Z",
-    "date": 1782993900000,
+    "created_at": "2026-07-04T23:00:00.000Z",
+    "date": 1783206000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T12:05:00.000Z",
+        "timestamp": "2026-07-04T23:00:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4226,11 +4226,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T12:10:00.000Z",
-    "date": 1782994200000,
+    "created_at": "2026-07-04T23:05:00.000Z",
+    "date": 1783206300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T12:10:00.000Z",
+        "timestamp": "2026-07-04T23:05:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4243,11 +4243,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T12:15:00.000Z",
-    "date": 1782994500000,
+    "created_at": "2026-07-04T23:10:00.000Z",
+    "date": 1783206600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T12:15:00.000Z",
+        "timestamp": "2026-07-04T23:10:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4260,11 +4260,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T12:20:00.000Z",
-    "date": 1782994800000,
+    "created_at": "2026-07-04T23:15:00.000Z",
+    "date": 1783206900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T12:20:00.000Z",
+        "timestamp": "2026-07-04T23:15:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4277,11 +4277,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T12:25:00.000Z",
-    "date": 1782995100000,
+    "created_at": "2026-07-04T23:20:00.000Z",
+    "date": 1783207200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T12:25:00.000Z",
+        "timestamp": "2026-07-04T23:20:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4294,11 +4294,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T12:30:00.000Z",
-    "date": 1782995400000,
+    "created_at": "2026-07-04T23:25:00.000Z",
+    "date": 1783207500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T12:30:00.000Z",
+        "timestamp": "2026-07-04T23:25:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4311,11 +4311,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T12:35:00.000Z",
-    "date": 1782995700000,
+    "created_at": "2026-07-04T23:30:00.000Z",
+    "date": 1783207800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T12:35:00.000Z",
+        "timestamp": "2026-07-04T23:30:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4328,11 +4328,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T12:40:00.000Z",
-    "date": 1782996000000,
+    "created_at": "2026-07-04T23:35:00.000Z",
+    "date": 1783208100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T12:40:00.000Z",
+        "timestamp": "2026-07-04T23:35:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4345,11 +4345,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T12:45:00.000Z",
-    "date": 1782996300000,
+    "created_at": "2026-07-04T23:40:00.000Z",
+    "date": 1783208400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T12:45:00.000Z",
+        "timestamp": "2026-07-04T23:40:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4362,11 +4362,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T12:50:00.000Z",
-    "date": 1782996600000,
+    "created_at": "2026-07-04T23:45:00.000Z",
+    "date": 1783208700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T12:50:00.000Z",
+        "timestamp": "2026-07-04T23:45:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4379,11 +4379,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T12:55:00.000Z",
-    "date": 1782996900000,
+    "created_at": "2026-07-04T23:50:00.000Z",
+    "date": 1783209000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T12:55:00.000Z",
+        "timestamp": "2026-07-04T23:50:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4396,11 +4396,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T13:00:00.000Z",
-    "date": 1782997200000,
+    "created_at": "2026-07-04T23:55:00.000Z",
+    "date": 1783209300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T13:00:00.000Z",
+        "timestamp": "2026-07-04T23:55:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4413,11 +4413,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T13:05:00.000Z",
-    "date": 1782997500000,
+    "created_at": "2026-07-05T00:00:00.000Z",
+    "date": 1783209600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T13:05:00.000Z",
+        "timestamp": "2026-07-05T00:00:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4430,11 +4430,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T13:10:00.000Z",
-    "date": 1782997800000,
+    "created_at": "2026-07-05T00:05:00.000Z",
+    "date": 1783209900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T13:10:00.000Z",
+        "timestamp": "2026-07-05T00:05:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4447,11 +4447,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T13:15:00.000Z",
-    "date": 1782998100000,
+    "created_at": "2026-07-05T00:10:00.000Z",
+    "date": 1783210200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T13:15:00.000Z",
+        "timestamp": "2026-07-05T00:10:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4464,11 +4464,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T13:20:00.000Z",
-    "date": 1782998400000,
+    "created_at": "2026-07-05T00:15:00.000Z",
+    "date": 1783210500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T13:20:00.000Z",
+        "timestamp": "2026-07-05T00:15:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4481,11 +4481,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T13:25:00.000Z",
-    "date": 1782998700000,
+    "created_at": "2026-07-05T00:20:00.000Z",
+    "date": 1783210800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T13:25:00.000Z",
+        "timestamp": "2026-07-05T00:20:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4498,11 +4498,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T13:30:00.000Z",
-    "date": 1782999000000,
+    "created_at": "2026-07-05T00:25:00.000Z",
+    "date": 1783211100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T13:30:00.000Z",
+        "timestamp": "2026-07-05T00:25:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4515,11 +4515,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T13:35:00.000Z",
-    "date": 1782999300000,
+    "created_at": "2026-07-05T00:30:00.000Z",
+    "date": 1783211400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T13:35:00.000Z",
+        "timestamp": "2026-07-05T00:30:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4532,11 +4532,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T13:40:00.000Z",
-    "date": 1782999600000,
+    "created_at": "2026-07-05T00:35:00.000Z",
+    "date": 1783211700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T13:40:00.000Z",
+        "timestamp": "2026-07-05T00:35:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4549,11 +4549,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T13:45:00.000Z",
-    "date": 1782999900000,
+    "created_at": "2026-07-05T00:40:00.000Z",
+    "date": 1783212000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T13:45:00.000Z",
+        "timestamp": "2026-07-05T00:40:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4566,11 +4566,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T13:50:00.000Z",
-    "date": 1783000200000,
+    "created_at": "2026-07-05T00:45:00.000Z",
+    "date": 1783212300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T13:50:00.000Z",
+        "timestamp": "2026-07-05T00:45:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4583,11 +4583,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T13:55:00.000Z",
-    "date": 1783000500000,
+    "created_at": "2026-07-05T00:50:00.000Z",
+    "date": 1783212600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T13:55:00.000Z",
+        "timestamp": "2026-07-05T00:50:00.000Z",
         "bg": 88,
         "tick": "0",
         "eventualBG": null,
@@ -4600,11 +4600,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T14:00:00.000Z",
-    "date": 1783000800000,
+    "created_at": "2026-07-05T00:55:00.000Z",
+    "date": 1783212900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T14:00:00.000Z",
+        "timestamp": "2026-07-05T00:55:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4617,11 +4617,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T14:05:00.000Z",
-    "date": 1783001100000,
+    "created_at": "2026-07-05T01:00:00.000Z",
+    "date": 1783213200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T14:05:00.000Z",
+        "timestamp": "2026-07-05T01:00:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4634,11 +4634,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T14:10:00.000Z",
-    "date": 1783001400000,
+    "created_at": "2026-07-05T01:05:00.000Z",
+    "date": 1783213500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T14:10:00.000Z",
+        "timestamp": "2026-07-05T01:05:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4651,11 +4651,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T14:15:00.000Z",
-    "date": 1783001700000,
+    "created_at": "2026-07-05T01:10:00.000Z",
+    "date": 1783213800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T14:15:00.000Z",
+        "timestamp": "2026-07-05T01:10:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4668,11 +4668,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T14:20:00.000Z",
-    "date": 1783002000000,
+    "created_at": "2026-07-05T01:15:00.000Z",
+    "date": 1783214100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T14:20:00.000Z",
+        "timestamp": "2026-07-05T01:15:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4685,11 +4685,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T14:25:00.000Z",
-    "date": 1783002300000,
+    "created_at": "2026-07-05T01:20:00.000Z",
+    "date": 1783214400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T14:25:00.000Z",
+        "timestamp": "2026-07-05T01:20:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4702,11 +4702,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T14:30:00.000Z",
-    "date": 1783002600000,
+    "created_at": "2026-07-05T01:25:00.000Z",
+    "date": 1783214700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T14:30:00.000Z",
+        "timestamp": "2026-07-05T01:25:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4719,11 +4719,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T14:35:00.000Z",
-    "date": 1783002900000,
+    "created_at": "2026-07-05T01:30:00.000Z",
+    "date": 1783215000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T14:35:00.000Z",
+        "timestamp": "2026-07-05T01:30:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4736,11 +4736,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T14:40:00.000Z",
-    "date": 1783003200000,
+    "created_at": "2026-07-05T01:35:00.000Z",
+    "date": 1783215300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T14:40:00.000Z",
+        "timestamp": "2026-07-05T01:35:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4753,11 +4753,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T14:45:00.000Z",
-    "date": 1783003500000,
+    "created_at": "2026-07-05T01:40:00.000Z",
+    "date": 1783215600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T14:45:00.000Z",
+        "timestamp": "2026-07-05T01:40:00.000Z",
         "bg": 89,
         "tick": "0",
         "eventualBG": null,
@@ -4770,11 +4770,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T14:50:00.000Z",
-    "date": 1783003800000,
+    "created_at": "2026-07-05T01:45:00.000Z",
+    "date": 1783215900000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T14:50:00.000Z",
+        "timestamp": "2026-07-05T01:45:00.000Z",
         "bg": 90,
         "tick": "0",
         "eventualBG": null,
@@ -4787,11 +4787,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T14:55:00.000Z",
-    "date": 1783004100000,
+    "created_at": "2026-07-05T01:50:00.000Z",
+    "date": 1783216200000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T14:55:00.000Z",
+        "timestamp": "2026-07-05T01:50:00.000Z",
         "bg": 90,
         "tick": "0",
         "eventualBG": null,
@@ -4804,11 +4804,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T15:00:00.000Z",
-    "date": 1783004400000,
+    "created_at": "2026-07-05T01:55:00.000Z",
+    "date": 1783216500000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T15:00:00.000Z",
+        "timestamp": "2026-07-05T01:55:00.000Z",
         "bg": 90,
         "tick": "0",
         "eventualBG": null,
@@ -4821,11 +4821,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T15:05:00.000Z",
-    "date": 1783004700000,
+    "created_at": "2026-07-05T02:00:00.000Z",
+    "date": 1783216800000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T15:05:00.000Z",
+        "timestamp": "2026-07-05T02:00:00.000Z",
         "bg": 90,
         "tick": "0",
         "eventualBG": null,
@@ -4838,11 +4838,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T15:10:00.000Z",
-    "date": 1783005000000,
+    "created_at": "2026-07-05T02:05:00.000Z",
+    "date": 1783217100000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T15:10:00.000Z",
+        "timestamp": "2026-07-05T02:05:00.000Z",
         "bg": 90,
         "tick": "0",
         "eventualBG": null,
@@ -4855,11 +4855,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T15:15:00.000Z",
-    "date": 1783005300000,
+    "created_at": "2026-07-05T02:10:00.000Z",
+    "date": 1783217400000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T15:15:00.000Z",
+        "timestamp": "2026-07-05T02:10:00.000Z",
         "bg": 90,
         "tick": "0",
         "eventualBG": null,
@@ -4872,11 +4872,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T15:20:00.000Z",
-    "date": 1783005600000,
+    "created_at": "2026-07-05T02:15:00.000Z",
+    "date": 1783217700000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T15:20:00.000Z",
+        "timestamp": "2026-07-05T02:15:00.000Z",
         "bg": 90,
         "tick": "0",
         "eventualBG": null,
@@ -4889,11 +4889,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T15:25:00.000Z",
-    "date": 1783005900000,
+    "created_at": "2026-07-05T02:20:00.000Z",
+    "date": 1783218000000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T15:25:00.000Z",
+        "timestamp": "2026-07-05T02:20:00.000Z",
         "bg": 91,
         "tick": "0",
         "eventualBG": null,
@@ -4906,11 +4906,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T15:30:00.000Z",
-    "date": 1783006200000,
+    "created_at": "2026-07-05T02:25:00.000Z",
+    "date": 1783218300000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T15:30:00.000Z",
+        "timestamp": "2026-07-05T02:25:00.000Z",
         "bg": 91,
         "tick": "0",
         "eventualBG": null,
@@ -4923,11 +4923,11 @@
   },
   {
     "device": "LoopInsighT1 AgentWorkflow",
-    "created_at": "2026-07-02T15:35:00.000Z",
-    "date": 1783006500000,
+    "created_at": "2026-07-05T02:30:00.000Z",
+    "date": 1783218600000,
     "openaps": {
       "suggested": {
-        "timestamp": "2026-07-02T15:35:00.000Z",
+        "timestamp": "2026-07-05T02:30:00.000Z",
         "bg": 91,
         "tick": "0",
         "eventualBG": null,
