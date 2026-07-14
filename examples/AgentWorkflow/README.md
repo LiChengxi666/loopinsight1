@@ -55,6 +55,12 @@ NIGHTSCOUT_URL=https://your-nightscout.example npm run demo:online-loop
 
 该命令只发送 GET 请求。输出 `output/online-patient-loop.json` 含患者摘要并被 Git 忽略；仓库内不得保存真实 URL、凭据或产物。
 
+在线闭环保持两个正式候选 Plan，但会额外输出不可执行的反事实补碳 sweep。正式候选只能使用患者已批准的补碳协议或确定性纠正剂量；反事实 sweep 只用于解释 LoopInsighT1 对 5/10/15/20 g 碳水的模拟响应，永远标记为 `research_counterfactual_only`，不能转成治疗建议。
+
+在线预测输出会同时包含 30、60、120 分钟血糖点和最低值发生时间。AAPS `eventualBG` 不再被直接等同于 LoopInsighT1 的两小时最低值；如果 Nightscout 提供 OpenAPS `predBGs` 序列，门禁优先用该序列的最低预测值做外部模型一致性检查。如果只有 `eventualBG`，它只作为外部低血糖风险警报进入 `external_low_projection_unresolved`。
+
+真实 NS 中 `Meal Bolus` 有胰岛素但 `carbs=null` 时，在线闭环会显式记录 `mealBolusWithoutCarbs` 和 `carbsInferenceDisabled`。正式候选不会伪造历史餐食；该信息会进入状态不确定性和 blockers，提醒 warm-start 可能缺少真实进食扰动。
+
 输出文件会写到：
 
 ```text

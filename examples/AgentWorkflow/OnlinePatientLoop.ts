@@ -26,8 +26,12 @@ type Treatment = {
     insulin?: number
     carbs?: number
     duration?: number
+    durationInMilliseconds?: number
     absolute?: number
     rate?: number
+    pumpId?: number
+    endId?: number
+    endmills?: number
 }
 type ScheduleEntry = { time?: string, value: number, timeAsSeconds: number }
 type ProfileStore = {
@@ -46,7 +50,13 @@ type DeviceStatus = {
     loop?: { iob?: { iob?: number, timestamp?: string }, cob?: { cob?: number, timestamp?: string } }
     openaps?: {
         iob?: { iob?: number, activity?: number, basaliob?: number, time?: string }
-        suggested?: { COB?: number, eventualBG?: number, timestamp?: string, rate?: number }
+        suggested?: {
+            COB?: number
+            eventualBG?: number
+            timestamp?: string
+            rate?: number
+            predBGs?: Record<string, number[]>
+        }
     }
     pump?: { suspended?: boolean }
 }
@@ -73,8 +83,12 @@ type CandidateAction = {
 type ForecastMetrics = {
     meanMgdl: number
     minMgdl: number
+    minAtMinutes: number
     maxMgdl: number
     endMgdl: number
+    glucoseAt30Min: number
+    glucoseAt60Min: number
+    glucoseAt120Min: number
     tirPercent: number
     tbrPercent: number
     tarPercent: number
@@ -89,6 +103,13 @@ type FitResult = {
     coveragePercent: number
     currentClampMgdl: number
     carbHistoryPresent: boolean
+    mealBolusWithoutCarbs: number
+    validationWindows: Record<'30min' | '60min' | '90min', {
+        rmseMgdl: number
+        maeMgdl: number
+        points: number
+        coveragePercent: number
+    }>
 }
 
 const outputFile = path.join(
@@ -105,6 +126,7 @@ async function main() {
     const fit = identifyAndWarmStart(input)
     const candidates = createTwoCandidates(state)
     const simulated = candidates.map(candidate => simulateWithReplan(input, fit, state, candidate))
+    const counterfactuals = createCounterfactuals(input, fit, state)
     const calibrationPassed = fit.rmseMgdl <= MAX_CALIBRATION_RMSE
         && fit.validationPoints >= 12
         && fit.coveragePercent >= 70
@@ -152,7 +174,8 @@ async function main() {
             onlinePatientUsed: true,
             fixedReferencePatientUsed: false,
             limitations: compact([
-                !fit.carbHistoryPresent && 'Nightscout 治疗记录中没有碳水事件；未反推或伪造历史餐食。',
+                !fit.carbHistoryPresent && 'Nightscout 治疗记录中没有碳水事件；正式候选未反推或伪造历史餐食。',
+                fit.mealBolusWithoutCarbs > 0 && `发现 ${fit.mealBolusWithoutCarbs} 条 Meal Bolus 没有 carbs；历史状态可能缺少真实进食扰动。`,
                 state.iobU === null && '实时 IOB 缺失，不能验证模型胰岛素作用状态。',
                 state.cobG === null && '实时 COB 缺失，不能验证模型消化吸收状态。',
                 'Deichmann2021 隐状态不可由 CGM 唯一确定；当前实现是可审计的状态估计，不是数字孪生证明。',
@@ -161,8 +184,9 @@ async function main() {
         plan: {
             candidateCount: 2,
             candidates: simulated,
+            counterfactuals,
             maxReplanIterations: 3,
-            selectionRule: '先通过校准门禁与低/高血糖硬门禁，再最小化范围外暴露和终点偏差。',
+            selectionRule: '正式候选先通过校准门禁与低/高血糖硬门禁，再最小化范围外暴露和终点偏差；反事实 sweep 永远不可执行。',
         },
         finalAction: selected ? {
             status: finalStatus,
@@ -184,7 +208,7 @@ async function main() {
             { step: 'observe', status: 'completed', detail: '读取当前节点之前的 CGM、治疗、Profile 与 DeviceStatus。' },
             { step: 'model', status: calibrationPassed ? 'completed' : 'blocked', detail: `6 小时历史回放；验证 RMSE ${fit.rmseMgdl} mg/dL。` },
             { step: 'plan', status: 'completed', detail: '由确定性代码生成恰好两个候选。' },
-            { step: 'simulate', status: 'completed', detail: '从同一个在线患者估计状态分叉，并最多重规划 3 次。' },
+            { step: 'simulate', status: 'completed', detail: '从同一个在线患者估计状态分叉，输出 30/60/120 分钟预测点，并最多重规划 3 次。' },
             { step: 'action', status: finalStatus, detail: selected ? `选择 ${selected.action.id}，仅供人工审核。` : '无候选通过。' },
         ],
     }
@@ -253,14 +277,21 @@ function buildDecisionInput(input: OnlineInput) {
     const iobU = finiteOrNull(status?.loop?.iob?.iob ?? status?.openaps?.iob?.iob)
     const cobG = finiteOrNull(status?.loop?.cob?.cob ?? status?.openaps?.suggested?.COB)
     const carbs = input.treatments.filter(treatment => Number(treatment.carbs) > 0)
+    const mealBolusWithoutCarbs = input.treatments.filter(treatment =>
+        treatment.eventType === 'Meal Bolus'
+        && Number(treatment.insulin ?? 0) > 0
+        && !(Number(treatment.carbs ?? 0) > 0),
+    ).length
     const recent = input.entries.filter(entry => entry.date >= input.asOf.valueOf() - 2 * HOUR)
+    const externalPrediction = extractExternalPrediction(status)
     return {
         currentGlucoseMgdl: latest.sgv,
         currentAt: new Date(latest.date).toISOString(),
         slope30MinMgdlPerMin: regressionSlope(
             input.entries.filter(entry => entry.date >= input.asOf.valueOf() - 30 * MINUTE),
         ),
-        projected30MinMgdl: finiteOrNull(status?.openaps?.suggested?.eventualBG),
+        projected30MinMgdl: externalPrediction.eventualBgMgdl,
+        externalPrediction,
         iobU,
         cobG,
         activeBasalUph: finiteOrNull(status?.openaps?.suggested?.rate)
@@ -273,6 +304,8 @@ function buildDecisionInput(input: OnlineInput) {
         diaHours: finiteOrNull(store.dia),
         pumpSuspended: status?.pump?.suspended ?? null,
         carbHistoryPresent: carbs.length > 0,
+        mealBolusWithoutCarbs,
+        carbsInferenceDisabled: mealBolusWithoutCarbs > 0,
         recentGlucosePoints: recent.length,
         blockers: compact([
             recent.length < 18 && 'recent_glucose_history_insufficient',
@@ -283,6 +316,7 @@ function buildDecisionInput(input: OnlineInput) {
             targetHigh === null && 'target_missing',
             status?.pump?.suspended === true && 'pump_suspended',
             carbs.length === 0 && 'carb_treatment_history_missing',
+            mealBolusWithoutCarbs > 0 && 'meal_bolus_without_carbs',
         ]),
     }
 }
@@ -329,29 +363,30 @@ function runWarmup(
         input.asOf,
     )
     const result = simulator.runSimulation()
-    const observed = input.entries.filter(entry =>
-        entry.date >= Math.max(start.valueOf(), input.asOf.valueOf() - 90 * MINUTE),
-    )
-    const errors = observed.map(entry => {
-        const index = Math.max(0, Math.min(result.length - 1, Math.round((entry.date - start.valueOf()) / MINUTE)))
-        return result[index].y.Gp - entry.sgv
-    })
-    const rmseMgdl = errors.length
-        ? Math.sqrt(errors.reduce((sum, value) => sum + value * value, 0) / errors.length)
-        : Infinity
-    const maeMgdl = errors.length
-        ? errors.reduce((sum, value) => sum + Math.abs(value), 0) / errors.length
-        : Infinity
+    const validationWindows = {
+        '30min': validationWindow(input, result, start, 30),
+        '60min': validationWindow(input, result, start, 60),
+        '90min': validationWindow(input, result, start, 90),
+    }
+    const rmseMgdl = validationWindows['90min'].rmseMgdl
+    const maeMgdl = validationWindows['90min'].maeMgdl
     const expected = 19
+    const mealBolusWithoutCarbs = input.treatments.filter(treatment =>
+        treatment.eventType === 'Meal Bolus'
+        && Number(treatment.insulin ?? 0) > 0
+        && !(Number(treatment.carbs ?? 0) > 0),
+    ).length
     return {
         patientState: patient.getState(),
         parameters: { p1Multiplier, p3Multiplier },
         rmseMgdl: round(rmseMgdl, 2),
         maeMgdl: round(maeMgdl, 2),
-        validationPoints: errors.length,
-        coveragePercent: round(Math.min(100, errors.length / expected * 100), 1),
+        validationPoints: validationWindows['90min'].points,
+        coveragePercent: round(Math.min(100, validationWindows['90min'].points / expected * 100), 1),
         currentClampMgdl: input.entries.at(-1)!.sgv,
         carbHistoryPresent: input.treatments.some(item => Number(item.carbs) > 0),
+        mealBolusWithoutCarbs,
+        validationWindows,
     }
 }
 
@@ -413,6 +448,40 @@ function createTwoCandidates(state: ReturnType<typeof buildDecisionInput>): [Can
     ]
 }
 
+function createCounterfactuals(
+    input: OnlineInput,
+    fit: FitResult,
+    state: ReturnType<typeof buildDecisionInput>,
+) {
+    const projectedLow = state.currentGlucoseMgdl < 70
+        || (state.externalPrediction.eventualBgMgdl ?? Infinity) < 70
+        || (state.externalPrediction.lowestPredBgMgdl ?? Infinity) < 70
+    if (!projectedLow) return []
+    return [5, 10, 15, 20].map(carbsG => {
+        const action: CandidateAction = {
+            id: 'plan_a',
+            kind: 'carb_rescue',
+            insulinU: 0,
+            carbsG,
+            recheckMinutes: 15,
+            blockers: ['counterfactual_only', 'not_patient_protocol'],
+        }
+        const metrics = forecast(input, fit, action)
+        return {
+            kind: 'carb_rescue_counterfactual',
+            carbsG,
+            metrics,
+            validation: {
+                passed: validateForecast(metrics, state.externalPrediction).length === 0,
+                reasons: validateForecast(metrics, state.externalPrediction),
+            },
+            executable: false,
+            destination: 'research_counterfactual_only',
+            notice: '反事实补碳 sweep 仅用于解释模型响应；没有专家批准协议时不得转为患者动作。',
+        }
+    })
+}
+
 function simulateWithReplan(
     input: OnlineInput,
     fit: FitResult,
@@ -423,7 +492,7 @@ function simulateWithReplan(
     const attempts: Array<{ iteration: number, action: CandidateAction, metrics: ForecastMetrics, reasons: string[] }> = []
     for (let iteration = 0; iteration < 3; iteration += 1) {
         const metrics = forecast(input, fit, action)
-        const reasons = validateForecast(metrics, state.projected30MinMgdl)
+        const reasons = validateForecast(metrics, state.externalPrediction)
         attempts.push({ iteration, action: { ...action }, metrics, reasons })
         if (!reasons.length) break
         const refined = refineAction(action, reasons)
@@ -466,21 +535,22 @@ function forecast(input: OnlineInput, fit: FitResult, action: CandidateAction): 
     return summarize(result.map(point => point.y.Gp))
 }
 
-function validateForecast(metrics: ForecastMetrics, externalProjection: number | null): string[] {
+function validateForecast(metrics: ForecastMetrics, externalPrediction: ReturnType<typeof extractExternalPrediction>): string[] {
     return compact([
         metrics.minMgdl < 70 && 'predicted_below_70',
         metrics.maxMgdl > 250 && 'predicted_above_250',
         metrics.tbrPercent > 0 && 'predicted_tbr_above_zero',
         metrics.endMgdl < 70 && 'forecast_end_below_70',
         metrics.endMgdl > 180 && 'forecast_end_above_180',
-        externalProjection !== null
-            && externalProjection < 70
-            && metrics.minMgdl >= 70
+        externalPrediction.lowestPredBgMgdl !== null
+            && externalPrediction.lowestPredBgMgdl < 70
+            && Math.min(metrics.glucoseAt30Min, metrics.glucoseAt60Min, metrics.glucoseAt120Min) >= 90
             && 'prediction_model_disagreement',
-        externalProjection !== null
-            && externalProjection >= 70
-            && metrics.minMgdl < 70
-            && 'prediction_model_disagreement',
+        externalPrediction.eventualBgMgdl !== null
+            && externalPrediction.eventualBgMgdl < 70
+            && metrics.glucoseAt30Min >= 70
+            && metrics.glucoseAt60Min >= 70
+            && 'external_low_projection_unresolved',
     ])
 }
 
@@ -546,21 +616,42 @@ class TimelineController extends AbstractController<typeof emptyParameters> impl
 }
 
 function basalAt(input: OnlineInput, time: Date): number {
-    const active = input.treatments
-        .filter(item => item.eventType === 'Temp Basal')
-        .map(item => ({
-            start: treatmentTime(item),
-            duration: Number(item.duration ?? 0),
-            rate: finiteOrNull(item.absolute ?? item.rate),
-        }))
-        .filter(item => item.start !== null && item.rate !== null)
-        .sort((a, b) => b.start! - a.start!)
-        .find(item => item.start! <= time.valueOf()
-            && item.start! + item.duration * MINUTE > time.valueOf())
+    const active = tempBasalIntervals(input.treatments)
+        .find(item => item.start <= time.valueOf() && item.end > time.valueOf())
     return active?.rate ?? scheduleValue(
         input.profileStore.basal,
         secondsFromMidnight(time, input.profileStore.timezone),
     ) ?? 0
+}
+
+function tempBasalIntervals(treatments: Treatment[]) {
+    const tempBasals = treatments
+        .filter(item => item.eventType === 'Temp Basal')
+        .map(item => ({
+            treatment: item,
+            start: treatmentTime(item),
+            rate: finiteOrNull(item.absolute ?? item.rate),
+        }))
+        .filter((item): item is { treatment: Treatment, start: number, rate: number } =>
+            item.start !== null && item.rate !== null,
+        )
+        .sort((a, b) => a.start - b.start)
+    return tempBasals
+        .map((item, index) => {
+            const explicitEnd = finiteOrNull(item.treatment.endmills)
+            const durationMin = finiteOrNull(item.treatment.duration)
+            const durationMs = finiteOrNull(item.treatment.durationInMilliseconds)
+                ?? (durationMin !== null ? durationMin * MINUTE : null)
+            const nextStart = tempBasals[index + 1]?.start ?? null
+            const inferredEnd = explicitEnd
+                ?? (durationMs !== null && durationMs > 0 ? item.start + durationMs : null)
+                ?? (nextStart !== null && nextStart - item.start <= 3 * HOUR ? nextStart : null)
+            return inferredEnd && inferredEnd > item.start
+                ? { start: item.start, end: inferredEnd, rate: item.rate }
+                : null
+        })
+        .filter((item): item is { start: number, end: number, rate: number } => item !== null)
+        .sort((a, b) => b.start - a.start)
 }
 
 function bolusEvents(treatments: Treatment[], start: Date, end: Date) {
@@ -643,17 +734,69 @@ function regressionSlope(entries: Entry[]): number | null {
     return denominator ? round(numerator / denominator, 3) : null
 }
 
+function validationWindow(
+    input: OnlineInput,
+    result: ReturnType<Simulator['runSimulation']>,
+    start: Date,
+    minutes: number,
+) {
+    const observed = input.entries.filter(entry =>
+        entry.date >= Math.max(start.valueOf(), input.asOf.valueOf() - minutes * MINUTE),
+    )
+    const errors = observed.map(entry => {
+        const index = Math.max(0, Math.min(result.length - 1, Math.round((entry.date - start.valueOf()) / MINUTE)))
+        return result[index].y.Gp - entry.sgv
+    })
+    const rmseMgdl = errors.length
+        ? Math.sqrt(errors.reduce((sum, value) => sum + value * value, 0) / errors.length)
+        : Infinity
+    const maeMgdl = errors.length
+        ? errors.reduce((sum, value) => sum + Math.abs(value), 0) / errors.length
+        : Infinity
+    const expected = Math.floor(minutes / 5) + 1
+    return {
+        rmseMgdl: round(rmseMgdl, 2),
+        maeMgdl: round(maeMgdl, 2),
+        points: errors.length,
+        coveragePercent: round(Math.min(100, errors.length / expected * 100), 1),
+    }
+}
+
+function extractExternalPrediction(status: DeviceStatus | null) {
+    const predValues = Object.values(status?.openaps?.suggested?.predBGs ?? {})
+        .flat()
+        .map(value => Number(value))
+        .filter(value => Number.isFinite(value) && value >= 20 && value <= 600)
+    return {
+        source: predValues.length ? 'openaps_predBGs' : 'openaps_eventualBG',
+        eventualBgMgdl: finiteOrNull(status?.openaps?.suggested?.eventualBG),
+        lowestPredBgMgdl: predValues.length ? round(Math.min(...predValues), 1) : null,
+        horizonPoints: predValues.length,
+    }
+}
+
 function summarize(values: number[]): ForecastMetrics {
     const mean = values.reduce((sum, value) => sum + value, 0) / values.length
+    const minMgdl = Math.min(...values)
+    const minIndex = values.findIndex(value => value === minMgdl)
     return {
         meanMgdl: round(mean, 2),
-        minMgdl: round(Math.min(...values), 2),
+        minMgdl: round(minMgdl, 2),
+        minAtMinutes: minIndex,
         maxMgdl: round(Math.max(...values), 2),
         endMgdl: round(values.at(-1)!, 2),
+        glucoseAt30Min: valueAtMinute(values, 30),
+        glucoseAt60Min: valueAtMinute(values, 60),
+        glucoseAt120Min: valueAtMinute(values, 120),
         tirPercent: round(values.filter(value => value >= 70 && value <= 180).length / values.length * 100, 2),
         tbrPercent: round(values.filter(value => value < 70).length / values.length * 100, 2),
         tarPercent: round(values.filter(value => value > 180).length / values.length * 100, 2),
     }
+}
+
+function valueAtMinute(values: number[], minute: number): number {
+    const index = Math.max(0, Math.min(values.length - 1, minute))
+    return round(values[index], 2)
 }
 
 function candidateScore(metrics: ForecastMetrics, reasons: string[]): number {
